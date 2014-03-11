@@ -9,3 +9,5 @@ future:      true
 lsi:         false
 pygments:    false
 
+kramdown:
+  input: GFM
