@@ -2,55 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a80b64b-a994-43f6-92c4-1bc0ecf46a37" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shAutoloader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushAS3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushAppleScript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushBash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushCSharp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushColdFusion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushCpp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushCss.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushDelphi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushDiff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushErlang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushGroovy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushJScript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushJava.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushJavaFX.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushPerl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushPhp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushPlain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushPowerShell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushPython.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushRuby.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushSass.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushScala.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushSql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushVb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shBrushXml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shCore.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shCore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shCoreDefault.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shCoreDjango.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shCoreEclipse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shCoreEmacs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shCoreFadeToGrey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shCoreMDUltra.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shCoreMidnight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shCoreRDark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/sh/shLegacy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shThemeDefault.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shThemeDjango.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shThemeEclipse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shThemeEmacs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shThemeFadeToGrey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shThemeMDUltra.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shThemeMidnight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sh/shThemeRDark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md" afterPath="$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="materliu.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -129,7 +81,7 @@
       <file leaf-file-name="post.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="933" selection-end="933" vertical-scroll-proportion="0.7191781" vertical-offset="0" max-vertical-offset="735">
+            <state line="23" column="40" selection-start="889" selection-end="889" vertical-scroll-proportion="0.66164386" vertical-offset="0" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
@@ -410,7 +362,7 @@
     <option name="totallyTimeSpent" value="12619000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1394" height="916" extended-state="6" />
+    <frame x="54" y="-8" width="1394" height="916" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -630,7 +582,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="933" selection-end="933" vertical-scroll-proportion="0.7191781" vertical-offset="0" max-vertical-offset="735">
+        <state line="23" column="40" selection-start="889" selection-end="889" vertical-scroll-proportion="0.66164386" vertical-offset="0" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
