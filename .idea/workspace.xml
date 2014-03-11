@@ -2,50 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a80b64b-a994-43f6-92c4-1bc0ecf46a37" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\workspace\idea\materliu.github.io\rails.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code.html" afterPath="$PROJECT_DIR$/code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2008-04-12-rails-shock.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2008-04-12-rails-shock.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2008-04-14-yet-another-rails-tutorial.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2008-04-14-yet-another-rails-tutorial.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2008-04-15-rails-lesson-2-the-console.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2008-04-15-rails-lesson-2-the-console.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2008-04-16-download-images-over-https.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2008-04-16-download-images-over-https.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2008-04-16-ruby-eats-soap-for-breakfast.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2008-04-16-ruby-eats-soap-for-breakfast.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2008-04-18-rails-lesson-3-nested-resources.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2008-04-18-rails-lesson-3-nested-resources.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2008-04-23-rails-lesson-4-css.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2008-04-23-rails-lesson-4-css.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2008-04-30-md5-hash-in-ruby.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2008-04-30-md5-hash-in-ruby.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2008-05-06-rails-lesson-5-ajax.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2008-05-06-rails-lesson-5-ajax.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2008-05-13-rails-lesson-6-more-ajax.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2008-05-13-rails-lesson-6-more-ajax.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2008-05-20-small-caps-in-css.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2008-05-20-small-caps-in-css.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2008-05-22-caching-s3-objects.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2008-05-22-caching-s3-objects.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2009-01-09-if-i-had-geeky-friends.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2009-01-09-if-i-had-geeky-friends.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2009-01-15-out-of-my-way.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2009-01-15-out-of-my-way.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2009-01-15-ruby-mixins.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2009-01-15-ruby-mixins.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2009-02-09-loving-shoulda.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2009-02-09-loving-shoulda.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2009-02-24-ruby-on-rails-as-hdtv.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2009-02-24-ruby-on-rails-as-hdtv.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2009-03-09-shoulda-macros.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2009-03-09-shoulda-macros.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2009-03-19-tdd-one-piece-at-a-time.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2009-03-19-tdd-one-piece-at-a-time.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2009-09-30-hand-soap-with-dot-net.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2009-09-30-hand-soap-with-dot-net.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2009-10-16-uninitialized_constant.html" afterPath="$PROJECT_DIR$/all/web/_posts/2009-10-16-uninitialized_constant.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2009-10-30-montage-command.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2009-10-30-montage-command.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2010-01-05-webhooks-and-hookpress.textile" afterPath="$PROJECT_DIR$/all/web/_posts/2010-01-05-webhooks-and-hookpress.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2010-03-11-jquery-so-nice.html" afterPath="$PROJECT_DIR$/all/web/_posts/2010-03-11-jquery-so-nice.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2010-03-26-brinkster-mistakes.html" afterPath="$PROJECT_DIR$/all/web/_posts/2010-03-26-brinkster-mistakes.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2010-03-30-debug-in-cucumber.html" afterPath="$PROJECT_DIR$/all/web/_posts/2010-03-30-debug-in-cucumber.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2010-04-07-cucumber-yml-could-not-be-parsed.html" afterPath="$PROJECT_DIR$/all/web/_posts/2010-04-07-cucumber-yml-could-not-be-parsed.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2010-06-30-pass-variable-from-template-to-view.html" afterPath="$PROJECT_DIR$/all/web/_posts/2010-06-30-pass-variable-from-template-to-view.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2010-07-13-hintify-a-small-jquery-plugin.html" afterPath="$PROJECT_DIR$/all/web/_posts/2010-07-13-hintify-a-small-jquery-plugin.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2010-07-15-crop-paperclip-s3.html" afterPath="$PROJECT_DIR$/all/web/_posts/2010-07-15-crop-paperclip-s3.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2010-07-22-bundler-exec-tip.html" afterPath="$PROJECT_DIR$/all/web/_posts/2010-07-22-bundler-exec-tip.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2010-09-09-image-comparisons.html" afterPath="$PROJECT_DIR$/all/web/_posts/2010-09-09-image-comparisons.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2011-01-12-polymorphism-to-the-rescue.html" afterPath="$PROJECT_DIR$/all/web/_posts/2011-01-12-polymorphism-to-the-rescue.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2011-01-29-rails-brochure.html" afterPath="$PROJECT_DIR$/all/web/_posts/2011-01-29-rails-brochure.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2011-02-07-slideshowpro-director-ruby-wrapper.html" afterPath="$PROJECT_DIR$/all/web/_posts/2011-02-07-slideshowpro-director-ruby-wrapper.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2011-09-16-pgerror-unable-to-connect-on-port-5432.html" afterPath="$PROJECT_DIR$/all/web/_posts/2011-09-16-pgerror-unable-to-connect-on-port-5432.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\_posts\2013-06-13-prose-io.md" afterPath="$PROJECT_DIR$/all/web/_posts/2013-06-13-prose-io.md" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\ideas\_posts\2008-09-05-soap-console.textile" afterPath="$PROJECT_DIR$/all/web/ideas/_posts/2008-09-05-soap-console.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\linux\_posts\2009-01-13-build-dm-core-from-source.textile" afterPath="$PROJECT_DIR$/all/web/linux/_posts/2009-01-13-build-dm-core-from-source.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\linux\_posts\2009-02-26-ruby-on-rails-development-environments.textile" afterPath="$PROJECT_DIR$/all/web/linux/_posts/2009-02-26-ruby-on-rails-development-environments.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\rails\linux\_posts\2010-03-31-date-time-stamp-file-name-in-bash.html" afterPath="$PROJECT_DIR$/all/web/linux/_posts/2010-03-31-date-time-stamp-file-name-in-bash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md" afterPath="$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md" />
     </list>
     <ignored path="materliu.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,28 +66,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/default.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="21" selection-start="217" selection-end="217" vertical-scroll-proportion="0.028225806" vertical-offset="189" max-vertical-offset="6783">
-              <folding />
-            </state>
+      <file leaf-file-name="2014-03-12-手Q查找README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="26" selection-start="821" selection-end="821" vertical-scroll-proportion="-11.666667" vertical-offset="189" max-vertical-offset="1407">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="code.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="37" selection-start="175" selection-end="175" vertical-scroll-proportion="-6.2222223" vertical-offset="0" max-vertical-offset="441">
+            <state line="112" column="9" selection-start="2889" selection-end="2889" vertical-scroll-proportion="0.6368715" vertical-offset="1980" max-vertical-offset="4011">
               <folding />
             </state>
           </provider>
@@ -165,6 +107,7 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/rails.html" />
         <option value="$PROJECT_DIR$/code.html" />
+        <option value="$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md" />
       </list>
     </option>
   </component>
@@ -234,10 +177,6 @@
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -250,6 +189,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tencent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,7 +303,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1394" height="916" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -368,7 +311,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33508247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23313344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -523,13 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="0" selection-start="3488" selection-end="3488" vertical-scroll-proportion="0.55376345" vertical-offset="2633" max-vertical-offset="3675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="15" selection-start="282" selection-end="282" vertical-scroll-proportion="0.31643835" vertical-offset="0" max-vertical-offset="730">
@@ -544,23 +480,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="37" selection-start="175" selection-end="175" vertical-scroll-proportion="-6.2222223" vertical-offset="0" max-vertical-offset="441">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="217" selection-end="217" vertical-scroll-proportion="0.028225806" vertical-offset="189" max-vertical-offset="6783">
+        <state line="20" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="0.31048387" vertical-offset="189" max-vertical-offset="6783">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="821" selection-end="821" vertical-scroll-proportion="-11.666667" vertical-offset="189" max-vertical-offset="1407">
+        <state line="24" column="26" selection-start="821" selection-end="821" vertical-scroll-proportion="0.46027398" vertical-offset="189" max-vertical-offset="1407">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code.html">
+    <entry file="file://$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="175" selection-end="175" vertical-scroll-proportion="-6.2222223" vertical-offset="0" max-vertical-offset="441">
+        <state line="112" column="9" selection-start="2889" selection-end="2889" vertical-scroll-proportion="0.6368715" vertical-offset="1980" max-vertical-offset="4011">
           <folding />
         </state>
       </provider>
