@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a80b64b-a994-43f6-92c4-1bc0ecf46a37" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找READMME.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找READMME.md" afterPath="$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找README.md" />
     </list>
     <ignored path="materliu.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,8 +84,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-03-12-手Q查找READMME.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找READMME.md">
+      <file leaf-file-name="2014-03-12-手Q查找README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="0" selection-start="4" selection-end="4" vertical-scroll-proportion="0.033898305" vertical-offset="0" max-vertical-offset="649">
               <folding />
@@ -495,12 +494,12 @@
       <created>1394452906132</created>
       <updated>1394452906132</updated>
       <workItem from="1394452907553" duration="8605000" />
-      <workItem from="1394514407399" duration="2624000" />
+      <workItem from="1394514407399" duration="2655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11229000" />
+    <option name="totallyTimeSpent" value="11260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="792" extended-state="6" />
@@ -698,7 +697,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找READMME.md">
+    <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="4" selection-end="4" vertical-scroll-proportion="0.033898305" vertical-offset="0" max-vertical-offset="649">
           <folding />
