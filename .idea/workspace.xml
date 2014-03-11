@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a80b64b-a994-43f6-92c4-1bc0ecf46a37" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/all/life/_posts/2014-03-11-myself_like.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2014-03-11-mobile-8-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2014-03-11-mobile-8-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2014-03-11-mobile-kernel-assert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2014-03-11-mobile-mp4link.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/all/web/mobile/_posts/2014-03-11-基于web网页视频播放常见问题.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="materliu.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,13 +80,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-03-11-myself_like.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2014-03-11-myself_like.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/all/life/_posts/2014-03-11-myself_like.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="34" selection-end="34" vertical-scroll-proportion="0.057613168" vertical-offset="0" max-vertical-offset="83580">
+            <state line="2" column="17" selection-start="34" selection-end="34" vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="83580">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014-03-11-基于web网页视频播放常见问题.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/all/web/mobile/_posts/2014-03-11-基于web网页视频播放常见问题.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="197" column="73" selection-start="7258" selection-end="7258" vertical-scroll-proportion="0.9413408" vertical-offset="4219" max-vertical-offset="5019">
               <folding />
             </state>
           </provider>
@@ -128,6 +145,7 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md" />
         <option value="$PROJECT_DIR$/all/life/_posts/2014-03-11-myself_like.md" />
+        <option value="$PROJECT_DIR$/all/web/mobile/_posts/2014-03-11-基于web网页视频播放常见问题.md" />
       </list>
     </option>
   </component>
@@ -208,7 +226,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="materliu.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="materliu.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="materliu.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="materliu.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,14 +305,6 @@
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="life" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -282,6 +336,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\idea\materliu.github.io\images" />
       <recent name="E:\workspace\idea\materliu.github.io\javascripts\sh" />
       <recent name="E:\workspace\idea\materliu.github.io\css\sh" />
     </key>
@@ -585,7 +640,17 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="34" selection-end="34" vertical-scroll-proportion="0.057613168" vertical-offset="0" max-vertical-offset="83580">
+        <state line="2" column="17" selection-start="34" selection-end="34" vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="83580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all/web/mobile/_posts/2014-03-11-基于web网页视频播放常见问题.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="73" selection-start="7258" selection-end="7258" vertical-scroll-proportion="0.9413408" vertical-offset="4219" max-vertical-offset="5019">
           <folding />
         </state>
       </provider>
