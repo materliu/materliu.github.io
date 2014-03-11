@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a80b64b-a994-43f6-92c4-1bc0ecf46a37" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找README.md" afterPath="$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找README.md" />
     </list>
     <ignored path="materliu.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,7 +78,7 @@
       <file leaf-file-name="2014-03-12-手Q查找README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="4" selection-end="4" vertical-scroll-proportion="0.033898305" vertical-offset="0" max-vertical-offset="649">
+            <state line="4" column="71" selection-start="113" selection-end="113" vertical-scroll-proportion="0.1305638" vertical-offset="0" max-vertical-offset="674">
               <folding />
             </state>
           </provider>
@@ -112,12 +112,13 @@
         <option value="$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.MD" />
         <option value="$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.md" />
         <option value="$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找READMME.md" />
+        <option value="$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="297" />
-    <option name="y" value="44" />
+    <option name="x" value="-53" />
+    <option name="y" value="55" />
     <option name="width" value="1440" />
     <option name="height" value="792" />
   </component>
@@ -486,16 +487,16 @@
       <created>1394452906132</created>
       <updated>1394452906132</updated>
       <workItem from="1394452907553" duration="8605000" />
-      <workItem from="1394514407399" duration="2721000" />
+      <workItem from="1394514407399" duration="2788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11326000" />
+    <option name="totallyTimeSpent" value="11393000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="297" y="44" width="1440" height="792" extended-state="6" />
-    <editor active="false" />
+    <frame x="-53" y="55" width="1440" height="792" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -516,7 +517,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -542,6 +543,9 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -684,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="4" selection-end="4" vertical-scroll-proportion="0.033898305" vertical-offset="0" max-vertical-offset="649">
+        <state line="4" column="71" selection-start="113" selection-end="113" vertical-scroll-proportion="0.1305638" vertical-offset="0" max-vertical-offset="674">
           <folding />
         </state>
       </provider>
