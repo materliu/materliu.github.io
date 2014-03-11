@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a80b64b-a994-43f6-92c4-1bc0ecf46a37" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.nojekyll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publish.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="materliu.github.io.iws" />
@@ -79,13 +80,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-03-11-使用github jekyll pages经验谈.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2014-03-11-使用github jekyll pages经验谈.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/all/web/ideas/_posts/2014-03-11-使用github jekyll pages经验谈.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.38181818" vertical-offset="0" max-vertical-offset="715">
+            <state line="8" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="399">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publish.bat" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/publish.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="15" selection-start="47" selection-end="47" vertical-scroll-proportion="0.14363885" vertical-offset="0" max-vertical-offset="1134">
               <folding />
             </state>
           </provider>
@@ -126,6 +136,7 @@
         <option value="$PROJECT_DIR$/all/web/mobile/_posts/2014-03-11-基于web网页视频播放常见问题.md" />
         <option value="$PROJECT_DIR$/all/web/ideas/_posts/2014-03-11-使用github jekyll pages经验谈.md" />
         <option value="$PROJECT_DIR$/.nojekyll" />
+        <option value="$PROJECT_DIR$/publish.bat" />
       </list>
     </option>
   </component>
@@ -212,6 +223,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\idea\materliu.github.io" />
       <recent name="E:\workspace\idea\materliu.github.io\images" />
       <recent name="E:\workspace\idea\materliu.github.io\javascripts\sh" />
       <recent name="E:\workspace\idea\materliu.github.io\css\sh" />
@@ -275,7 +287,7 @@
     <option name="totallyTimeSpent" value="12619000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1394" height="916" extended-state="6" />
+    <frame x="54" y="-8" width="1394" height="916" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -547,7 +559,14 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.38181818" vertical-offset="0" max-vertical-offset="715">
+        <state line="8" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="399">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="15" selection-start="47" selection-end="47" vertical-scroll-proportion="0.14363885" vertical-offset="0" max-vertical-offset="1134">
           <folding />
         </state>
       </provider>
