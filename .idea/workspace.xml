@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a80b64b-a994-43f6-92c4-1bc0ecf46a37" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/rails/_posts/2010-09-09-image-comparisons.html" afterPath="$PROJECT_DIR$/all/rails/_posts/2010-09-09-image-comparisons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/materliu.github.io.iml" afterPath="$PROJECT_DIR$/materliu.github.io.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2008-05-20-scp-secure-copy.textile" afterPath="$PROJECT_DIR$/all/tencent/_posts/2008-05-20-scp-secure-copy.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2009-02-25-safari-4.textile" afterPath="$PROJECT_DIR$/all/tencent/_posts/2009-02-25-safari-4.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2009-02-26-safari-4-inspect-inspector.textile" afterPath="$PROJECT_DIR$/all/tencent/_posts/2009-02-26-safari-4-inspect-inspector.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2009-03-03-osx-keyboard-shortcuts.textile" afterPath="$PROJECT_DIR$/all/tencent/_posts/2009-03-03-osx-keyboard-shortcuts.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2009-03-05-import-git-into-subversion.textile" afterPath="$PROJECT_DIR$/all/tencent/_posts/2009-03-05-import-git-into-subversion.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2009-09-23-snow-leopard-digitalcolor-meter.textile" afterPath="$PROJECT_DIR$/all/tencent/_posts/2009-09-23-snow-leopard-digitalcolor-meter.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2009-09-29-quicksilver.textile" afterPath="$PROJECT_DIR$/all/tencent/_posts/2009-09-29-quicksilver.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2009-10-15-mount-ebs.textile" afterPath="$PROJECT_DIR$/all/tencent/_posts/2009-10-15-mount-ebs.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2009-11-04-parallels-to-virtualbox.textile" afterPath="$PROJECT_DIR$/all/tencent/_posts/2009-11-04-parallels-to-virtualbox.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2009-11-10-2009-you-have-mail-in-terminal.textile" afterPath="$PROJECT_DIR$/all/tencent/_posts/2009-11-10-2009-you-have-mail-in-terminal.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2010-01-05-pop-to-imap.textile" afterPath="$PROJECT_DIR$/all/tencent/_posts/2010-01-05-pop-to-imap.textile" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2010-04-10-find-disk-usage-in-linux.html" afterPath="$PROJECT_DIR$/all/tencent/_posts/2010-04-10-find-disk-usage-in-linux.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2010-09-09-hdr-image-compare.html" afterPath="$PROJECT_DIR$/all/tencent/_posts/2010-09-09-hdr-image-compare.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2010-09-19-iphone-card-stand.html" afterPath="$PROJECT_DIR$/all/tencent/_posts/2010-09-19-iphone-card-stand.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2013-04-03-phone-times-have-changed.html" afterPath="$PROJECT_DIR$/all/tencent/_posts/2013-04-03-phone-times-have-changed.html" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\all\os\_posts\2014-03-12-手Q查找README.md" afterPath="$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md" />
-      <change type="MOVED" beforePath="E:\workspace\idea\materliu.github.io\os.html" afterPath="$PROJECT_DIR$/tencent.html" />
+      <change type="DELETED" beforePath="E:\workspace\idea\materliu.github.io\all\life\_posts\2014-03-10-选择.md" afterPath="" />
     </list>
     <ignored path="materliu.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -256,6 +235,10 @@
               <option name="myItemId" value="life" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -452,11 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/life/_posts/2014-03-10-选择.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="308" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/publish">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="692" />
@@ -510,11 +488,6 @@
     <entry file="file://$PROJECT_DIR$/all/life/_posts/2014-03-10-Sass与Compass译者序.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="21" selection-start="38" selection-end="38" vertical-scroll-proportion="0.033898305" vertical-offset="22" max-vertical-offset="1100" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all/life/_posts/2014-03-10-选择.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="29" selection-end="29" vertical-scroll-proportion="0.10169491" vertical-offset="0" max-vertical-offset="649" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
