@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a80b64b-a994-43f6-92c4-1bc0ecf46a37" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md" afterPath="$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
     </list>
     <ignored path="materliu.github.io.iws" />
@@ -66,22 +67,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2014-03-12-手Q查找README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="2014-03-12-手Q查找README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="6" selection-start="2983" selection-end="2983" vertical-scroll-proportion="-17.785715" vertical-offset="2043" max-vertical-offset="4116">
+            <state line="120" column="0" selection-start="2970" selection-end="2970" vertical-scroll-proportion="0.76954734" vertical-offset="2043" max-vertical-offset="4074">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="71" selection-start="704" selection-end="704" vertical-scroll-proportion="0.28767124" vertical-offset="0" max-vertical-offset="1428">
+            <state line="10" column="69" selection-start="702" selection-end="702" vertical-scroll-proportion="-7.7777777" vertical-offset="0" max-vertical-offset="1428">
               <folding />
             </state>
           </provider>
@@ -115,9 +116,9 @@
         <option value="$PROJECT_DIR$/os.html" />
         <option value="$PROJECT_DIR$/rails.html" />
         <option value="$PROJECT_DIR$/code.html" />
-        <option value="$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md" />
       </list>
     </option>
   </component>
@@ -570,19 +571,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="69" selection-start="702" selection-end="702" vertical-scroll-proportion="-7.7777777" vertical-offset="0" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/all/tencent/_posts/2014-03-12-手Q查找README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="6" selection-start="2983" selection-end="2983" vertical-scroll-proportion="-17.785715" vertical-offset="2043" max-vertical-offset="4116">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="71" selection-start="704" selection-end="704" vertical-scroll-proportion="0.28767124" vertical-offset="0" max-vertical-offset="1428">
+        <state line="120" column="0" selection-start="2970" selection-end="2970" vertical-scroll-proportion="0.76954734" vertical-offset="2043" max-vertical-offset="4074">
           <folding />
         </state>
       </provider>
