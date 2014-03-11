@@ -78,7 +78,7 @@
       <file leaf-file-name="2014-03-12-手Q查找README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="71" selection-start="113" selection-end="113" vertical-scroll-proportion="0.1305638" vertical-offset="0" max-vertical-offset="674">
+            <state line="11" column="18" selection-start="192" selection-end="192" vertical-scroll-proportion="0.35905045" vertical-offset="0" max-vertical-offset="674">
               <folding />
             </state>
           </provider>
@@ -487,12 +487,12 @@
       <created>1394452906132</created>
       <updated>1394452906132</updated>
       <workItem from="1394452907553" duration="8605000" />
-      <workItem from="1394514407399" duration="2788000" />
+      <workItem from="1394514407399" duration="2834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11393000" />
+    <option name="totallyTimeSpent" value="11439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-53" y="55" width="1440" height="792" extended-state="6" />
@@ -688,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="71" selection-start="113" selection-end="113" vertical-scroll-proportion="0.1305638" vertical-offset="0" max-vertical-offset="674">
+        <state line="11" column="18" selection-start="192" selection-end="192" vertical-scroll-proportion="0.35905045" vertical-offset="0" max-vertical-offset="674">
           <folding />
         </state>
       </provider>
