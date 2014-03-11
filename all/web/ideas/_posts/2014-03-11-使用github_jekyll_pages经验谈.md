@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-03-11-使用github jekyll pages经验谈.md
+title: 2014-03-11-使用github_jekyll_pages经验谈.md
 ---
 
 初次使用我们会发现很多时候，本地成功编译的项目，到了github上就会报错，这是因为：
