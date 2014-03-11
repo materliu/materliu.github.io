@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a80b64b-a994-43f6-92c4-1bc0ecf46a37" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.md" afterPath="$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找READMME.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="materliu.github.io.iws" />
@@ -76,10 +76,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-03-11-手Q查找README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2014-03-11-手Q查找README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="7" selection-start="25" selection-end="25" vertical-scroll-proportion="0.09792285" vertical-offset="0" max-vertical-offset="4070">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4070">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014-03-12-手Q查找READMME.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找READMME.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="4" selection-end="4" vertical-scroll-proportion="0.033898305" vertical-offset="0" max-vertical-offset="649">
               <folding />
             </state>
           </provider>
@@ -112,6 +121,7 @@
         <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.MD" />
         <option value="$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.md" />
+        <option value="$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找READMME.md" />
       </list>
     </option>
   </component>
@@ -485,12 +495,12 @@
       <created>1394452906132</created>
       <updated>1394452906132</updated>
       <workItem from="1394452907553" duration="8605000" />
-      <workItem from="1394514407399" duration="1570000" />
+      <workItem from="1394514407399" duration="2624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10175000" />
+    <option name="totallyTimeSpent" value="11229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="792" extended-state="6" />
@@ -660,13 +670,6 @@
         <state line="1" column="9" selection-start="13" selection-end="13" vertical-scroll-proportion="-0.15963855" vertical-offset="128" max-vertical-offset="792" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/life/_posts/2014-03-10-选择.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="29" selection-end="29" vertical-scroll-proportion="0.10169491" vertical-offset="0" max-vertical-offset="649">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/all/life/_posts/2014-03-10-Sass与Compass译者序.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="21" selection-start="38" selection-end="38" vertical-scroll-proportion="0.033898305" vertical-offset="22" max-vertical-offset="1100">
@@ -681,9 +684,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/all/life/_posts/2014-03-10-选择.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="29" selection-end="29" vertical-scroll-proportion="0.10169491" vertical-offset="0" max-vertical-offset="649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="7" selection-start="25" selection-end="25" vertical-scroll-proportion="0.09792285" vertical-offset="0" max-vertical-offset="4070">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-12-手Q查找READMME.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="4" selection-end="4" vertical-scroll-proportion="0.033898305" vertical-offset="0" max-vertical-offset="649">
           <folding />
         </state>
       </provider>
