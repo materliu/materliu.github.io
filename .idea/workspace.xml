@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a80b64b-a994-43f6-92c4-1bc0ecf46a37" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.MD" afterPath="$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.MD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0a80b64b-a994-43f6-92c4-1bc0ecf46a37" name="Default" comment="" />
     <ignored path="materliu.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -94,8 +91,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-03-11-手Q查找README.MD" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.MD">
+      <file leaf-file-name="2014-03-11-手Q查找README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="2" selection-start="45" selection-end="45" vertical-scroll-proportion="0.1958457" vertical-offset="0" max-vertical-offset="15488">
               <folding />
@@ -502,16 +499,16 @@
       <created>1394452906132</created>
       <updated>1394452906132</updated>
       <workItem from="1394452907553" duration="8605000" />
-      <workItem from="1394514407399" duration="295000" />
+      <workItem from="1394514407399" duration="626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8900000" />
+    <option name="totallyTimeSpent" value="9231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="792" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -532,7 +529,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -698,7 +695,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.MD">
+    <entry file="file://$PROJECT_DIR$/all/os/_posts/2014-03-11-手Q查找README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="2" selection-start="45" selection-end="45" vertical-scroll-proportion="0.1958457" vertical-offset="0" max-vertical-offset="15488">
           <folding />
