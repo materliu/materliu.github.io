@@ -81,7 +81,7 @@
       <file leaf-file-name="post.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="40" selection-start="889" selection-end="889" vertical-scroll-proportion="0.66164386" vertical-offset="0" max-vertical-offset="735">
+            <state line="23" column="47" selection-start="950" selection-end="950" vertical-scroll-proportion="0.66164386" vertical-offset="0" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
@@ -362,7 +362,7 @@
     <option name="totallyTimeSpent" value="12619000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1394" height="916" extended-state="7" />
+    <frame x="54" y="-8" width="1394" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -582,7 +582,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="889" selection-end="889" vertical-scroll-proportion="0.66164386" vertical-offset="0" max-vertical-offset="735">
+        <state line="23" column="47" selection-start="950" selection-end="950" vertical-scroll-proportion="0.66164386" vertical-offset="0" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
