@@ -10,7 +10,7 @@ title: materliu's Tech Blog
       <li>&laquo;
           <a href="{{ post.url }}">
               {{ post.title | split: - | last | split: . | first }}
-              {{"2014-03-11" | split: -}}
+              {{ "a~b" | split:~ }}
           </a>
           <span>{{ post.date | date_to_string }}</span>
       </li>
