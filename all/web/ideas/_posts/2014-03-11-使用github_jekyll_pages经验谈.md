@@ -8,3 +8,10 @@ Jekyll中默认的markdown渲染器是maruku，但是它对Latex公式和中文�
 github官网也给出了让本地环境与服务器一致的方法：
 https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll
 参照里边的步骤来就可以了
+
+对于layout中的引用，jekyll的template使用的是liquid语法， [访问地址][1]
+[wiki地址][2]
+在修改layout文件的过程中， 我使用了 liquid 的 split filter， 发现它的wiki文档上给的例子是错误的， split 后边跟的参数需要是 ''括起来的， 以帮助其修改wiki。
+
+[1]: https://github.com/Shopify/liquid liquid github线上地址
+[2]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
