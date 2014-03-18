@@ -46,10 +46,15 @@ Mustache.render(temp { name: "Jack" });
 2. [Underscore Templates][3]
 
 ......
+
 详细信息参考 原文内容
+
 在我们的项目中，我们重点使用了jade和handlebars， 请关注另外两篇博文
+
 2014/03/17/在项目中使用预编译jade模板.html
+
 2014/03/17/在项目中使用预编译handlebars模板.html
+
 
 
 [1]:http://www.creativebloq.com/web-design/templating-engines-9134396

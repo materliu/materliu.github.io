@@ -11,7 +11,30 @@ https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll
 
 对于layout中的引用，jekyll的template使用的是liquid语法， [访问地址][1]
 [wiki地址][2]
-在修改layout文件的过程中， 我使用了 liquid 的 split filter， 发现它的wiki文档上给的例子是错误的， split 后边跟的参数需要是 ''括起来的， 以帮助其修改wiki。
+在修改layout文件的过程中， 我使用了 liquid 的 split filter， 发现它的wiki文档上给的例子是错误的， split 后边跟的参数需要是 ''括起来的， 已帮助其修改wiki。
+
+页面中的代码高亮我使用了 SyntaxHighlighter 这一单独的js文件 [访问地址][3]
+用法也相当简单：
+在layouts文件中的html文件，添加对css的引用：
+<link rel="stylesheet" type="text/css" href="/css/sh/shCore.css" />
+<link rel="stylesheet" type="text/css" href="/css/sh/shThemeRDark.css" />
+同时还有对js的应用：
+<script language="javascript" src="/javascripts/sh/shCore.js"></script>
+<script language="javascript" src="/javascripts/sh/shBrushRuby.js"></script>
+<script language="javascript" src="/javascripts/sh/shBrushPhp.js"></script>
+<script language="javascript" src="/javascripts/sh/shBrushXml.js"></script>
+<script language="javascript" src="/javascripts/sh/shBrushCss.js"></script>
+<script language="javascript" src="/javascripts/sh/shBrushBash.js"></script>
+<script language="javascript" src="/javascripts/sh/shBrushJScript.js"></script>
+
+在markdown中的写法就成了
+<pre>
+    //<pre class="brush: js"> 格式化js代码
+        // js code here
+    //</pre>
+</pre>
+
 
 [1]: https://github.com/Shopify/liquid liquid github线上地址
 [2]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+[3]: http://alexgorbatchev.com/SyntaxHighlighter/manual/installation.html
