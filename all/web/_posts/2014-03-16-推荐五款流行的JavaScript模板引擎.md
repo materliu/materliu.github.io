@@ -13,7 +13,7 @@ title: 2014-03-16-推荐五款流行的JavaScript模板引擎.md
 
 Mustache通常被称为JavaScript模板的基础。另一个流行的解决方案Hanldebars实际上就是基于Mustache构建而成的。这并不意味着Mustache是一个不好的模板解决方案。下面例举一例：
 
-<pre class="blush: js">
+<pre class="brush: js">
 Mustache.render("Hello, {{name}}", { name: "Jack" });
 // 返回： Hello, Jack
 </pre>
@@ -24,7 +24,7 @@ Mustache.render("Hello, {{name}}", { name: "Jack" });
 
 在这里，模板只为一个字符串，但如果你有一个更复杂的模板，该方法可能就不适用了。通常的解决方案是将模板放在“script”标签中：
 
-<pre class="blush: js">
+<pre class="brush: js">
 var temp = $("#template").html();
 Mustache.render(temp { name: "Jack" });
 // 返回： <p>Hello, Jack</p>
@@ -32,13 +32,13 @@ Mustache.render(temp { name: "Jack" });
 给“script”一个浏览器无法理解的“type”属性，浏览器就会忽略该Script，不将它作为JavaScript，也不会执行它。
 
 你也可在模板中使用循环，如下面这个模板：
-<pre class="blush: js">
+<pre class="brush: js">
 {{#people}}
   {{name}}
 {{/people}}
 </pre>
 传递数据：
-<pre class="blush: js">
+<pre class="brush: js">
 { people: [ { name: "Jack" }, { name: "Fred" } ] }
 </pre>
 你将得到“JackFred”字符串。
