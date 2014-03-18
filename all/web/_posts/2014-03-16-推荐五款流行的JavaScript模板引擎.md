@@ -43,7 +43,7 @@ Mustache.render(temp { name: "Jack" });
 </pre>
 你将得到“JackFred”字符串。
 
-2. [Underscore Templates][3]
+2.[Underscore Templates][3]
 
 ......
 
