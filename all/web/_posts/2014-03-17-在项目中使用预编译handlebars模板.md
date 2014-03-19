@@ -4,9 +4,9 @@ title: 2014-03-17-在项目中使用预编译handlebars模板.md
 ---
 
 ## 在项目中使用预编译handlebars模板
-如果对js模板不是很清楚的同学可以参考： [推荐五款流行的JavaScript模板引擎][/all/web/2014/03/16/推荐五款流行的JavaScript模板引擎.html]
+如果对js模板不是很清楚的同学可以参考： [推荐五款流行的JavaScript模板引擎](/all/web/2014/03/16/推荐五款流行的JavaScript模板引擎.html)
 
-下边切入正文： [handlebars官网][http://handlebarsjs.com/]
+下边切入正文： [handlebars官网](http://handlebarsjs.com/)
 
 我们这里假设你已经使用grunt完成了你的web项目的开发流程自动化。
 
