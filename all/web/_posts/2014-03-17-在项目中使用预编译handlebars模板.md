@@ -18,7 +18,7 @@ title: 2014-03-17-在项目中使用预编译handlebars模板.md
 
 -  在script目录下新建目录template，内置两个目录handlebars/handlebars-generated
 
--  handlebars，比如：[noresult-tips.hsb](/attachments/noresult-tips.hsb)
+-  handlebars，比如：[noresult-tips.hsb](/attachments/noresult-tips.hbs)
 
 -  handlebars-generated 目录内存放自动编译handlebars生成的 client js template 文件。
 
