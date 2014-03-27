@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-03-26-window.onError不是万能的.md
+title: 2014-03-26-windowonError不是万能的.md
 ---
 
 window.onError是万能的吗？被设计成捕获一切运行时异常，事实告诉我们捕获是可以的，
