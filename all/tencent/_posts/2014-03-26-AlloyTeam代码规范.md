@@ -3,7 +3,10 @@ layout: post
 title: 2014-03-26-AlloyTeam代码规范.md
 ---
 
-## 本规范输出主要参考《Maintainable JavaScript》，jQuery Core Style Guide, Douglas Crockford's Code Conventions, SproutCore Style Guide, Google JavaScript Style Guide, Dojo Style Guide
+# 为什么我们强行推这样一个规范
+Golden rule:  Every line of code should appear to be written by a single person, no matter the number of contributors.
+
+## JavaScript代码规范 本规范输出主要参考《Maintainable JavaScript》，jQuery Core Style Guide, Douglas Crockford's Code Conventions, SproutCore Style Guide, Google JavaScript Style Guide, Dojo Style Guide
 + 项目名全部采用小写方式， 以下划线分隔。 比如： my_project_name
 + 目录名参照上一条规则,有复数结构时，要采用复数命名法，比如说： scripts, styles, images, data_models
 + 所有js文件名，多个单词组成时，采用中划线连接方式，比如说： 账号模型文件 account-model.js
@@ -361,6 +364,10 @@ title: 2014-03-26-AlloyTeam代码规范.md
     + 完全避免 == != 的使用， 用严格比较条件 ===  !==
 + eval 非特殊业务， 禁用！！！
 
+
+## HTML代码规范 本规范主要参考bootstrap的作者 mdo 输出的规范  https://github.com/mdo/code-guide
+
+## CSS代码规范 本规范主要参考bootstrap的作者 mdo 输出的规范  https://github.com/mdo/code-guide
 
 
 
