@@ -151,8 +151,219 @@ title: 2014-03-26-AlloyTeam代码规范.md
             ```
 
     + Multiline Comments
+        + 最少三行
+            ```javascript
+            /*
+             * 注释内容与星标前保留一个空格
+             */
+            ```
+        + 前边留空一行
     + 何时使用
+        + 难于理解的代码段
+        + 可能存在错误的代码段
+        + 浏览器特殊的HACK代码
+        + 想吐槽的产品逻辑, 合作同事
+        + 业务逻辑强相关的代码
     + Documentation Comments
+        + 各类标签 @param @method 等 参考 http://usejsdoc.org/
+        + 格式
+
+            ```javascript
+            /**
+             * here boy, look here , here is girl
+             * @method lookGril
+             * @param {Object} balabalabala
+             * @return {Object} balabalabala
+             */
+            ```
+
+        + 用在哪里
+            + All methods
+            + All constructors
+            + All objects with documented methods
++ 括号对齐
+    + 标准示例 括号前后有空格， 花括号起始 不另换行，结尾新起一行
+
+        ```javascript
+        // Good
+        if (condition) {
+            doSomething();
+        }
+        ```
+
+    + 花括号必须要， 即使内容只有一行， 决不允许下边这种情况
+
+        ```javascript
+        if (condition)
+            doSomething();
+            doSomethingElse();
+        ```
+
+    + 涉及 if for while do...while try...catch...finally 的地方都必须使用花括号
++ if else 的语法， 采用下边的格式， else 前后留有空格
+
+    ```javascript
+    if (condition) {
+        doSomething();
+    } else {
+        doSomethingElse();
+    }
+    ```
++ switch 语法，采用下边的格式， switch和括号之间有空格， case需要缩进， break之后跟下一个case中间留一个blank line
+
+    ```javascript
+    switch (condition) {
+        case "first":
+            // code
+            break;
+
+        case "third":
+            // code
+            break;
+
+        default:
+            // code
+    }
+    ```
+
++ switch 的 falling through 一定要有注释特别说明， no default 的情况也需要注释特别说明
+
+    ```javascript
+    switch (condition) {
+
+        // obvious fall through    // 这里为啥JSHint默认就会放过，因为 case "first" 内无内容
+        case "first":
+        case "second":
+            // code
+            break;
+
+        case "third":
+            // code
+
+            /* falls through */ // 这里为啥要加这样的注释， 明确告知JSHint放过此处告警
+        default:
+            // code
+    }
+
+    switch(condition) {
+        case "first":
+            // code
+            break;
+
+        case "second":
+            // code
+            break;
+
+        // no default
+    }
+    ```
+
++ with 的约定？ 别想要了， 不要用with就是了
++ for 循环
+    + 普通版, 分号后留有一个空格， 判断条件等内的操作符两边不留空格， 前置条件如果有多个，逗号后留一个空格
+
+        ```javascript
+        var values = [ 1, 2, 3, 4, 5, 6, 7 ],
+            i, len;
+
+        for (i=0, len=values.length; i<len; i++) {
+            process(values[i]);
+        }
+        ```
+
+    + for-in
+
+        ```javascript
+        var prop;
+
+        for (prop in object) {
+
+            // 注意这里一定要有 hasOwnProperty 的判断， 否则 JSLint 或者 JSHint 都会有一个 warn ！
+            if (object.hasOwnProperty(prop)) {
+                console.log("Property name is " + prop);
+                console.log("Property value is " + object[prop]);
+            }
+        }
+        ```
+
++ 变量声明
+    + 所有函数内变量声明放在函数内头部，只使用一个 var(多了JSLint报错)， 一个变量一行， 在行末跟注释， 注释啊，注释啊，亲， 再不写注释砍你
+
+        ```javascript
+        function doSomethingWithItems(items) {
+
+           var value = 10,    // 注释啊，注释啊，亲， 再不写注释砍你
+               result = value + 10,    // 注释啊，注释啊，亲， 再不写注释砍你
+               i,    // 注释啊，注释啊，亲， 再不写注释砍你
+               len;    // 注释啊，注释啊，亲， 再不写注释砍你
+
+           for (i=0, len=items.length; i < len; i++) {
+               doSomething(items[i]);
+           }
+        }
+        ```
+
++ 函数声明
+    + 一定先声明再使用， 不要利用 JavaScript engine的hoist特性, 违反了这个规则 JSLint 和 JSHint都会报 warn
+    + function declaration 和 function expression 的不同，function expression 的（）前后必须有空格，而function declaration 在有函数名的时候不需要空格， 没有函数名的时候需要空格。
+
+        ```javascript
+        function doSomething(item) {
+            // do something
+        }
+
+        var doSomething = function (item) {
+            // do something
+        }
+        ```
+
+    + 函数调用括号前后不需要空格
+
+        ```javascript
+        // Good
+        doSomething(item);
+
+        // Bad: Looks like a block statement
+        doSomething (item);
+        ```
+
+    + 立即执行函数的写法, 最外层必须包一层括号
+
+        ```javascript
+        // Good
+        var value = (function() {
+
+            // function body
+            return {
+                message: "Hi"
+            }
+        }());
+        ```
+    + "use strict" 决不允许全局使用， 必须放在函数的第一行， 可以用自执行函数包含大的代码段, 如果 "use strict" 在函数外使用， JSLint 和 JSHint 均会报错
+
+        ```javascript
+        // Good
+        (function() {
+            "use strict";
+
+            function doSomething() {
+                // code
+            }
+
+            function doSomethingElse() {
+                // code
+            }
+
+        })();
+        ```
+
++ 相等条件判断
+    + 完全避免 == != 的使用， 用严格比较条件 ===  !==
++ eval 非特殊业务， 禁用！！！
+
+
+
+
 
 
 
