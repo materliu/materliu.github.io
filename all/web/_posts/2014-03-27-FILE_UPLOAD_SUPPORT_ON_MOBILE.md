@@ -4,7 +4,6 @@ title: 2014-03-27-FILE_UPLOAD_SUPPORT_ON_MOBILE.md
 ---
 
 {% highlight javascript %}
-
 // Detect file input support
 var isFileInputSupported = (function () {
  // Handle devices which falsely report support
@@ -21,7 +20,6 @@ var isFileInputSupported = (function () {
 if (isFileInputSupported) {
  document.documentElement.className += " fileinput";
 }
-
 {% endhighlight %}
 
 
