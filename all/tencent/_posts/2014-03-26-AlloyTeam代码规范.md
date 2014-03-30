@@ -3,6 +3,8 @@ layout: post
 title: 2014-03-26-AlloyTeam代码规范.md
 ---
 
+## 请直接移步 [http://materliu.github.io/code-guide](http://materliu.github.io/code-guide)查看成品
+
 # 为什么我们强行推这样一个规范
 Golden rule:  Every line of code should appear to be written by a single person, no matter the number of contributors.
 
@@ -371,8 +373,38 @@ Golden rule:  Every line of code should appear to be written by a single person,
 
 
 ## 代码规范中有疑问的点：
-+ html， css 到底是4个空格缩进，还是2个空格缩进
 + 是否要在自动闭合标签结尾处使用斜线
++ var 变量的声明方式
+
+    ```javascript
+    var a,
+        b,
+        c;
+
+    /*
+     * 容易导致逗号分号不对
+     * 删除最后一个变量需要留心
+     */
+    ```
+
+    ```javascript
+    var a;
+    var b;
+    var c;
+    ```
+
+    ```javascript
+    var
+        a,
+        b,
+        c;
+    ```
+
+    ```javascript
+    var a
+        , b
+        , c;
+    ```
 
 
 
