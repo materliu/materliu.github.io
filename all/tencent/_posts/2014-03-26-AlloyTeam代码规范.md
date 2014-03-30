@@ -7,10 +7,10 @@ title: 2014-03-26-AlloyTeam代码规范.md
 Golden rule:  Every line of code should appear to be written by a single person, no matter the number of contributors.
 
 ## JavaScript代码规范 本规范输出主要参考《Maintainable JavaScript》，jQuery Core Style Guide, Douglas Crockford's Code Conventions, SproutCore Style Guide, Google JavaScript Style Guide, Dojo Style Guide
-+ 项目名全部采用小写方式， 以下划线分隔。 比如： my_project_name
++ 项目名全部采用小写方式， 以中划线分隔。 比如： my-project-name
 + 目录名参照上一条规则,有复数结构时，要采用复数命名法，比如说： scripts, styles, images, data_models
 + 所有js文件名，多个单词组成时，采用中划线连接方式，比如说： 账号模型文件 account-model.js
-+ Indentaion Levels
++ Indentation Levels
     + 一律使用4个空格
     + continuation-indentation 同样适用4个空格，更上一行对齐
 + Statement 之后一律以分号结束， 不可以省略
@@ -368,6 +368,11 @@ Golden rule:  Every line of code should appear to be written by a single person,
 ## HTML代码规范 本规范主要参考bootstrap的作者 mdo 输出的规范  https://github.com/mdo/code-guide
 
 ## CSS代码规范 本规范主要参考bootstrap的作者 mdo 输出的规范  https://github.com/mdo/code-guide
+
+
+## 代码规范中有疑问的点：
++ html， css 到底是4个空格缩进，还是2个空格缩进
++ 是否要在自动闭合标签结尾处使用斜线
 
 
 
