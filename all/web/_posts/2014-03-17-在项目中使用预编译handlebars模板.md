@@ -88,3 +88,20 @@ title: 2014-03-17-在项目中使用预编译handlebars模板.md
             document.getElementById("result-sec").innerHTML = renderHtml
         ```
 
+- 模板文件中如何访问上一级参数, resultList 和 PLATFORM 为同级参数， 使用each 进入了resultList各个子项， 需要使用 ../ 返回上一级
+
+        ```html
+        {{#each resultList}}
+            <li class="result-list-item"
+                data-open-official-account="{{uin}}"
+
+                {{#equal ../PLATFORM "iOS" }}
+                data-report-id="11627"
+                {{/equal}}
+                {{#equal ../PLATFORM "Android" }}
+                data-report-id="11636"
+                {{/equal}}
+            >
+            </li>
+        {{/each}}
+        ```
