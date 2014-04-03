@@ -373,6 +373,7 @@ Golden rule:  Every line of code should appear to be written by a single person,
 
 
 ## 代码规范中有疑问的点：
++ [github 做的Coding Convention分析](http://sideeffect.kr/popularconvention#javascript)
 + 是否要在自动闭合标签结尾处使用斜线
 + var 变量的声明方式
 
@@ -405,6 +406,10 @@ Golden rule:  Every line of code should appear to be written by a single person,
         , b
         , c;
     ```
+
++ 用空格还是用tab
++ 项目命名，文件命名，多个单词的情况用中划线还是用下划线
++ html元素中， id和class 修饰 哪个放第一位，哪个放第二位
 
 
 
