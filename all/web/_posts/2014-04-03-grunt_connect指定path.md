@@ -21,3 +21,4 @@ connect 映射 .mountserver 目录
 
 [项目Gruntfile.js下载](/attachments/2014-04-03-Gruntfile.js)
 
+后来搜索发现有一个 grunt-connect-proxy 的插件非常好用，大家可以尝试使用！
