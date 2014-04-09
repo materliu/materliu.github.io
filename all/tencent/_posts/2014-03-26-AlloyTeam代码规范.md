@@ -372,8 +372,7 @@ Golden rule:  Every line of code should appear to be written by a single person,
 ## CSS代码规范 本规范主要参考bootstrap的作者 mdo 输出的规范  https://github.com/mdo/code-guide
 
 
-## 代码规范中有疑问的点：
-+ [github 做的Coding Convention分析](http://sideeffect.kr/popularconvention#javascript)
+
 
 
 
