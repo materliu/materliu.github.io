@@ -10,3 +10,7 @@ lsi:         false
 pygments:    true
 
 markdown: rdiscount
+
+encoding: utf-8
+
+
