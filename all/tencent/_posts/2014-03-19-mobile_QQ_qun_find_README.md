@@ -66,64 +66,76 @@ title: 2014-03-19-手Q群查找README.md
 * grunt 需要本地有nodejs环境， 这个不用多说了， 在命令行执行： npm install -g grunt-cli  进行安装
 * cgi路径为：qun.qq.com/cgi-bin/
 * 前台页面路径为： qun.qq.com/search/mobileqq/index.html    qun.qq.com/search/mobileqq/index.html
-    前台页面路径和cgi路径在同一个域名下这就给我们配置测试环境带来了一定的困扰， materliu现在的解决方案是：
-    在我们的测试机上，比如说156， 额外配置一条规则, 把 qun.qq.com/cgi-bin/的请求转发到对应的cgi测试机器上
-    ```
-    upstream qun_test1_env {
-        server 10.134.6.108:80;
-    }
-    upstream qun_test2_env {
-        server 10.153.148.141:80;
-    }
-    server {
-        include common/*.conf;
-        server_name qun.qq.com;
-        root /data/sites/qun.qq.com;
 
-        ssi on ;
-        ssi_silent_errors on;
-        ssi_types text/shtml;
+前台页面路径和cgi路径在同一个域名下这就给我们配置测试环境带来了一定的困扰，
 
-        location ~ \.html$
-        {
-            expires  0s;
+materliu现在的解决方案是：在我们的测试机上，比如说156， 额外配置一条规则, 把 qun.qq.com/cgi-bin/的请求转发到对应的cgi测试机器上
+
+        upstream qun_test1_env {
+            server 10.134.6.108:80;
         }
-
-        location /cert/ {
-            proxy_set_header    Host "qun.qq.com";
-            proxy_redirect   off;
-            rewrite ^/cert/cgi-bin/(.*) /cert/cgi-bin/$1 break;
-            proxy_pass http://qun_test1_env;
+        upstream qun_test2_env {
+            server 10.153.148.141:80;
         }
+        server {
+            include common/*.conf;
+            server_name qun.qq.com;
+            root /data/sites/qun.qq.com;
 
-        location /cgi-bin/ {
-            proxy_set_header    Host "qun.qq.com";
-            proxy_redirect   off;
-            rewrite ^/cgi-bin/(.*) /cgi-bin/$1 break;
-            proxy_pass http://qun_test1_env;
+            ssi on ;
+            ssi_silent_errors on;
+            ssi_types text/shtml;
+
+            location ~ \.html$
+            {
+                expires  0s;
+            }
+
+            location /cert/ {
+                proxy_set_header    Host "qun.qq.com";
+                proxy_redirect   off;
+                rewrite ^/cert/cgi-bin/(.*) /cert/cgi-bin/$1 break;
+                proxy_pass http://qun_test1_env;
+            }
+
+            location /cgi-bin/ {
+                proxy_set_header    Host "qun.qq.com";
+                proxy_redirect   off;
+                rewrite ^/cgi-bin/(.*) /cgi-bin/$1 break;
+                proxy_pass http://qun_test1_env;
+            }
         }
-    }
-    ```
 
 #### 跑起来
 * 我们有一个分支是用来存放，所有的grunt依赖到的插件的nodejs包的，分支地址： http://tc-svn.tencent.com/bapp/bapp_connect_rep/qun_search_proj/branches/qun_search_m_node_modules
+
 * 从trunk拉开发分支，或者直接在trunk上开发（如果有必要），这里注意把此工作分支文件目录跟上边的nodejs包分支放于同一级目录内  比如说： workspace /  qqfind_mobile_node_modules  trunk
+
 * 本地访问方法： 直接使用fiddler代理，将qun.qq.com/search/mobileqq/ 的请求指向本地项目目录。
 
 * 本机环境配置
-    (1)电脑配置无线网卡连接FreeWifi，ipconfig查询IP为A（10.66.**.**）
-    (2)手机配置A，端口为B（如：8080）。
-    (3)Fiddler配置Tools->Fiddler Options->Connections:
+
+    1. 电脑配置无线网卡连接FreeWifi，ipconfig查询IP为A（10.66.**.**）
+    2. 手机配置A，端口为B（如：8080）。
+    3. Fiddler配置Tools->Fiddler Options->Connections:
+
         勾选Allow remote computers to connect
+
         Fiddler listens on port: 填写B
-    (4)确认可以访问，注意Fiddler左下角状态为capturing
-    (5) 背景： 本地化——_bid=118
+
+    4. 确认可以访问，注意Fiddler左下角状态为capturing
+    5. 背景： 本地化——_bid=118
+
         打包到手Q4.6安装包，IOS采取的包较小约9K（框架本地化，保证加入群搜索框OK），Android的包较大约28K（几乎全部本地化，除base64的图片外其他是网络图片）。
+
         具体本地化策略、实践及权限可联系yukinzhang
+
         因为手Q默认打包了群查找页面的zip包到安装包内，第一次使用群查找的时候，会释放出来，释放到目录/tencent/MobileQQ/qbiz/html5/118，所以导致我们始终无法访问到线上或是配置到本机的代码，做法是通过应用宝定位到这个目录 在/tencent/MobileQQ/qbiz/html5/下上传一个命名为118的文件，这样就创建不了了，可以访问线上版本。
+
         ios替换这个文件的做法则需要使用 ifunbox -> 管理App数据 -> 所有应用程序 -> QQ CI
+
         目录是Documents/webappCache2/118 QQ.app目录内的内容无法改动，是加了苹果签名的内容。
-    (6)那测试是如何进行的呢？ 我们把开发代码发布到测试环境，然后发一个空的zip包到 [测试环境](http://admin.connect.oa.com/index.html)  发的时候记得选择灰度，把开发，测试，产品等相关人的uin加进去，格式如下： [{"min":1123944850,"max":1123944850}]
+    6. 那测试是如何进行的呢？ 我们把开发代码发布到测试环境，然后发一个空的zip包到 [测试环境](http://admin.connect.oa.com/index.html)  发的时候记得选择灰度，把开发，测试，产品等相关人的uin加进去，格式如下： [{"min":1123944850,"max":1123944850}]
 
 * 部署测试环境访问： 在命令行中执行 grunt 完成代码发布前的编译工作，提交svn， 登陆测试环境机器，登陆方法：我们现有5台测试机器
     10.12.23.156
@@ -160,19 +172,7 @@ http://ars.isd.com/
 5.提交后知会测试
 
 
-[zip包发布](http://admin.connect.oa.com/index.html)
-进到系统之后， 查询所属业务 SNG 即通应用部 群查找推荐
-在当前页面添加数据， 首先选择灰度的方式发布， 把开发，测试，产品等相关人的uin加进去，格式如下边所示
-验证ok以后，正式发布， 发布规则， 每新发一个zip包，要删掉老的一个zip包， 保证当前业务下只有两个zip包，一个是新发业务，一个作为回滚 backup
-测试romenliu： 2568612250  644323349  1437666088
-测试v_sqhuang：1003565551 364110832  154528486 154528485
-产品nichole: 22052537
-产品kylexiong: 339372879   1025887988
-产品jaytao: 344608146
-
-灰度的时候， 选择的uin格式
-[{"min":2568612250,"max":2568612250},{"min":644323349,"max":644323349},{"min":1437666088,"max":1437666088},{"min":22052537,"max":22052537},{"min":714512197,"max":714512197},{"min":344608146,"max":344608146},{"min":1020817152,"max":1020817152},{"min":1003565551,"max":1003565551},{"min":364110832,"max":364110832},{"min":154528486,"max":154528486},{"min":154528485,"max":154528485},{"min":339372879,"max":339372879},{"min":1025887988,"max":1025887988}]
-
+[zip包发布](/all/tencent/2014/04/15/mobile_qq_zip_publish.html)
 
 
 ### 介入开发
@@ -258,7 +258,7 @@ http://ars.isd.com/
 #### 业务资料
 * 群分类，一共分为三级， 第一级比如热门游戏， 第二级比如腾讯游戏， 第三级比如英雄联盟 格式如： [app/data_models/categories.js](/attachments/2014-03-19-categories.js)
 
-#### 各机型适配经验，[参见](/attachments/2014-04-14-手机web各机型适配经验.html)
+#### 各机型适配经验，[参见](/all/tencent/2014/04/14/mobile_web_adapter_experience.html)
 
 ##### 手Q客户端接口的调用
 内网有官网指定了手机QQ WEB UI 规范， 手机QQ JS API文档， AlloyKit移动Web+中断整体解决方案，[访问][13]
@@ -275,15 +275,26 @@ scripts
 ### 注意点
 * 手Q客户端本身实现了zip包缓存的机制，这会对我们的日常的开发带来一定的干扰，手Q会发起一条cgi，询问 http://s.p.qq.com/pub/check_bizup  是否有更新的zip包， 把这条请求404， 手Q客户端就会一直从web上拉取页面。  前提是先清空之前已经拉下来的zip包。
 
+
 * 同步网络资源，无需很频繁，这主要是针对低端机型无法更新本地包的情况
 
-* 手Q4.7开始 使用了QQ浏览器提供的webView SDK， 这就会导致手Q4.7使用的webview中webkit内核的版本可能跟当前用户所使用的系统的webview的webkit的版本不同 最蛋疼的是这里还有一个容易出问题的逻辑：
+
+* 手Q4.7开始 使用了QQ浏览器提供的webView SDK， 这就会导致手Q4.7使用的webview中webkit内核的版本可能跟当前用户所使用的系统的webview的webkit的版本不同
+
+最蛋疼的是这里还有一个容易出问题的逻辑：
+
 materliu(刘炬光) 03-26 16:58:52
+
 清除应用数据 第一次进去使用的系统webview ？
+
 materliu(刘炬光) 03-26 16:59:02
+
 之后进入就使用的 x5 webview？
+
 cokesu(苏可) 03-26 16:59:41
+
 @materliu(刘炬光) ，是这样的逻辑，因为DEX OPT比较耗时，容易导致ＡＮＲ，所以第一次进会切为系统WebView
+
 
 * 利用系统提供的删除应用数据， 并不能清除zip包缓存
 
@@ -308,15 +319,19 @@ cokesu(苏可) 03-26 16:59:41
 
 * [【群部落】查找入口群部落展示优化](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071056058807?url_cache_key=6dbc8adcabba2d0d9856066727a1c324)
 
+* [【查找入口】手Q查找二级分类打通](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071056076972?url_cache_key=746bd545a914162f83e18527c9db79b6&action_entry_type=story_tree_list)
+
 ### 发布时间记录
 * 2014-03-28 14:50 zip 包
     * 关联需求
         * [【手Q群查找】热门分类关键词增加二级分类](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055990608)
         * [【管理后台】手Q查找运营管理后台](http://tapd.oa.com/v3/qqsearch_web/prong/stories/view/1010063621055938404)
 
+
 * 2014-04-02 12:05 zip 包
     * 关联需求
         * [【群部落】查找入口群部落展示优化](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071056058807?url_cache_key=6dbc8adcabba2d0d9856066727a1c324)
+
 
 * 2014-04-04 17:05 web版本
     * 关联需求
@@ -324,13 +339,23 @@ cokesu(苏可) 03-26 16:59:41
         * [【管理后台】手Q查找运营管理后台](http://tapd.oa.com/v3/qqsearch_web/prong/stories/view/1010063621055938404)
         * [【群部落】查找入口群部落展示优化](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071056058807?url_cache_key=6dbc8adcabba2d0d9856066727a1c324)
 
+
 * 2014-04-08 16:57 web版本 zip包
     * 关联需求
         * [【手Q群查找】关键词数据上报优化](http://tapd.oa.com/v3/qqsearch_web/prong/stories/view/1010063621056068712?jumpfrom=RTX)
 
-### 手Q客户端下载地址
-* [android][11]
-* [ios][12]
+
+* 2014-04-14 16:00 zip包
+    * 更新了一级分类数据的上报内容， 之前是上报索引， 后边改成了上报一级分类数据的id， 比如说 game 之类的
+
+
+* 2014-04-15 16:00 web版本 zip包
+    * 关联需求
+        * [【查找入口】手Q查找二级分类打通](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071056076972?url_cache_key=746bd545a914162f83e18527c9db79b6&action_entry_type=story_tree_list)
+        * 所有打开群部落的url， 在url里边添加当前时间戳，规避ios客户端的bug，有时候发布了zip包和web，手机仍有缓存，用户端无法更新
+
+
+### [手Q客户端下载地址，发布历史，历代版本存在问题](/all/tencent/2014/04/15/mobile_qq_publish_history.html)
 
 ### 待优化
 
