@@ -17,6 +17,8 @@ title: 2014-04-10-群文件项目README.md
 
 产品: danyye
 
+## 疑问
+1. 开发，调试方式， chrome29中可以直接执行吗？
 
 
 ## Documentation
