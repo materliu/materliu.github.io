@@ -4,11 +4,20 @@ title: 2014-04-10-群文件项目README.md
 ---
 
 ### 打开readme文件的同学，如果本机没有安装markdown相关的查看编辑器可以选用在线版： https://stackedit.io/
-# 群文件项目README
+## 群文件项目README
 
-接口人： materliu
-后台: wingspeng
+接口人：
+前台： materliu millerliu
+
+后台: wingspeng qqmtang  zimufeng
+
+客户端： scopezhang
+
+视觉： tobyyu
+
 产品: danyye
+
+
 
 ## Documentation
 
@@ -17,9 +26,15 @@ title: 2014-04-10-群文件项目README.md
 
 [CGI Wiki]()
 
-[Moniter 视图](http://monitor.server.com/link/graph/viewid:6196)
+[Moniter 视图-前台](http://monitor.server.com/link/graph/viewid:6196)
 
-[performance 视图]() 选择外部门业务-R1平台研发系统-我的QQ中心
+[Moniter 视图-CGI](http://monitor.server.com/link/graph/viewid:6261)
+
+[日志Nlog](http://nlog.server.com/)  开发机  群文件   详细的错误信息，疑问
+
+[badJS](http://imweb.server.com/itil.php?ticket=26F2E8D1B5F7B21A241D435A6A4504DBF9F733DE5BA020CFC5DF18E3B4256C636EC4ED78060055C38116F25D214D4F651375EAED90E182B9926A6FA9A6BEA9231A73E1F184F94A5218B0492C83684D5CA14D58A6D128A8F210693EAC89F8645AC6771C12D06048576B371B20E4DC81F74025A0A5FF1F5F0DBA72DBD9468F6B9299B1EF97C241D15ABA8CFB113D3B80EA372806E830CE63BACF0620A223AC943BBB02FDEE0D108311DA754072EA74E1E18A52B9CF93A5D728E60D576B54C68D06A6C61FC2E9E12639&loginParam=disposed&length=34&lengh=34&sessionKey=26F2E8D1B5F7B21A241D435A6A4504DBF9F733DE5BA020CFC5DF18E3B4256C636EC4ED78060055C31BB3D2BCD2D615DC) 疑问，跟Nlog有啥区别
+
+[performance 视图](http://m.isd.com/app/endusermonitor2/config/pointView.php#date=2014-04-15&curTab=speed&productId=19377&serviceId=19377010&moduleId=27597&countryId=1&keyName=%E7%BE%A4%E5%85%B1%E4%BA%AB) 选择外部门业务-R1平台研发系统-我的QQ中心
 
 [mm上报系统视图]() 上报是5分钟实时，告警大概是5-10分钟延迟  页面展示会大概15分钟
 
@@ -41,6 +56,20 @@ title: 2014-04-10-群文件项目README.md
 
 ### 快速上手
 
+#### 学习资料
+
+* css
+
+    * transition transform 缓动
+    * animation 动画
+    * box-flex
+
+* js
+
+    模块化  requireJS
+    分层  MVC
+    localstorage 存储
+
 #### 项目说明
 
 群文件使用了grunt这一自动构建工具
@@ -50,6 +79,21 @@ title: 2014-04-10-群文件项目README.md
 
 * docs目录下存放所有的规范类文档；
 * dist目录是grunt生成的处理后的代码目录，不需要主动编辑；
+
+    * css
+
+        index_aio3.1.0.css  全部css打包
+
+    * img
+
+        index_aio3.1.0.png  全部img 合成雪碧图  使用ispriter合并
+
+    * js
+
+        index_aio3.1.0.js    全部js合并  使用r.js合并
+
+    * groupShareClient.html
+
 * test是自动化测试目录，现在尚未加入，预留功能；
 
 
@@ -63,6 +107,77 @@ clt_filetab目录根目录下的几个文件：
 * proj-task目录是grunt编译工具引用到的所有task的存放目录
 * src 所有的逻辑代码
 
+    * css
+
+        * app-box.css  传输盒子样式
+
+    * img
+
+        * file_icon_big  文件类型图标  大图
+
+        * v3
+
+            box_1.png  传输盒子 普通样式
+
+            box_2.png  传输盒子  hover态
+
+            box_empty.png  传输盒子  内容为空背景图
+
+    * js
+
+        * common  公共代码
+
+            db.ajax
+
+            g_cfg_cdnswitch.js  CDN失败切换主站资源
+
+            g_cfg_proj.js    项目配置文件
+
+            g_log.js  日志上报
+
+            g_report.js  视图上报
+
+        * global
+
+            hitch.js  函数绑定参数和this
+
+        * inline  内联代码
+
+            DomReady.js
+
+            TRecord.js  测速上报
+
+        * modules   模块组成
+
+            handler  事件注册与处理  MVC的控制部分
+
+            model    数据
+
+            view       视图
+
+            app.handler.js  应用程序  事件模块
+
+            app.js               应用程序  入口
+
+            app.model.js
+
+        * util    常用类库
+
+            date.js   日期处理
+
+            domCache.js   dom缓存
+
+            fileicon.js   根据文件类型得到图标样式
+
+            xss.js         html代码的转码与解码
+
+            group.js     数据分类汇总
+
+           toast2.js    提示对话框
+
+        * index.js    主逻辑入口   require模块化的main文件
+
+    * groupShareClient.html [入口页面]
 
 最外层目录有
 
@@ -74,6 +189,112 @@ clt_filetab目录根目录下的几个文件：
 #### 业务体验
 * 打开一个群聊天窗口， 点击上方的 文件 tab
 
+* 功能点简介
+
+    * 顶部
+
+        正常模式
+
+            左侧
+
+                排序  点击可选择排序方式
+
+                    上传时间
+
+                    文件类型
+
+                    上传者
+
+                    下载次数
+
+                    文件大小
+
+                共XX个文件  点击可以查看容量等
+
+                    已用容量
+
+                    扩大容量
+
+                    反馈
+
+                    刷新
+
+                    批量操作
+
+            右侧
+
+                盒子  点击能打开文件传输盒子
+
+                上传按钮   点击能上传文件
+
+        批量操作模式
+
+            左侧
+
+                全选 checkbox    已选中文件数目
+
+            删除按钮   批量删除选中文件
+
+            下载按钮   批量下载选中文件
+
+            返回按钮   退出批量操作
+
+    * 正文内容
+
+        分组标题
+
+            文件列表
+
+                第一列  图标  图片则展示缩略图
+
+                第二列  文件信息
+
+                    第一行  标题及文件类型
+
+                    第二行  大小  下载字数   上传者  上传日期
+
+                第三列   操作按钮
+
+                    下载/下载中/查看  （如果已下载则显示查看按钮  如果下载中，则显示下载中） 文件现在状态是通过客户端事件通知回来的吗？疑问
+
+                    更多  【点击将展开更多菜单】
+
+                        预览  当前仅支持图片，后续支持多格式预览
+
+                        另存为  低版本不显示
+
+                        极速下载   不支持极速下载接口的不显示
+
+                        重命名
+
+                        转存为永久文件
+
+                        举报
+
+                        删除
+
+
+    * 文件传输盒子
+
+        顶部
+
+            清除历史操作   点击能清除文件上传下载记录
+
+        内容
+
+            展示文件上传下载进度
+
+            展示上传下载完成文件历史
+
+    * 浮层或弹窗
+
+        重命名浮层
+
+        举报弹窗    接入安平举报系统
+
+        拉列表失败提示
+
+        删除确认对话框
 
 #### 本地环境搭建
 * 前台页面路径为： http://pan.qun.qq.com/clt_filetab/groupShareClient.html
@@ -111,7 +332,7 @@ clt_filetab目录根目录下的几个文件：
 端口号使用 36000 账号是***  密码是： pass4devne****
 
 
-# 编译发布
+## 编译发布
 
 ## 一、准备
 
@@ -300,7 +521,18 @@ tag打在项目的tags目录下，命名规则根据项目自行约定。
 
 步骤还是上面的那些编译、提测、发布步骤。
 
-注意：提测时使用的web发布系统项目是这个：[群共享_clt_filetab_bugfix](http://svn.server.com/index.php/PublishItem/index/public_id/300)
+* [使用imweb发布系统](http://svn.server.com/index.php/Publish/index)
+
+    注意：提测时使用的web发布系统项目是这个：[群共享_clt_filetab_bugfix](http://svn.server.com/index.php/PublishItem/index/public_id/300)
+
+* 使用Nohost管理环境
+
+    Nohost管理员：littenli capewu
+
+    地址：http://imweb.server.com/im_nohost_mgr/index.php/apps/get/99
+
+    提测环境：测试环境
+
 
 ###5. 发布后的善后事宜：
 
@@ -323,6 +555,23 @@ tag打在项目的tags目录下，命名规则根据项目自行约定。
 
 3） 删除bugfix分支
 
+
+### 历来需求单地址
+* [群产品中心的历史需求无法找到]
+
+原因，需求单被移动过一次，旧的不见了，请资源danyye
+
+* [【管理后台】手Q查找运营管理后台](http://tapd.oa.com/v3/qqsearch_web/prong/stories/view/1010063621055938404)
+
+* [现存能够查询到的需求](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055913188?url_cache_key=b64a0e2f061b92c98a4fac95c32833ba&action_entry_type=story_tree_list)
+
+* [55972010 【PC群文件—Web三期】病毒文件的展示逻辑优化](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055972010)
+
+*[【PC群文件—Web三期】文件举报](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055972007)
+
+*[【PC群文件—Web三期】旋风组件下载文件](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055913028)
+
+*[【PC群文件—Web三期】批量操作](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055913148)
 
 #### 数据上报
 - 上报的代码怎么找?
