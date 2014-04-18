@@ -168,6 +168,8 @@ http://ars.isd.com/
 
 * 何俊关于移动专门输出的学习资料，请新加入同学务必查看 http://www.ipresst.com/play/5334769224c6b1097d002c4a
 
+* 赖晓思关于移动专门输出的学习资料，请新加入同学务必查看 http://www.ipresst.com/play/528892e11d0495f30f00762e
+
 * Android, iOS 用户分布情况，zip包使用率等数据 参见手Q群查找svn内手Q群部落数据分析-zip包铺量速度.xls
 
 * 客户端统计的zip包的下载成功率等[数据](http://compass.oa.com/auto_plain?reportId=503148&productId=-300005&auth_cm_com_ticket=4156de62-a42d-426c-b3d6-aebdcbf414da)
