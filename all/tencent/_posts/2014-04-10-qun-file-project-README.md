@@ -17,9 +17,6 @@ title: 2014-04-10-群文件项目README.md
 
 产品: danyye
 
-## 疑问
-1. 开发，调试方式， chrome29中可以直接执行吗？
-
 
 ## Documentation
 
@@ -32,9 +29,9 @@ title: 2014-04-10-群文件项目README.md
 
 [Moniter 视图-CGI](http://monitor.server.com/link/graph/viewid:6261)
 
-[日志Nlog](http://nlog.server.com/)  开发机  群文件   详细的错误信息，疑问
+[日志Nlog](http://nlog.server.com/)  开发机  群文件
 
-[badJS](http://imweb.server.com/itil.php?ticket=26F2E8D1B5F7B21A241D435A6A4504DBF9F733DE5BA020CFC5DF18E3B4256C636EC4ED78060055C38116F25D214D4F651375EAED90E182B9926A6FA9A6BEA9231A73E1F184F94A5218B0492C83684D5CA14D58A6D128A8F210693EAC89F8645AC6771C12D06048576B371B20E4DC81F74025A0A5FF1F5F0DBA72DBD9468F6B9299B1EF97C241D15ABA8CFB113D3B80EA372806E830CE63BACF0620A223AC943BBB02FDEE0D108311DA754072EA74E1E18A52B9CF93A5D728E60D576B54C68D06A6C61FC2E9E12639&loginParam=disposed&length=34&lengh=34&sessionKey=26F2E8D1B5F7B21A241D435A6A4504DBF9F733DE5BA020CFC5DF18E3B4256C636EC4ED78060055C31BB3D2BCD2D615DC) 疑问，跟Nlog有啥区别
+[badJS](http://imweb.server.com/itil.php?ticket=26F2E8D1B5F7B21A241D435A6A4504DBF9F733DE5BA020CFC5DF18E3B4256C636EC4ED78060055C38116F25D214D4F651375EAED90E182B9926A6FA9A6BEA9231A73E1F184F94A5218B0492C83684D5CA14D58A6D128A8F210693EAC89F8645AC6771C12D06048576B371B20E4DC81F74025A0A5FF1F5F0DBA72DBD9468F6B9299B1EF97C241D15ABA8CFB113D3B80EA372806E830CE63BACF0620A223AC943BBB02FDEE0D108311DA754072EA74E1E18A52B9CF93A5D728E60D576B54C68D06A6C61FC2E9E12639&loginParam=disposed&length=34&lengh=34&sessionKey=26F2E8D1B5F7B21A241D435A6A4504DBF9F733DE5BA020CFC5DF18E3B4256C636EC4ED78060055C31BB3D2BCD2D615DC)
 
 [performance 视图](http://m.isd.com/app/endusermonitor2/config/pointView.php#date=2014-04-15&curTab=speed&productId=19377&serviceId=19377010&moduleId=27597&countryId=1&keyName=%E7%BE%A4%E5%85%B1%E4%BA%AB) 选择外部门业务-R1平台研发系统-我的QQ中心
 
@@ -68,52 +65,67 @@ title: 2014-04-10-群文件项目README.md
 
 * js
 
-    模块化  requireJS
-    分层  MVC
-    localstorage 存储
+    * 模块化  requireJS
+    * 分层  MVC
+    * localstorage 存储
+
+* 自动化工具 grunt
 
 #### 项目说明
 
-群文件使用了grunt这一自动构建工具
+最外层目录有
 
+* README.doc  项目的说明文件， 群那边同学交接的时候输出的doc
 
-如图所示:
+* clt_filetab_preview  以前的项目目录，已经废弃
 
-* docs目录下存放所有的规范类文档；
+* m  一个空的文件夹，问了群相关同学knightli无用的目录
+
+* clt_filetab  现在项目的开发目录， 只需要关注此目录即可
+
+clt_filetab目录根目录下的几个文件：
+
 * dist目录是grunt生成的处理后的代码目录，不需要主动编辑；
 
     * css
 
-        index_aio3.1.0.css  全部css打包
+        index_aio1397717699956.css  全部css打包
 
     * img
 
-        index_aio3.1.0.png  全部img 合成雪碧图  使用ispriter合并
+        index_aio1397717699956.png  全部img 合成雪碧图  使用ispriter合并
 
     * js
 
-        index_aio3.1.0.js    全部js合并  使用r.js合并
+        index_aio1397717699956.js    全部js合并  使用r.js合并
 
     * groupShareClient.html
 
+* dist-client-local 是为了打包zip包生成的临时目录，不需要上传到svn，也不需要关注其中内容
+
 * test是自动化测试目录，现在尚未加入，预留功能；
 
-
-clt_filetab目录根目录下的几个文件：
-
 * .jshintrc  jshint 代码检测的配置文件
+
+* docs目录下存放所有的规范类文档；
+
 * bower.json bower 的配置文件， 暂时未用到(2014/02/26)
+
 * Gruntfile.js grunt 的配置文件
+
 * package.json 整个项目其实相当于一个大的nodejs项目，package.json规定了这个nodjs项目用到的所有node_modules
+
 * proj-conf.json  这个是群web团队自己开发的grunt-task 需要去读的配置文件， 包括项目名，cdn版本，等信息，具体参见文件内注释
+
 * proj-task目录是grunt编译工具引用到的所有task的存放目录
+
 * src 所有的逻辑代码
 
     * css
 
         * app-box.css  传输盒子样式
 
-    * img
+    * img  这个目录下的文件夹比较复杂，问了miller, 其实命名是跟版本迭代相关， 所有用到的文件都被打包合入了一张图片
 
         * file_icon_big  文件类型图标  大图
 
@@ -181,12 +193,7 @@ clt_filetab目录根目录下的几个文件：
 
     * groupShareClient.html [入口页面]
 
-最外层目录有
 
-* README.doc  项目的说明文件， 群那边同学交接的时候输出的doc
-* clt_filetab_preview  以前的项目目录，已经废弃
-* m  一个空的文件夹，问了群相关同学knightli无用的目录
-* clt_filetab  现在项目的开发目录， 只需要关注此目录即可
 
 #### 业务体验
 * 打开一个群聊天窗口， 点击上方的 文件 tab
@@ -195,11 +202,11 @@ clt_filetab目录根目录下的几个文件：
 
     * 顶部
 
-        正常模式
+        * 正常模式
 
-            左侧
+            * 左侧
 
-                排序  点击可选择排序方式
+                * 排序  点击可选择排序方式
 
                     上传时间
 
@@ -211,7 +218,7 @@ clt_filetab目录根目录下的几个文件：
 
                     文件大小
 
-                共XX个文件  点击可以查看容量等
+                * 共XX个文件  点击可以查看容量等
 
                     已用容量
 
@@ -223,43 +230,43 @@ clt_filetab目录根目录下的几个文件：
 
                     批量操作
 
-            右侧
+            * 右侧
 
-                盒子  点击能打开文件传输盒子
+                * 盒子  点击能打开文件传输盒子
 
-                上传按钮   点击能上传文件
+                * 上传按钮   点击能上传文件
 
-        批量操作模式
+        * 批量操作模式
 
-            左侧
+            * 左侧
 
                 全选 checkbox    已选中文件数目
 
-            删除按钮   批量删除选中文件
+            * 删除按钮   批量删除选中文件
 
-            下载按钮   批量下载选中文件
+            * 下载按钮   批量下载选中文件
 
-            返回按钮   退出批量操作
+            * 返回按钮   退出批量操作
 
     * 正文内容
 
-        分组标题
+        * 分组标题
 
-            文件列表
+            * 文件列表
 
-                第一列  图标  图片则展示缩略图
+                * 第一列  图标  图片则展示缩略图
 
-                第二列  文件信息
+                * 第二列  文件信息
 
                     第一行  标题及文件类型
 
                     第二行  大小  下载字数   上传者  上传日期
 
-                第三列   操作按钮
+                * 第三列   操作按钮
 
-                    下载/下载中/查看  （如果已下载则显示查看按钮  如果下载中，则显示下载中） 文件现在状态是通过客户端事件通知回来的吗？疑问
+                    * 下载/下载中/查看  （如果已下载则显示查看按钮  如果下载中，则显示下载中） 文件现在状态是通过客户端事件通知回来的吗？疑问
 
-                    更多  【点击将展开更多菜单】
+                    * 更多  【点击将展开更多菜单】
 
                         预览  当前仅支持图片，后续支持多格式预览
 
@@ -278,11 +285,11 @@ clt_filetab目录根目录下的几个文件：
 
     * 文件传输盒子
 
-        顶部
+        * 顶部
 
             清除历史操作   点击能清除文件上传下载记录
 
-        内容
+        * 内容
 
             展示文件上传下载进度
 
@@ -303,20 +310,31 @@ clt_filetab目录根目录下的几个文件：
 
 * 内嵌访问路径: http://pan.qun.qq.com/clt_filetab/groupShareClient.html?guin=群号&visitor=0
 
-* 群文件使用了pc端的zip缓存， zip包id是121  目录为： D:\Users\materliu\documents\714512197\AppWebCache D:\Users\materliu\documents\ 为你的QQ文件目录  714512197 为QQ号码
+    注意你一定要是这个群的成员, 比如说我会用测试群:  46961526
+
+* 群文件使用了pc端的zip缓存， zip包id是121  目录为： D:\Users\materliu\documents\714512197\AppWebCache
+
+    D:\Users\materliu\documents\ 为你的QQ文件目录  714512197 为QQ号码
+
 
 * 相关域名
 
     - 主域名:
-    pan.qun.qq.com
+
+        pan.qun.qq.com
+
     - cdn:
-    qplus4.idqqimg.com
-    qplus5.idqqimg.com
-    qplus6.idqqimg.com
-    - cdn path: /qun/pan/clt_filetab/
+
+        qplus4.idqqimg.com
+        qplus5.idqqimg.com
+        qplus6.idqqimg.com
+
+    - cdn path:
+
+        /qun/pan/clt_filetab/
 
 
-#### 跑起来
+#### 跑起来 详细步骤参见本页 编译发布 大模块
 
 * 本地访问方法： 直接使用fiddler代理，将http://pan.qun.qq.com/clt_filetab/ 的请求指向本地项目目录。
 
@@ -326,23 +344,18 @@ clt_filetab目录根目录下的几个文件：
 
 * 采用grunt构建
 
-      之前写过一个编译发布指南, 在docs\编译发布指南.md
-      (注:由于miller后来对grunt 的task有一些更新, 所以这个文档可能需要miller回来更新一下)
-
-* 部署测试环境访问：
-
-端口号使用 36000 账号是***  密码是： pass4devne****
+    请继续往下看
 
 
-## 编译发布
+### 编译发布
 
-## 一、准备
+### 一、准备
 
-### 1. 检出
+#### 1. 检出
 
 check out本目录
 
-### 2. 安装npm依赖包
+#### 2. 安装npm依赖包
 
 确保本机已安装nodejs和npm, 然后在根目录运行
 
@@ -350,7 +363,7 @@ check out本目录
 npm install
 ```
 
-### 3. 给几个npm包打补丁
+#### 3. 给几个npm包打补丁
 
 前往`tools`目录, 运行
 
@@ -361,28 +374,28 @@ node node_modules_patch.js
 或直接运行 `node_modules_patch.bat` (windows下)
 
 
-### 4. 准备完毕!
+#### 4. 准备完毕!
 
 
-## 二、编译
+### 二、编译
 
-### 两条主要的编译命令：
+#### 两条主要的编译命令：
 
-####1 编译web发布资源:
+#####1 编译web发布资源:
 ```
 grunt dist
 ```
 
-####2 编译本地化资源
+#####2 编译本地化资源
 ```
 grunt ct:o
 ```
 
-### 注意点
+#### 注意点
 
-####1. 编译前, 请 **务必保证** 本地的: `src目录`, `proj-task目录`, `Gruntfile.js`是干净的, 符合预期的!
+#####1. 编译前, 请 **务必保证** 本地的: `src目录`, `proj-task目录`, `Gruntfile.js`是干净的, 符合预期的!
 
-####2. 每次提测前,需要确认发布的版本号, 并保证资源的url路径以及版本号在如下三个地方正确、一致:
+#####2. 每次提测前,需要确认发布的版本号, 并保证资源的url路径以及版本号在如下三个地方正确、一致:
 
 #####1) 本地: `proj-conf.json`
 
@@ -396,16 +409,17 @@ grunt ct:o
 
 决定了web发布系统如何将svn拉下来的web发布资源压缩后放在对应的版本号目录下
 
-####3. 为了发布进行的编译,需要确保Gruntfile.js内的发布开关`isPublicDist`被打开
+#####4) 辛苦你看到这里， materliu修改了这里的逻辑，每次自动生成时间戳版本号，不再需要手动修改proj-conf.json
+
 
 ####4. 关于本地化:
 
 1) 本地化在需要部署灰度的情况下, 谨慎使用(准备在群文件里用一个无功能变更的版本灰度验证以后再使用)
 
-2) 本地化时, 如果需要把外部资源也打包, 请手动在`tools/dist-client-local-external`目录下放置外部资源
+2) 本地化时, 手动发布`dist-client-local`目录下的zip包
 
 
-## 三、Web测试环境部署
+### 三、Web测试环境部署
 
 群文件项目目前暂时只有一个测试环境(TODO:增加测试环境)
 
@@ -429,39 +443,60 @@ grunt ct:o
 
 - svn来源: `branches/pan.qun.qq.com/clt_filetab_bugfix`
 
-## 四、ARS发布
+说一下发布流程， 首先登录进 [Svn代码提测发布系统](http://svn.server.com/index.php/Publish/index)
+
+1. 点击项目发布
+
+2. 搜索处 搜索 群共享
+
+3. 会出来几个结果， 我们发布测试环境或者对外的正式环境，选择 `群共享_clt_filetab` 点击查看
+
+4. 在查看页面 点击 添加前台发布
+
+5. 测试环境的话可以考虑把 是否压缩   是否压缩图片文件  的选项去掉 其他任何东西都不需要修改
+
+6. 点击添加
+
+7. 添加之后跳转到了 进行中页面（尾部）  在进行中处点击查看， 查看发布情况
+
+8. 提测完成之后会有几个选项  通知测试  发布  查看  重发
+
+9. 如果我们下一步要走到ARS发布流程的话， 点击发布进入ARS发布流程页面， 在这里选择 ARS 手动发布
+
+10. 点击确认， 进入ARS系统操作吧
+
+### 四、ARS发布
 
 1. 从Web测试环境同步资源到ARS编译机
 
-在Web发布系统上, 点`发布`按钮即可.
+    在Svn代码提测发布系统上, 点`发布`按钮即可.  (上边说的那步)
 
 2. 在ARS上提测试单.
 
-注意：
+    注意：
 
-1）静态和CDN要分别提两个单。
+    1）静态和CDN要分别提两个单。
 
-以群文件为例，静态和cdn分别在如下两个目录：
-![Alt text](data:image,local://1388042236643)
+    以群文件为例，静态和cdn分别在如下两个目录：
 
-2）选文件时，谨慎选择整个目录，务必进入到目录确认是否为要发布的资源
+    2）选文件时，谨慎选择整个目录，务必进入到目录确认是否为要发布的资源
 
-3）CDN的单，选文件的时候，可以进到css和js目录下，选择版本号目录
+    3）CDN的单，选文件的时候，可以进到css和js目录下，选择版本号目录
 
-4）静态的单，如果加了CDN切换的功能，那么在勾选静态页面外，`一定记得把静态资源也选上`。
+    4）静态的单，如果加了CDN切换的功能，那么在勾选静态页面外，`一定记得把静态资源也选上`。
 
-`todo` web发布系统或者grunt内可以考虑增加功能，自动输出本次发布涉及的文件列表，让我们`可以直接把这个列表粘贴到ars的发布单里去`。
+    `todo` web发布系统或者grunt内可以考虑增加功能，自动输出本次发布涉及的文件列表，让我们`可以直接把这个列表粘贴到ars的发布单里去`。
 
 3. ARS测试部署-> 测试 -> 预发布 -> 发布
 
-一般这几个步骤测试来操作
+    一般这几个步骤测试来操作
 
-免测的测试单, 需要开发自己来操作.
+    免测的测试单, 需要开发自己来操作.
 
 
-## 五、发布后要做的事情
+### 五、发布后要做的事情
 
-### 1. 发布当日：观察视图
+#### 1. 发布当日：观察视图
 
 http://monitor.server.com/link/graph/viewid:6196
 
@@ -469,7 +504,7 @@ http://monitor.server.com/link/graph/viewid:6196
 
 视发布改动大小和重要程度，发布后需要观察视图半小时-1小时。
 
-### 2. 发布当日：打tag
+#### 2. 发布当日：打tag
 
 打tag的时机：确认发布完成，视图基本正常后，即可打tag
 
@@ -478,17 +513,24 @@ tag打在项目的tags目录下，命名规则根据项目自行约定。
 以群文件为例：
 
 客户端内嵌页clt_filetab：
+
  - 开发目录：
-  `trunk/htdocs/pan.qun.qq.com/clt_filetab/docs`
+
+      `trunk/htdocs/pan.qun.qq.com/clt_filetab/`
+
  - 线上路径：
-  `http://pan.qun.qq.com/clt_filetab/`
+
+      `http://pan.qun.qq.com/clt_filetab/`
+
  - 打tag目录：
-  `tags/pan.qun.qq.com/clt_filetab/20131225_v2.0.1_js2.0.1`
+
+      `tags/pan.qun.qq.com/clt_filetab/20131225_v2.0.1_js2.0.1`
+
    - `20131225` 发布时间
    - v`2.0.1` 发布迭代版本号(2-二期, 0-首个迭代版本, 1-首个hotfix)
    - js`2.0.1` 发布资源的版本号
 
-## 六、线上bug修复流程
+### 六、线上bug修复流程
 
 线上bug修复我们采用bugfix分支发布策略。
 
@@ -496,21 +538,20 @@ tag打在项目的tags目录下，命名规则根据项目自行约定。
 
 以修复clt_filetab的线上bug为例，修复步骤如下：
 
-###1. 准备
+####1. 准备
 
 检查svn版本库内，`branches/pan.qun.qq.com/clt_filetab_bugfix`下是否有文件
+
   - 有文件： 和同事确认后（也许项目大了，有另一个同事也在拉分支bugfix，里面提交了未发布的bugfix代码）, 直接在svn上删除这个目录。然后去第2步
+
   - 无文件： 直接去第2步
 
-###2. 从tag拉bugfix分支
+####2. 从tag拉bugfix分支
 
 从线上版本的tag，拉分支到`branches/pan.qun.qq.com/clt_filetab_bugfix`下
 
-![Alt text](data:image,local://1388043628463)
 
-![Alt text](data:image,local://1388043706109)
-
-###3. 在bugfix分支修复bug
+####3. 在bugfix分支修复bug
 
 在clt_filetab_bugfix分支下修复bug并编译、提交svn
 
@@ -519,13 +560,15 @@ tag打在项目的tags目录下，命名规则根据项目自行约定。
 编译和接下来的提测同步阶段,这个版本号需要注意保持一致正确.
 
 
-###4. 提测、发布bugfix分支
+####4. 提测、发布bugfix分支
 
 步骤还是上面的那些编译、提测、发布步骤。
 
 * [使用imweb发布系统](http://svn.server.com/index.php/Publish/index)
 
-    注意：提测时使用的web发布系统项目是这个：[群共享_clt_filetab_bugfix](http://svn.server.com/index.php/PublishItem/index/public_id/300)
+    注意：提测时使用的web发布系统项目是这个：
+
+    [群共享_clt_filetab_bugfix](http://svn.server.com/index.php/PublishItem/index/public_id/300)
 
 * 使用Nohost管理环境
 
@@ -535,8 +578,18 @@ tag打在项目的tags目录下，命名规则根据项目自行约定。
 
     提测环境：测试环境
 
+* 使用pc Chrome调试
 
-###5. 发布后的善后事宜：
+    地址 http://pan.qun.qq.com/clt_filetab/groupShareClient.html#gid=92348137&ver=5317&visitor=0&ts=0&debug=1
+
+    其中gid是群号，visitor是否为游客标记，debug=1必须开启
+
+* 使用weiren调试
+
+    快捷键 Shift+F2
+
+
+####5. 发布后的善后事宜：
 
 1） bugfix分支上的bugfix代码，合并入主干
 
@@ -561,19 +614,19 @@ tag打在项目的tags目录下，命名规则根据项目自行约定。
 ### 历来需求单地址
 * [群产品中心的历史需求无法找到]
 
-原因，需求单被移动过一次，旧的不见了，请资源danyye
+    原因，需求单被移动过一次，旧的不见了，请资源danyye
 
 * [【管理后台】手Q查找运营管理后台](http://tapd.oa.com/v3/qqsearch_web/prong/stories/view/1010063621055938404)
 
 * [现存能够查询到的需求](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055913188?url_cache_key=b64a0e2f061b92c98a4fac95c32833ba&action_entry_type=story_tree_list)
 
-* [55972010 【PC群文件—Web三期】病毒文件的展示逻辑优化](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055972010)
+* [【PC群文件—Web三期】病毒文件的展示逻辑优化](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055972010)
 
-*[【PC群文件—Web三期】文件举报](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055972007)
+* [【PC群文件—Web三期】文件举报](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055972007)
 
-*[【PC群文件—Web三期】旋风组件下载文件](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055913028)
+* [【PC群文件—Web三期】旋风组件下载文件](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055913028)
 
-*[【PC群文件—Web三期】批量操作](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055913148)
+* [【PC群文件—Web三期】批量操作](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055913148)
 
 #### 数据上报
 - 上报的代码怎么找?
