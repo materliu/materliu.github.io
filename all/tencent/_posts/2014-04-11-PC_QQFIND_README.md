@@ -14,6 +14,11 @@ title: 2014-04-11-PC查找README.md
 
 [Moniter 视图][2]
 
+[管理后台地址](http://qplus_admin_activity.oa.com)
+
+10.166.131.218 qplus_admin_activity.oa.com
+10.136.152.166 qplus1.idqqimg.com qplus2.idqqimg.com qplus3.idqqimg.com qplus4.idqqimg.com qplus5.idqqimg.com qplus6.idqqimg.com qplus7.idqqimg.com qplus8.idqqimg.com qplus9.idqqimg.com
+
 [本地构建工具][3]
 
 * 安装方式：npm install -g modjs
