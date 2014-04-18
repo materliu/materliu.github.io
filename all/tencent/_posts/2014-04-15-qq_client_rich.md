@@ -15,6 +15,8 @@ title: 2014-04-15-QQ客户端rich化.md
 
 2. url位于白名单内  白名单是产品配置的
 
+3. 具备rich化的必须字段
+
 rich化的展现？
 
 1. 客户端本身存在多套展现模板， 这个需要相关开发在后台配置，接口人是：cgi: mapleliang  客户端: liuweiliu  shujianyuan
@@ -29,3 +31,5 @@ tencent串并不支持rich化， 现在的做法是tencent串转url, 跟maple约
 
 所以一定注意兼容这种情况， 就是直接在浏览器中打开上述地址也要能正常的跳转tencent串。兼容方案就是实现一个中转页。中转页进行302跳转到相应tencent串。
 
+
+2. 群课程的rich化url http://qun.qq.com/rich/?groupcode=388980287&courseid=4171
