@@ -1,0 +1,187 @@
+{
+    "empty": " ",
+    "name": {
+        "firstName": "Mater",
+        "lastName": "Liu"
+    },
+    "information": {
+        "weibo": "http://weibo.com/jasonandliu",
+        "twitter": "https://twitter.com/materliu",
+        "blog": "http://materliu.github.io/articles.html",
+        "blogWarning": "(github挂了？)",
+        "email": "materliu@gmail.com"
+    },
+    "milestones": [
+        {
+            "date": "2008-2012",
+            "events": [
+                {
+                    "content": "四川大学软件工程",
+                    "details": [
+                        {
+                            "field": "职务：",
+                            "content": "体育部副部长，对外联络协会分会长"
+                        },
+                        {
+                            "field": "荣誉：",
+                            "content": "优秀学生、奖学金、第十届大学生程序设计竞赛三等奖、劳伦斯大学视觉机器人大赛优胜奖"
+                        },
+                        {
+                            "field": "收获：",
+                            "content": "热爱编程，喜欢研究新的技术"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2011-2012",
+            "multipleEvents": true,
+            "summary": "软件工程师 - 淘宝网",
+            "events": [
+                {
+                    "content": "负责TEE(淘宝高效引擎),TCU(淘宝反恐单元)开发工作",
+                    "details": [
+                        {
+                            "field": "简介：",
+                            "content": "TCU主要是承载淘宝交易中的非法行为的提取，打击，报警,TEE作为TCU的辅助工具，高效运行各种提取脚本。"
+                        },
+                        {
+                            "field": "职责：",
+                            "content": "作为实习生参与了该项目为期两个月的开发工作，主要负责Mahout的聚类分析，特性检测，脚本输入框架开发。"
+                        },
+                        {
+                            "field": "收获：",
+                            "content": "java开发技能得到了很大提示，同时开始接触前端。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2012-today",
+            "multipleEvents": true,
+            "summary": "前端工程师 - 腾讯",
+            "events": [
+                {
+                    "content": "webQQ-Q+-VM",
+                    "details": [
+                        {
+                            "field": "Introduction: ",
+                            "content": "webQQ-Q+ virtual machine layer development"
+                        },
+                        {
+                            "field": "Responsibility: ",
+                            "content": "负责此系统的VM架构以及实现：<br />1. 桌面，窗口，主题的管理<br />2. 控制台，工具集的提供<br />3. RPC服务，CGI服务的封装<br />4. API接口，APP管理，声音管理，账号管理，事件系统，云存储等<br/>5. 状态栏，App状态维护等"
+                        },
+                        {
+                            "field": "Achievements: ",
+                            "content": "1. Got familiar with Long Live Connection and Polling techs"
+                        }
+                    ]
+                },
+                {
+                    "content": "QQ互联Oauth第三方接入SDK",
+                    "details": [
+                        {
+                            "field": "简介：",
+                            "content": "QQ互联主要是开放QQ账户信息提供给第三方网站使用，最简单的方式就是采用client 授权方式，即提供一个js sdk文件供第三方网站引入。当用户在第三方网站浏览的时候可以选择使用QQ账户登录，js sdk文件负责完成相关通信授权和安全工作。"
+                        },
+                        {
+                            "field": "职责：",
+                            "content": "负责此系统实现"
+                        },
+                        {
+                            "field": "收获：",
+                            "content": "1. 深入了解各浏览器下的跨域通信方案<br />2. OAuth授权协议的深入学习<br />"
+                        }
+                    ]
+                },
+                {
+                    "content": "PＣ版 QQ查找 QQ查找web化",
+                    "details": [
+                        {
+                            "field": "简介：",
+                            "content": "QQ查找web化是2013年QQ商业转型的重点先驱项目，目的在于建立用户的O2O概念，培养在查找上的消费习惯。在原有找人，找群的基础上添加了找商家，找服务功能，跟大众点评，58，同城网等展开各项深入合作，查找web化基本每周一个迭代，快速响应市场反馈，试错和创新。"
+                        },
+                        {
+                            "field": "收获：",
+                            "content": "1. 对SAP各种设计方案有了深入的了解和体会</br> 2. 技术输出能力得到大幅提升 </br> 3. 系统全面地负责一个大型项目,协调各种资源"
+                        }
+                    ]
+                },
+                {
+                    "content": "手Q 生活优惠，群部落",
+                    "details": [
+                        {
+                            "field": "简介：",
+                            "content": "2013年底部门策略调整，主攻移动业务，手Q面临众多挑战，首当其冲的便是同微信相比想象空间过小，于是有了生活优惠和群部落。目的在于打通手Q与PC查找的商业行为，扩展想象空间，为了快速迭代，灵活多变，采取了web页面与native相结合的方式开发，web页面为达到native的体验效果，曾先后进行多轮专项mobile性能调优。"
+                        },
+                        {
+                            "field": "收获：",
+                            "content": "1. 开始进入mobile web的时代<br />2. 了解到各项mobile web的性能调优点<br />"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2012-today",
+            "multipleEvents": true,
+            "summary": "前端工程师 - 腾讯 - 司外",
+            "events": [
+                {
+                    "content": "翻译《Sass与Compass实战》一书",
+                    "details": [
+                        {
+                            "field": "简介：",
+                            "content": "第一本介绍Sass和Compass技术的中文书籍，翻译过程协作非常高效，初次跟勾三股四等人合作。"
+                        },
+                        {
+                            "field": "职责：",
+                            "content": "负责此书翻译工作"
+                        },
+                        {
+                            "field": "收获：",
+                            "content": "1. 体会到了翻译是一项非常严谨的技术活和体力活<br />2. 翻译过程中强迫自己对每个细节都去深入了解<br />3. 即使如翻译这样的工作，也一定要有一个好的协作平台，这点图灵做的不错"
+                        }
+                    ]
+                },
+                {
+                    "content": "2013上海W3CTech会议上受邀分享",
+                    "details": [
+                        {
+                            "field": "简介：",
+                            "content": "分享《千万级吞吐APP》"
+                        },
+                        {
+                            "field": "职责：",
+                            "content": "大会分享，<a href='http://v.youku.com/v_show/id_XNjYxMjM5MzQw.html' target='_blank'>优酷视频直播地址</a>"
+                        },
+                        {
+                            "field": "收获：",
+                            "content": "1. 知识输出是一种乐趣<br />2. 认识多位业界牛人<br />3. 同行交流"
+                        }
+                    ]
+                },
+                {
+                    "content": "青少年开发者社区·2013之ADC演讲嘉宾",
+                    "details": [
+                        {
+                            "field": "简介：",
+                            "content": "分享《Modern Web开发流程》"
+                        },
+                        {
+                            "field": "职责：",
+                            "content": "大会分享，<a href='http://www.veryevent.com/view/168371.html' target='_blank'>会议地址</a>"
+                        },
+                        {
+                            "field": "收获：",
+                            "content": "1. 知识输出是一种乐趣<br />2. 认识多位业界牛人<br />3. 青年人才是祖国未来的希望"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
