@@ -33,3 +33,5 @@ tencent串并不支持rich化， 现在的做法是tencent串转url, 跟maple约
 
 
 2. 群课程的rich化url http://qun.qq.com/rich/?groupcode=388980287&courseid=4171
+
+3. QQ新闻rich话url http://view.inews.qq.com/q/WXN20140418005761071?refer=mobileqq
