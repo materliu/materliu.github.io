@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 【CDN支持HTML5-resourceTiming】增加静态资源的返回头Timing-Allow-Origin
+title: CDN支持HTML5 resourceTiming增加静态资源的返回头Timing Allow Origin
 ---
 
-## 【CDN支持HTML5-resourceTiming】增加静态资源的返回头Timing-Allow-Origin
+## CDN支持HTML5 resourceTiming增加静态资源的返回头Timing Allow Origin
 
 Web性能优化再填利器！
 轻松获得用户端JS、Css、图片等资源的网络请求时间 — 没错，包含DNS，TCP，request、response等等消耗，就如在用户端安排了httpwatch！
