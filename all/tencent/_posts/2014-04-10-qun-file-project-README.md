@@ -163,17 +163,25 @@ clt_filetab目录根目录下的几个文件：
 
         * modules   模块组成
 
-            handler  事件注册与处理  MVC的控制部分
+            * handler  事件注册与处理  MVC的控制部分
 
-            model    数据
+                * batch
 
-            view       视图
+                    b_download.js 批量下载的逻辑在这里
 
-            app.handler.js  应用程序  事件模块
+                * box
 
-            app.js               应用程序  入口
 
-            app.model.js
+
+            * model    数据
+
+            * view       视图
+
+            * app.handler.js  应用程序  事件模块
+
+            * app.js               应用程序  入口
+
+            * app.model.js
 
         * util    常用类库
 
@@ -187,7 +195,7 @@ clt_filetab目录根目录下的几个文件：
 
             group.js     数据分类汇总
 
-           toast2.js    提示对话框
+            toast2.js    提示对话框
 
         * index.js    主逻辑入口   require模块化的main文件
 
@@ -304,6 +312,12 @@ clt_filetab目录根目录下的几个文件：
         拉列表失败提示
 
         删除确认对话框
+
+* 业务逻辑 - 代码逻辑
+
+    * 文件下载状态，成功，失败  localStorage中保存
+
+    * ctrl + F12 打开 firebug 内嵌调试工具
 
 #### 本地环境搭建
 * 前台页面路径为： http://pan.qun.qq.com/clt_filetab/groupShareClient.html
