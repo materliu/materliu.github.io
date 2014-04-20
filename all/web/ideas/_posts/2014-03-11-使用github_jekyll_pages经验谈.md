@@ -20,7 +20,9 @@ https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll
 参照里边的步骤来就可以了
 
 但是在公司64位windows上安装的时候还是遇到了一些问题
+
 1. 代理问题   在命令行窗中   `set http_proxy=http://proxy.tencent.com:8080`
+
 2. 直接bundle install 报错 `Make sure that `gem install RedCloth -v '4.2.9'` succeeds before bundling.`
 
     1. 首先需要安装 RedCloth 报错 Please update your PATH to include build tools or download the DevKi from 'http://rubyinstaller.org/downloads' and follow the instruction at 'http://github.com/oneclick/rubyinstaller/wiki/Development-Kit'
