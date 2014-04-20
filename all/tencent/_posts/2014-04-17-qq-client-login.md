@@ -1,9 +1,9 @@
 ---
 layout: post
-title: QQ 查找登录态问题 - Common Api 调用以后续总结
+title: QQ 查找登录态问题 - Common Api 调用以及后续总结
 ---
 
-## QQ 查找登录态问题 - Common Api 调用以后续总结
+## QQ 查找登录态问题 - Common Api 调用以及后续总结
 
 再次感谢平台部 henryguo & herbertliu 关于 Common Api 的分享和指导。
  
