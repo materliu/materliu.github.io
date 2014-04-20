@@ -3,6 +3,8 @@ layout: post
 title: 2014-03-11-使用github_jekyll_pages经验谈.md
 ---
 
+## 使用github_jekyll_pages经验谈
+
 初次使用我们会发现很多时候，本地成功编译的项目，到了github上就会报错，这是因为：
 
 Jekyll中默认的markdown渲染器是maruku，但是它对Latex公式和中文支持都不太好, 通常是根据不同的需要选择其它几种渲染器（rdiscount，kramdown，redcarpet等），它们各有利弊。
@@ -99,23 +101,25 @@ https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll
 页面中的代码高亮我使用了 SyntaxHighlighter 这一单独的js文件 [访问地址][3]
 用法也相当简单：
 在layouts文件中的html文件，添加对css的引用：
-<link rel="stylesheet" type="text/css" href="/css/sh/shCore.css" />
-<link rel="stylesheet" type="text/css" href="/css/sh/shThemeRDark.css" />
+
+    <link rel="stylesheet" type="text/css" href="/css/sh/shCore.css" />
+    <link rel="stylesheet" type="text/css" href="/css/sh/shThemeRDark.css" />
+
 同时还有对js的应用：
-<script language="javascript" src="/javascripts/sh/shCore.js"></script>
-<script language="javascript" src="/javascripts/sh/shBrushRuby.js"></script>
-<script language="javascript" src="/javascripts/sh/shBrushPhp.js"></script>
-<script language="javascript" src="/javascripts/sh/shBrushXml.js"></script>
-<script language="javascript" src="/javascripts/sh/shBrushCss.js"></script>
-<script language="javascript" src="/javascripts/sh/shBrushBash.js"></script>
-<script language="javascript" src="/javascripts/sh/shBrushJScript.js"></script>
+
+    <script language="javascript" src="/javascripts/sh/shCore.js"></script>
+    <script language="javascript" src="/javascripts/sh/shBrushRuby.js"></script>
+    <script language="javascript" src="/javascripts/sh/shBrushPhp.js"></script>
+    <script language="javascript" src="/javascripts/sh/shBrushXml.js"></script>
+    <script language="javascript" src="/javascripts/sh/shBrushCss.js"></script>
+    <script language="javascript" src="/javascripts/sh/shBrushBash.js"></script>
+    <script language="javascript" src="/javascripts/sh/shBrushJScript.js"></script>
 
 在markdown中的写法就成了
-<pre>
-    //<pre class="brush: js"> 格式化js代码
+
+    <pre class="brush: js"> 格式化js代码
         // js code here
-    //</pre>
-</pre>
+    </pre>
 
 
 [1]: https://github.com/Shopify/liquid liquid github线上地址
