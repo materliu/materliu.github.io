@@ -309,17 +309,17 @@ http://ars.isd.com/
 
 type: 商家类型
 
-    * 1, 3 都是企业QQ， 不同是有些是靓号，cgi不用关注，统一做企业QQ处理
-    * 2 wpa商家
-    * 9 妈妈网数据
-    * 10 招聘资料卡
+* 1, 3 都是企业QQ， 不同是有些是靓号，cgi不用关注，统一做企业QQ处理
+* 2 wpa商家
+* 9 妈妈网数据
+* 10 招聘资料卡
 
 id：
 
-    * type==1 || type==3  id为企业QQ的kfuin kfuin带过来的就是nameaccount了
-    * type==2 id为wpa商家的uin
-    * type==9 id为妈妈网数据的uin
-    * type==10 id为招聘资料卡的jobid
+* type==1 || type==3  id为企业QQ的kfuin kfuin带过来的就是nameaccount了
+* type==2 id为wpa商家的uin
+* type==9 id为妈妈网数据的uin
+* type==10 id为招聘资料卡的jobid
 
 ### 通过tencent串打开查找窗口
 
