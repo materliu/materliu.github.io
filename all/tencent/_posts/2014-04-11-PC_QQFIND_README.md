@@ -58,10 +58,13 @@ http://www.smushit.com/
 http://pub.qplus.oa.com/html/ars_precompile.php
 
 得到类似地址：
+
 /data/sites/cdn.qplus.com/qqfind/js/find.js
+
 /data/sites/cdn.qplus.com/qqfind/index.html
 
 进入ARS发布系统：
+
 http://ars.isd.com/
 
 1. 类目选择：发布请求-免测版本发布
