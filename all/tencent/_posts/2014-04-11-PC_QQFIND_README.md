@@ -361,6 +361,23 @@ id：
     7.   跳转到活动页    配合参数search_word使用
     8.   资料卡          配合参数param使用
 
+        param 参数的信息： tencent://finger/?subcmd=OpenWebSearch&exparam=%2526search_target%253D8%2526search_param%253D%25257B%252522source%252522%25253A1%25252C%252522others_id%252522%25253A938011981%25252C%252522nameAccount%252522%25253A4001740017%25257D%2526search_source%253D1
+
+        decode 一次
+
+        %26search_target%3D8%26search_param%3D%257B%2522source%2522%253A1%252C%2522others_id%2522%253A938011981%252C%2522nameAccount%2522%253A4001740017%257D%26search_source%3D1
+
+        docode 两次
+
+        &search_target=8&search_param=%7B%22source%22%3A1%2C%22others_id%22%3A938011981%2C%22nameAccount%22%3A4001740017%7D
+
+        再decode一次search_param
+
+        &search_target=8&search_param={"source":1,"others_id":938011981,"nameAccount":4001740017}
+
+        生成顺序就是先把search_param= value里边值encode一次， 在把整个exparam参数encode两次
+
+
     你一定觉得很郁闷为什么会有一个search_word 同时有一个search_keyword
     是这样的 search_word 表示触发页面的搜索行为并搜索search_word的值search_keyword 只更改页面搜索框内的值而不触发搜索行为
 
