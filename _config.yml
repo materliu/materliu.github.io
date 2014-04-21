@@ -13,4 +13,6 @@ markdown: rdiscount
 
 encoding: utf-8
 
+changefreq: daily
+
 
