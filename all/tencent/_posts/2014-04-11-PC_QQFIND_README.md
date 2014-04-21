@@ -316,7 +316,7 @@ type: 商家类型
 
 id：
 
-* type==1 || type==3  id为企业QQ的kfuin kfuin带过来的就是nameaccount了
+* type==1 || type==3  id为企业QQ的kfuin 没有拿到kfuin带过来的就是nameaccount了
 * type==2 id为wpa商家的uin
 * type==9 id为妈妈网数据的uin
 * type==10 id为招聘资料卡的jobid
