@@ -313,6 +313,8 @@ id：
 
     tencent串内容： tencent://finger/?subcmd=OpenWebSearch&exparam=%26search_target%3D0%26search_word%3D234%26FromTencentId%3D2342&tfrom=.qq.com
 
+    因为
+
     在打开查找的时候，客户端是做了这么几件事 在 http://find.qq.com/index.html?后边把exparam的信息拼接进去
 
     所以就成了
