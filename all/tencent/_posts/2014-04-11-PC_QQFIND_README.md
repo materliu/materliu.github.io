@@ -325,7 +325,9 @@ id：
 
 1. 晓文实现的一个配置tencent串的程序： [访问](http://hiuman.lu/tencent.html)
 
-    tencent串内容： tencent://finger/?subcmd=OpenWebSearch&exparam=%26search_target%3D0%26search_word%3D234%26FromTencentId%3D2342&tfrom=.qq.com
+    tencent串内容：
+
+    tencent://finger/?subcmd=OpenWebSearch&exparam=%26search_target%3D0%26search_word%3D234%26FromTencentId%3D2342&tfrom=.qq.com
 
     因为
 
@@ -336,6 +338,12 @@ id：
     http://find.qq.com/index.html?search_target=0&search_word=234&FromTencentId=2343
 
     tfrom 为什么会有这个无厘头的参数， 据晓文说是有些公司平台在配置的时候url里边必须有 tfrom=qq.com 才给通过
+
+    注意： 上边的情况是一种理想情况， 但是我现在测试，在chrome 地址栏中直接输入上述tencent串[chrome中不能直接打开tencent串看这里](/all/web/ideas/2014/04/21/chrome-address-bar-instant-tencent.html), 客户端可以接收到正确的参数，但是在IE 地址栏中直接输入上述tencent串地址，发现exparam=%26search_target 这里被IE自动decode成了 exparam=&search_target ... 这样就导致客户端没法正常获取到exparam参数的值了，所以又想了一种变通的方式，那就是tencent的exparam参数 encodeURIComponent两次， decode一次（为啥只有一次，因为客户端拿到这些参数的时候已经做了一次decode） 如果是chrome不帮我们decode的浏览器，我们decode一次刚好， 如果是IE这种帮我们decode了一次的，我们再多decode一次也不会有问题。
+
+    最终得到的tencent串的内容是：
+
+    tencent://finger/?subcmd=OpenWebSearch&exparam=%2526search_target%253D0%2526search_word%253D234%2526FromTencentId%253D2342&tfrom=.qq.com
 
 2. 查找是如何利用url中的信息的
 
