@@ -64,6 +64,10 @@ module Jekyll
         file.write(json)
       end
 
+      File.open(File.join('.', filename), "w") do |file|
+        file.write(json)
+      end
+
       # Keep the search.json file from being cleaned by Jekyll
       site.static_files << Jekyll::SearchIndexFile.new(site, site.dest, "/", filename)
     end
