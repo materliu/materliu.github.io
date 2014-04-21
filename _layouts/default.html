@@ -47,17 +47,21 @@
 
 </div>
 
-<div id="search">
-    <form action="/blogs.html" method="get">
-        <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
-    </form>
-</div>
+
 
 <section id="search-results" style="display: none;">
     <p>Search results</p>
     <div class="entries">
     </div>
 </section>
+
+<div id="search">
+    <form action="/blogs.html" method="get">
+        <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off"
+            style="border-radius:5px; width: 50%; height:30px;
+            margin-left:25%;margin-bottom:100px;display:none;">
+    </form>
+</div>
 
 {% raw %}
 <script id="search-results-template" type="text/mustache">
@@ -85,7 +89,21 @@
             template: '#search-results-template'  // jQuery selector for the Mustache.js template
         });
     });
+
+    // 默认隐藏搜索框 按下ctrl + f12快捷键的时候再调起来
+    $(document).on("keydown", function(event) {
+        if (event.keyCode === 123 && event.ctrlKey) {
+            $("#search-query").show();
+            window.setTimeout(function() {
+                $("#search-query").focus().val("");
+            }, 200);
+        }
+
+    });
+
 </script>
+
+
 
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
