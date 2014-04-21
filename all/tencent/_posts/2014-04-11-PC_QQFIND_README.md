@@ -287,6 +287,62 @@ http://ars.isd.com/
    aniszhang(张龙飞) 09-25 18:31:57
    直接换keyword参数值就行
 
+## 功能点记录
+
+### 商家资料卡rich化 资料卡上带分享能力， 分享到聊天窗口后对分享信息加以rich化
+
+分享后的页面地址 http://cgi.find.qq.com/rich?type=9&id=234234
+
+type: 商家类型
+
+    * 1, 3 都是企业QQ， 不同是有些是靓号，cgi不用关注，统一做企业QQ处理
+    * 2 wpa商家
+    * 9 妈妈网数据
+    * 10 招聘资料卡
+
+id：
+
+    * type==1 || type==3  id为企业QQ的kfuin kfuin带过来的就是nameaccount了
+    * type==2 id为wpa商家的uin
+    * type==9 id为妈妈网数据的uin
+    * type==10 id为招聘资料卡的jobid
+
+### 通过tencent串打开查找窗口
+
+1. 晓文实现的一个配置tencent串的程序： [访问](http://hiuman.lu/tencent.html)
+
+    tencent串内容： tencent://finger/?subcmd=OpenWebSearch&exparam=%26search_target%3D0%26search_word%3D234%26FromTencentId%3D2342&tfrom=.qq.com
+
+    在打开查找的时候，客户端是做了这么几件事 在 http://find.qq.com/index.html?后边把exparam的信息拼接进去
+
+    所以就成了
+
+    http://find.qq.com/index.html?search_target=0&search_word=234&FromTencentId=2343
+
+    tfrom 为什么会有这个无厘头的参数， 据晓文说是有些公司平台在配置的时候url里边必须有 tfrom=qq.com 才给通过
+
+2. 查找是如何利用url中的信息的
+
+    search_target 取值{CONTACT = 0，GROUP = 1，ENTQQ = 2，STRANGER = 3，FRIENDSOCIAL = 4, BUDDY=5 ，industry = 6, activity = 7，profile = 8}
+
+    search_target 取值意义
+
+    0.   综合搜索        配合参数search_word search_keyword使用
+    1.   群搜索          配合参数search_word search_keyword使用
+    2.   企业QQ搜索      配合参数search_word search_keyword使用
+    3.   未知
+    4.   未知
+    5.   找人页搜索      配合参数search_word search_keyword使用
+    6.   综合页导航结果  配合参数search_word search_keyword使用
+    7.   跳转到活动页    配合参数search_word使用
+    8.   资料卡          配合参数param使用
+
+    你一定觉得很郁闷为什么会有一个search_word 同时有一个search_keyword
+    是这样的 search_word 表示触发页面的搜索行为并搜索search_word的值search_keyword 只更改页面搜索框内的值而不触发搜索行为
+
+
+
+
 ## QQ 查找 HOST
 
 ···
