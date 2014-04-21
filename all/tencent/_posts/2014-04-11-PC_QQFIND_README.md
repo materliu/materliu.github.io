@@ -17,18 +17,22 @@ title: 2014-04-11-PC查找README.md
 [管理后台地址](http://qplus_admin_activity.oa.com)
 
 10.166.131.218 qplus_admin_activity.oa.com
+
 10.136.152.166 qplus1.idqqimg.com qplus2.idqqimg.com qplus3.idqqimg.com qplus4.idqqimg.com qplus5.idqqimg.com qplus6.idqqimg.com qplus7.idqqimg.com qplus8.idqqimg.com qplus9.idqqimg.com
 
 [本地构建工具][3]
 
-* 安装方式：npm install -g modjs
-* 安装成功后构建命令：
-* ··sh
+* 安装方式：npm install -g grunt-cli
+* 安装成功后构建命令： grunt
 
 QQ查找4.0以后已经换用 grunt 编译工具
 
+QQ查找3.0以前使用modjs作为编译工具
+
 dist 对应 Modfile 中定义的 dist 任务队列
+
 mod dist
+
 ···
 
 图片压缩服务：
@@ -38,9 +42,13 @@ http://www.smushit.com/
 测试环境同步：
 
 ···sh
+
 1 表示同步到 172.23.136.84 测试机
+
 ./p 1
+
 ···
+
 
 
 
