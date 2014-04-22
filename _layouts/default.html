@@ -29,6 +29,20 @@
                 <a href="/tencent.html" class="orange">tencent{work}</a>
 		</div>
 
+        <div id="search-results" style="display: none;">
+            <p>Search results</p>
+            <div class="entries">
+            </div>
+        </div>
+
+        <div id="search">
+            <form action="/blogs.html" method="get">
+                <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off"
+                       style="border-radius:5px; width: 50%; height:30px;
+            margin-bottom:100px;display:none;">
+            </form>
+        </div>
+
 </div>
 
 <div id="content">  
@@ -49,19 +63,7 @@
 
 
 
-<section id="search-results" style="display: none;">
-    <p>Search results</p>
-    <div class="entries">
-    </div>
-</section>
 
-<div id="search">
-    <form action="/blogs.html" method="get">
-        <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off"
-            style="border-radius:5px; width: 50%; height:30px;
-            margin-left:25%;margin-bottom:100px;display:none;">
-    </form>
-</div>
 
 {% raw %}
 <script id="search-results-template" type="text/mustache">
@@ -98,7 +100,6 @@
                 $("#search-query").focus().val("");
             }, 200);
         }
-
     });
 
 </script>
