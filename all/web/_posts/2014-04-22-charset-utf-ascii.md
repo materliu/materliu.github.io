@@ -287,9 +287,6 @@ char32_tdata_utf32[]={0x00006C49,0x00005B57};//UTF-32编码
 
     [维基百科访问地址](http://en.wikipedia.org/wiki/UTF-16/UCS-2#Code_points_U.2B10000..U.2B10FFFF)
 
-
-
-
 2. utf-32
 
     UTF-32
