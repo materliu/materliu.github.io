@@ -230,6 +230,8 @@ Gruntfile-2014-03-18.js 主项目去掉search页面， grunt对search页面的�
 
 * 圆角规范稍后我会更新上规范网站  现在是这样   128px以上 圆角大小12px     100px图标圆角大小10px  99px-60px图标 圆角大小6px  小于60px图标圆角4px
 
+* 在调试的时候，有时候我们会使用修改 document.title 的值的方式来查看需要关注的值的变化，ios的话设置title后需要调一个refreshTitle接口 andriod的话直接设置就能起作用  document.title="新标题"; mqq.ui.refreshTitle();不过这接口应该是后来才加的，4.7之前版本的手Q IOS 还是没办法改标题
+
 * [iphone上的click事件没有冒泡](http://www.quirksmode.org/blog/archives/2010/09/click_event_del.html) [stackoverflow上关于此问题的讨论](http://stackoverflow.com/questions/3705937/document-click-not-working-correctly-on-iphone-jquery)
 
 * zip包机制存在问题， 导致有些页面无法得到更新
