@@ -246,7 +246,7 @@ char32_tdata_utf32[]={0x00006C49,0x00005B57};//UTF-32编码
 
     按照上述规则，Unicode编码0x10000-0x10FFFF的UTF-16编码有两个WORD，第一个WORD的高6位是110110，第二个WORD的高6位是110111。可见，第一个WORD的取值范围（二进制）是11011000 00000000到11011011 11111111，即0xD800-0xDBFF。第二个WORD的取值范围（二进制）是11011100 00000000到11011111 11111111，即0xDC00-0xDFFF。
 
-    为了将一个WORD的UTF-16编码与两个WORD的UTF-16编码区分开来，Unicode编码的设计者将0xD800-0xDFFF保留下来，并称为代理区（Surrogate）：
+    为了将一个WORD的UTF-16编码与两个WORD的UTF-16编码区分开来，Unicode编码的设计者将0xD800-0xDFFF保留下来，并称为代理区（Surrogate）： 这里的意思是 unicode编码表中0xD800-0xdfff 是没有被赋予任何的字符的，永远不会有单个字符落在这个区域。
     <table log-set-param="table_view" class="table-view log-set-param"><tbody><tr><td><div class="para">D800－DB7F</div>
     </td><td><div class="para">High Surrogates</div>
     </td><td><div class="para">高位替代</div>
@@ -258,14 +258,37 @@ char32_tdata_utf32[]={0x00006C49,0x00005B57};//UTF-32编码
     </td><td><div class="para">低位替代</div>
     </td></tr></tbody></table>
 
+    下边这段高替代位， 低替代位的知识会很难懂， 所以我在最后补充了另外一篇知识。
+
     高位替代就是指这个范围的码位是两个WORD的UTF-16编码的第一个WORD。低位替代就是指这个范围的码位是两个WORD的UTF-16编码的第二个WORD。那么，高位专用替代是什么意思？我们来解答这个问题，顺便看看怎么由UTF-16编码推导Unicode编码。
     如果一个字符的UTF-16编码的第一个WORD在0xDB80到0xDBFF之间，那么它的Unicode编码在什么范围内？我们知道第二个WORD的取值范围是0xDC00-0xDFFF，所以这个字符的UTF-16编码范围应该是0xDB80 0xDC00到0xDBFF 0xDFFF。我们将这个范围写成二进制：
     1101101110000000 11011100 00000000 - 1101101111111111 1101111111111111
     按照编码的相反步骤，取出高低WORD的后10位，并拼在一起，得到
     1110 0000 0000 0000 0000 - 1111 1111 1111 1111 1111
-    XML
-    XML
+
     即0xe0000-0xfffff，按照编码的相反步骤再加上0x10000，得到0xf0000-0x10ffff。这就是UTF-16编码的第一个WORD在0xdb80到0xdbff之间的Unicode编码范围，即平面15和平面16。因为Unicode标准将平面15和平面16都作为专用区，所以0xDB80到0xDBFF之间的保留码位被称作高位专用替代[1]。
+
+    四字节的UTF-16字符的性质与计算
+
+    JavaScript中的字符串是以UTF-16为代码单元。通常我们使用的字符范围都在Unicode值0x10000以内，他们对应的UTF-16就是它们自身。但Unicode中也存在这个范围之外的字符，这时候就需要两个UTF-16字符来描述。这些字符在统计时会被作为两个字符。
+    　　比如下面这个字符，虽然只有一个字，但却会统计出两个字符。
+
+        <script>
+        alert("𠐀".length); //2
+        </script>
+
+    因为字符串的length表示的并不是字符个数，而是UTF-16的单元个数。Unicode为UTF-16预留了两块区域，称为“高位替代区”和“低位替代区”。这两个区域的字符单独使用是每一意义的，甚至在某些地方都无法单独使用他们，比如内置的URL转义函数就无法转换这样的字符
+
+    比如说直接使用encodeURIComponent("\uD841") 是会直接报错的
+
+    在正则表达式中，其也是被作为两个字符来处理的  /^.$/.test('') false  /^..$/.test('') true
+
+    使用charCodeAt的时候也会把它作为两个字符来处理。这些把它当做两个字符处理的情况会分别处理它的“高位替代符”和“低位替代符”。
+
+    [维基百科访问地址](http://en.wikipedia.org/wiki/UTF-16/UCS-2#Code_points_U.2B10000..U.2B10FFFF)
+
+
+
 
 2. utf-32
 
