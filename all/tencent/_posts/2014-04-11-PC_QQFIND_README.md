@@ -305,7 +305,7 @@ http://ars.isd.com/
 
 ### 商家资料卡rich化 资料卡上带分享能力， 分享到聊天窗口后对分享信息加以rich化
 
-分享后的页面地址 http://cgi.find.qq.com/rich?type=9&id=234234
+分享后的页面地址 http://cgi.find.qq.com/qqfind_attach/rich?type=1&id=800016693
 
 type: 商家类型
 
