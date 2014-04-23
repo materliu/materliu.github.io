@@ -387,19 +387,19 @@ id：
 
         http://find.qq.com/profile.html?accountid=2001&subid=1001&width=814&height=537&coverheight=30&extparam=%7B%22others_id%22:17672722577922%2C%22source%22:10%2C%22trajectory%22:%22310%5E44%5E3%5E%E9%94%80%E5%94%AE%E4%BB%A3%E8%A1%A8%22%2C%22rTime%22:1398132880561%2C%22frame%22:%22client%22%7D&data=&traceid=
 
-        ![招聘资料卡](attachments/2014-04-22-pc-qqfind-readme-profile-1.jpg)
+        ![招聘资料卡](/attachments/2014-04-22-pc-qqfind-readme-profile-1.jpg)
 
     * 打开商家资料卡
 
         http://find.qq.com/profile.html?accountid=2001&subid=1001&width=814&height=537&coverheight=30&extparam=%7B%22source%22:1%2C%22others_id%22:938011981%2C%22trajectory%22:%2260%5E44%5E3%5E%E5%90%8C%E7%A8%8B%E7%BD%91%22%2C%22nameAccount%22:4001740017%2C%22rTime%22:1398134099888%2C%22frame%22:%22client%22%7D&data=&traceid=
 
-         ![商家资料卡](attachments/2014-04-22-pc-qqfind-readme-profile-2.jpg)
+         ![商家资料卡](/attachments/2014-04-22-pc-qqfind-readme-profile-2.jpg)
 
     * 同城活动资料卡
 
         http://find.qq.com/profile.html?accountid=2004&subid=1001&width=814&height=537&coverheight=30&extparam=%7B%22source%22:2%2C%22others_id%22:1018937911%2C%22trajectory%22:%22210%5E44%5E3%5E%E5%90%8C%E5%9F%8E%E6%B4%BB%E5%8A%A8%22%2C%22rTime%22:1398138535285%2C%22frame%22:%22client%22%7D&data=&traceid=
 
-        ![同城活动资料卡](attachments/2014-04-22-pc-qqfind-readme-profile-3.jpg)
+        ![同城活动资料卡](/attachments/2014-04-22-pc-qqfind-readme-profile-3.jpg)
 
 
 

@@ -405,6 +405,8 @@ grunt dist
 grunt ct:o
 ```
 
+群的同学写了一篇相关文章可以参考[访问](http://blog.server.com/generator-imweb-docs/index.html)
+
 #### 注意点
 
 #####1. 编译前, 请 **务必保证** 本地的: `src目录`, `proj-task目录`, `Gruntfile.js`是干净的, 符合预期的!
@@ -474,6 +476,8 @@ grunt ct:o
 7. 添加之后跳转到了 进行中页面（尾部）  在进行中处点击查看， 查看发布情况
 
 8. 提测完成之后会有几个选项  通知测试  发布  查看  重发
+
+9. 如果提示编译js出错， 要看清楚是warning 还是 error， 如果是warning的话直接不要管他了
 
 9. 如果我们下一步要走到ARS发布流程的话， 点击发布进入ARS发布流程页面， 在这里选择 ARS 手动发布
 
