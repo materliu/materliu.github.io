@@ -35,3 +35,46 @@ tencent串并不支持rich化， 现在的做法是tencent串转url, 跟maple约
 2. 群课程的rich化url http://qun.qq.com/rich/?groupcode=388980287&courseid=4171
 
 3. QQ新闻rich话url http://view.inews.qq.com/q/WXN20140418005761071?refer=mobileqq
+
+定向分享蛋疼的bug：
+
+1. 分享内容summary中不可以带回车换行符
+
+    /*
+     * 知道我这里为什么这么写吗？
+     * 如果你是一个合格的程序员，看到\u000d\u000a一定会有触电的感觉
+     * 这不就是\r\n吗
+     * 有些蛋疼的商家在自己的介绍中加入了回车换行，导致的直接结果呢就是： cgi referrer校验通不过
+     * 为啥通不过， cgi至今没有给我一个合理的解释
+     *
+     * maple说
+     * %0d%0a
+     * 貌似referer不能有这个
+     * 不知谁加的代码
+     *
+     * 那怎么兼容呢？
+     *
+     * 想出了下边这种巨丑无比的兼容方案，有更好的方案联系materliu
+     */
+    shareInfo.summary = shareInfo.summary.split(/\u000d\u000a/);
+
+    ........
+
+    var p = {
+        url: 'http://cgi.find.qq.com/rich?type=' + source + '&id=' + ID,/*获取URL，可加上来自分享到QQ标识，方便统计*/
+        desc: shareInfo.desc || '', /*分享理由(风格应模拟用户对话),支持多分享语随机展现（使用|分隔）*/
+        title : shareInfo.title || '',/*分享标题(可选)*/
+        summary : shareInfo.summary || '',/*分享描述(可选)*/
+        pics : shareInfo.pics || '',/*分享图片(可选)*/
+        flash : '',/*视频地址(可选)*/
+        scale: '400px',    // 表示使用自适应版本的分享窗口
+        //commonClient : true, /*客户端嵌入标志*/
+        site: 'QQ查找'/*分享来源 (可选) ，如：QQ分享*/
+    };
+
+    var s = [];
+    for (var i in p) {
+        s.push(i + '=' + encodeURIComponent(p[i] || ''));
+    }
+
+    window.share2qqIframe.src = "http://connect.qq.com/widget/shareqq/iframe_index.html?" + s.join('&') ;
