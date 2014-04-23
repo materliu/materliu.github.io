@@ -13,8 +13,10 @@ title: 2014-04-14-重装idea后必装插件.md
 
 3. key promoter [2012-05-22](/attachments/2012-05-22-Key_promoter_11324.jar)
 
-Shows to user how easy he can make same action using only keyboard(menus and toolbar button mouse clicks initiates shortcut display)
+    Shows to user how easy he can make same action using only keyboard(menus and toolbar button mouse clicks initiates shortcut display)
 
 4. webmaster [2014-01-09](/attachments/2014-01-09-webmaster.zip)
 
-Provides some extra features for web-developers (see 'Webmaster' item in 'Tools', Editor popup and Project View popup)
+    Provides some extra features for web-developers (see 'Webmaster' item in 'Tools', Editor popup and Project View popup)
+
+5. hexview [2006-09-13](/attachments/2006-09-13-HexView_2423.jar)
