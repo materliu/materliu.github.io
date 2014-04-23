@@ -27,6 +27,9 @@ pdm : vivianjiang
 
     请继续往下看
 
+* 浏览器中访问地址
+
+    http://admin.qun.qq.com/create/index.html
 
 ### 编译发布
 
@@ -125,4 +128,6 @@ grunt dev
 ### 四、WEB发布
 
 1. 群的同学给到了一个word文件， [参见](/attachments/2014-04-22-群web发布系统.doc)
+
+2. 直接访问地址： http://10.137.10.21/release/index
 
