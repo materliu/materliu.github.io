@@ -20,3 +20,7 @@ title: 2014-04-14-重装idea后必装插件.md
     Provides some extra features for web-developers (see 'Webmaster' item in 'Tools', Editor popup and Project View popup)
 
 5. hexview [2006-09-13](/attachments/2006-09-13-HexView_2423.jar)
+
+    自己在webstrom下装了， 死活找不到在哪
+
+    所以我就改用notepad++ 看文件的16进制了， notepad++ 也是需要装插件的[hexEditor](/attachments/2014-04-23-HexEditor.dll)  安装方法非常简单： 把dll拷贝到D:\Program Files (x86)\Notepad++\plugins  notepad++的安装目录的plugins目录, 重启notepad++
