@@ -1,7 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/all/web/linux/2014/04/24/wget-params-man.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/database/mysql/2014/04/24/uninstall-mysql-totaly.cm.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/linux/2014/04/24/ubuntu-general-configuration.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/linux/2014/04/24/top-linux.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/java/2014/04/24/tomcat-error.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/database/pgsql/2014/04/24/postgresql-init-configuration-chinese-user-name.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/database/mysql/2014/04/24/mysql-long-time-interchange.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/database/sqlserver/2014/04/24/jdbc-sqlserver2005.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/java/2014/04/24/jdbc.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/java/2014/04/24/java-send-email-SMS.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/ideas/2014/04/24/forbidden-notepad.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/ideas/2014/04/23/windows-msdn-oem-rtm-vol.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/ideas/2014/04/23/win7-auto-shutdown.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/23/vary-web-knowledge.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/23/uri-encode.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/database/pgsql/2014/04/23/install-pgsql-default-account.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/23/html-entity.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/23/carriage-return-line-feed.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/23/browser-force-window.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/ideas/2014/04/23/adobe-reader-uninstall.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/tencent/2014/04/22/soso-map-searchService.html</loc>
+    <lastmod>2014-04-22</lastmod>
+
+  </url>
+  <url>
     <loc>/all/web/ideas/2014/04/22/jekyll-plugins-nokogiri.html</loc>
+    <lastmod>2014-04-22</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/22/charset-utf-ascii.html</loc>
+    <lastmod>2014-04-22</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/tencent/2014/04/22/PC-QUN-CREATE-README.html</loc>
     <lastmod>2014-04-22</lastmod>
 
   </url>
@@ -246,7 +361,7 @@
 
   </url>
   <url>
-    <loc>/all/web/2014/04/14/ruby%E5%AE%89%E8%A3%85gem%E7%9A%84%E6%97%B6%E5%80%99%E6%8A%A5%E9%94%99.html</loc>
+    <loc>/all/web/2014/04/14/ruby-install-gem-report-error.html</loc>
     <lastmod>2014-04-14</lastmod>
 
   </url>
@@ -311,17 +426,17 @@
 
   </url>
   <url>
-    <loc>/all/web/ideas/2014/04/13/%E4%BB%A5%E7%94%A8%E6%88%B7%E4%B8%BA%E4%B8%AD%E5%BF%83.html</loc>
-    <lastmod>2014-04-13</lastmod>
-
-  </url>
-  <url>
     <loc>/all/life/2014/04/13/xmind%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</loc>
     <lastmod>2014-04-13</lastmod>
 
   </url>
   <url>
     <loc>/all/tencent/2014/04/13/wpa%E4%B8%B4%E6%97%B6%E4%BC%9A%E8%AF%9D%E5%92%8C%E9%99%84%E8%BF%91%E4%BA%BA%E4%B8%B4%E6%97%B6%E4%BC%9A%E8%AF%9D%E5%8C%BA%E5%88%86.html</loc>
+    <lastmod>2014-04-13</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/ideas/2014/04/13/make-user-center.html</loc>
     <lastmod>2014-04-13</lastmod>
 
   </url>
@@ -496,7 +611,7 @@
 
   </url>
   <url>
-    <loc>/all/tencent/2014/03/26/AlloyTeam%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83.html</loc>
+    <loc>/all/tencent/2014/03/26/AlloyTeam-code-guide.html</loc>
     <lastmod>2014-03-26</lastmod>
 
   </url>
