@@ -24,3 +24,10 @@ title: 2014-04-14-重装idea后必装插件.md
     自己在webstrom下装了， 死活找不到在哪
 
     所以我就改用notepad++ 看文件的16进制了， notepad++ 也是需要装插件的[hexEditor](/attachments/2014-04-23-HexEditor.dll)  安装方法非常简单： 把dll拷贝到D:\Program Files (x86)\Notepad++\plugins  notepad++的安装目录的plugins目录, 重启notepad++
+
+6. Character Browser [2006-02-07](/attachments/2006-02-07-Character_Browser_915.zip)
+
+    This plugin allows you to browse and search characters and parts of the Unicode" character set. Insert characters into an editor in one of 10 forms. Decodes coded characters at the cursor position.
+
+    同样是webstorm装了找不到在哪
+
