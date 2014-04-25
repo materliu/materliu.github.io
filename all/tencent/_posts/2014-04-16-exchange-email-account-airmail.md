@@ -18,3 +18,6 @@ title: airmail如何配置exchange账号
 第一次校验通不过，是因为airmail默认的endpoint地址不对， 出错提示出来后，改掉endpoint那里，改成：
 
 https://mail.tencent.com:443/EWS/Exchange.asmx 重新校验即可添加成功。
+
+[airmail 1.3下载](/attachments/2014-04-24-Airmail.app.zip)
+[airmail 1.4 beta 239下载](/attachments/2014-04-24-Airmail_Beta.zip)
