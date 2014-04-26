@@ -12,6 +12,8 @@ title: 2014-04-11-PC查找README.md
 
 [CGI Wiki][1]
 
+[QQ客户端log查看工具](/attachments/2014-04-25-LogViewer.exe)
+
 [Moniter 视图][2]
 
 数据上报邮件
