@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Q+ 应用迁移至 Qzone 方案
+title: Q+ 应用迁移至 Qzone 方案,VM原有架构，VM新版架构
 ---
 
 ## Q+ 应用迁移至 Qzone 方案
@@ -55,3 +55,12 @@ Conflicting modification on October 30, 2012, 22:11:58:
 	2. 当Q+应用和Qzone合并时候，中转页面是否要被移除，或者是迁移到Qzone域下。
 	3. 授权页面可以直接拿掉了。
 
+## VM 原有架构
+
+![vm架构图](/attachments/2014-04-19-VM.js.bmp)
+
+[vm架构图相关资料xmind头脑风暴图下载](/attachments/2014-04-27-VM_qplus.api_structrue.xmind)
+
+## VM新版架构
+
+[vm新版架构图相关资料xmind头脑风暴图下载](/attachments/2014-04-27-VM_rebuild.xmind)
