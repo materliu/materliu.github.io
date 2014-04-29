@@ -65,7 +65,7 @@ title: 2014-03-19-手Q群查找README.md
 * sass和compass  sass和compass依赖于ruby环境，需要安装ruby运行时，windows平台下推荐： [RubyInstaller][9], 之后再命令行中 执行 gem install sass，gem install compass 安装sass和compass，  当然公司内网有时候需要加上  gem install sass --http-proxy=https://proxy.tencent.com:8080 你懂的
 * grunt 需要本地有nodejs环境， 这个不用多说了， 在命令行执行： npm install -g grunt-cli  进行安装
 * cgi路径为：qun.qq.com/cgi-bin/
-* 前台页面路径为： qun.qq.com/search/mobileqq/index.html    qun.qq.com/search/mobileqq/index.html
+* 前台页面路径为： qun.qq.com/search/mobileqq/index.html
 
 前台页面路径和cgi路径在同一个域名下这就给我们配置测试环境带来了一定的困扰，
 
@@ -111,7 +111,9 @@ materliu现在的解决方案是：在我们的测试机上，比如说156， �
 
 * 从trunk拉开发分支，或者直接在trunk上开发（如果有必要），这里注意把此工作分支文件目录跟上边的nodejs包分支放于同一级目录内  比如说： workspace /  qqfind_mobile_node_modules  trunk
 
-* 本地访问方法： 直接使用fiddler代理，将qun.qq.com/search/mobileqq/ 的请求指向本地项目目录。
+* 本地访问方法： 这是最简单的开发调试方法，直接在本地的项目目录中运行 grunt serve, 便会在本地起一个web serve服务器，同时修改你本地的host和代理转发，直接访问 qun.qq.com/search/mobileqq/index.html
+前台资源访问的是本地webserver中的， cgi资源访问的时156测试机上的，如果需要修改cgi的测试环境，到gruntfile
+.js文件中修改grunt-connect-proxy的配置。
 
 * 本机环境配置
 
@@ -138,14 +140,23 @@ materliu现在的解决方案是：在我们的测试机上，比如说156， �
     6. 那测试是如何进行的呢？ 我们把开发代码发布到测试环境，然后发一个空的zip包到 [测试环境](http://admin.connect.oa.com/index.html)  发的时候记得选择灰度，把开发，测试，产品等相关人的uin加进去，格式如下： [{"min":1123944850,"max":1123944850}]
 
 * 部署测试环境访问： 在命令行中执行 grunt 完成代码发布前的编译工作，提交svn， 登陆测试环境机器，登陆方法：我们现有5台测试机器
+
     10.12.23.156
+
     10.12.23.157
+
     10.12.23.158
+
     10.12.23.159
+
     10.12.23.163
-端口号使用 36000 账号是***  密码是： pass4devne****
-登陆上去以后，进入 /data/frontend/qqfind_mobile ,将当前项目checkout下来， 进入项目目录， 在项目目录下执行编译部署脚本p
+
+    端口号使用 36000 账号是***  密码是： pass4devne****
+
+    登陆上去以后，进入 /data/frontend/qqfind_mobile ,将当前项目checkout下来， 进入项目目录， 在项目目录下执行编译部署脚本p
+
     chmod 777 p
+
     ./p 0|1|2|3|4   后边的参数分别对应机器 156,157,158,159,163，比如像部署到 156机器，执行./p 0
 
 #### 发布流程
@@ -165,10 +176,15 @@ cdn发布路径选择  qqun
 http://ars.isd.com/
 
 1.类目选择：发布请求-免测版本发布
+
 2.产品选择：开放平台 模块选择：公共平台 其他如版本号等可任意填写
+
 3.编译机选择 220机器
+
 3.把预编译得到的地址 粘贴到发布内容
+
 4.下一部处理人选择： 测试童鞋的rtx，如alanqing
+
 5.提交后知会测试
 
 
@@ -283,19 +299,19 @@ scripts
 
 * 手Q4.7开始 使用了QQ浏览器提供的webView SDK， 这就会导致手Q4.7使用的webview中webkit内核的版本可能跟当前用户所使用的系统的webview的webkit的版本不同
 
-最蛋疼的是这里还有一个容易出问题的逻辑：
+* 最蛋疼的是这里还有一个容易出问题的逻辑：
 
-materliu(刘炬光) 03-26 16:58:52
+    materliu(刘炬光) 03-26 16:58:52
 
-清除应用数据 第一次进去使用的系统webview ？
+    清除应用数据 第一次进去使用的系统webview ？
 
-materliu(刘炬光) 03-26 16:59:02
+    materliu(刘炬光) 03-26 16:59:02
 
-之后进入就使用的 x5 webview？
+    之后进入就使用的 x5 webview？
 
-cokesu(苏可) 03-26 16:59:41
+    cokesu(苏可) 03-26 16:59:41
 
-@materliu(刘炬光) ，是这样的逻辑，因为DEX OPT比较耗时，容易导致ＡＮＲ，所以第一次进会切为系统WebView
+    @materliu(刘炬光) ，是这样的逻辑，因为DEX OPT比较耗时，容易导致ＡＮＲ，所以第一次进会切为系统WebView
 
 
 * 利用系统提供的删除应用数据， 并不能清除zip包缓存
@@ -313,8 +329,15 @@ cokesu(苏可) 03-26 16:59:41
         <meta http-equiv="cache-control" content="no-cache" />
     一开始的html头部就加上这两个，因为zip包拦截返回的文件http header里边没有缓存控制信息，导致有些文件被cache在浏览器cache中， ios如此
 
-* 现在webserver和cdn的发布路径之间是存在一定关系的，比如说我们的webserver路径是 qun.qq.com/search/mobileqq/index.html
-那cdn路径就得是：pub.idqqimg.com/qqun/search  对应webserver ： qun.qq.com/search  tag名字也有一定要求需要是 qqun_search_timestamp  或者 search_timestamp  别问为什么，运维同学就是这么约定的
+* 现在webserver和cdn的发布路径之间是存在一定关系的，
+
+    比如说我们的webserver路径是 qun.qq.com/search/mobileqq/index.html
+
+    那cdn路径就得是：pub.idqqimg.com/qqun/search
+
+    对应webserver ： qun.qq.com/search
+
+    tag名字也有一定要求需要是 qqun_search_timestamp  或者 search_timestamp  别问为什么，运维同学就是这么约定的
 
 ### 历来需求单地址
 * [【手Q群查找】热门分类关键词增加二级分类](http://tapd.oa.com/v3/QQGroup/prong/stories/view/1010076071055990608)
