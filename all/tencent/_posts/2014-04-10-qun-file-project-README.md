@@ -324,7 +324,7 @@ clt_filetab目录根目录下的几个文件：
 
 * 内嵌访问路径: http://pan.qun.qq.com/clt_filetab/groupShareClient.html?guin=群号&visitor=0
 
-    注意你一定要是这个群的成员, 比如说我会用测试群:  46961526
+    (materliu加)注意你一定要是这个群的成员, 比如说我会用测试群:  46961526
 
 * 群文件使用了pc端的zip缓存， zip包id是121  目录为： D:\Users\materliu\documents\714512197\AppWebCache
 
@@ -496,6 +496,8 @@ grunt ct:o
     1）静态和CDN要分别提两个单。
 
     以群文件为例，静态和cdn分别在如下两个目录：
+
+    在弹窗中选择： data   下一级目录选择 pub_ars    选择 pan.qun.qq.com    cdn 资源选择 cdn目录， webserver资源选择 htdocs目录，  勾选所有目录
 
     2）选文件时，谨慎选择整个目录，务必进入到目录确认是否为要发布的资源
 
