@@ -1,12 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/all/web/2014/04/28/webstorm-external-tools-ant.html</loc>
+    <lastmod>2014-04-28</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/28/webstorm-codestyle.html</loc>
+    <lastmod>2014-04-28</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/tencent/2014/04/28/ptlogin.html</loc>
+    <lastmod>2014-04-28</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/28/javascript_error_type.html</loc>
+    <lastmod>2014-04-28</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/28/fiddler-timeout.html</loc>
+    <lastmod>2014-04-28</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/28/comile-make-build-difference.html</loc>
+    <lastmod>2014-04-28</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/28/change-npm-registry.html</loc>
+    <lastmod>2014-04-28</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/27/xss.html</loc>
+    <lastmod>2014-04-27</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/tencent/2014/04/27/tencent-general-problem-diganose.html</loc>
+    <lastmod>2014-04-27</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/27/cookie.html</loc>
+    <lastmod>2014-04-27</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/tencent/2014/04/25/tencent-personal-info.html</loc>
+    <lastmod>2014-04-25</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/tencent/2014/04/25/secure-crt.html</loc>
+    <lastmod>2014-04-25</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/25/chrome-extension-switchysharp.html</loc>
+    <lastmod>2014-04-25</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/tencent/2014/04/25/alloyteam-oa-com-md.html</loc>
+    <lastmod>2014-04-25</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/life/2014/04/24/xmind-learn-note.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/life/2014/04/24/wordpress-learn-note.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/linux/2014/04/24/wget-params-man.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/database/mysql/2014/04/24/uninstall-mysql-totaly.cm.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/linux/2014/04/24/ubuntu-general-configuration.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/linux/2014/04/24/top-linux.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/java/2014/04/24/tomcat-error.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/life/2014/04/24/time-management-fundematails.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/ideas/2014/04/24/smartgit-hg-install.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/database/pgsql/2014/04/24/pgsql-vary.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/database/mysql/2014/04/24/mysql-long-time-interchange.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/database/sqlserver/2014/04/24/jdbc-sqlserver2005.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/java/2014/04/24/jdbc.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/java/2014/04/24/java-send-email-SMS.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/ideas/2014/04/24/forbidden-notepad.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/database/2014/04/24/UML-Rose.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/database/2014/04/24/ERWin.html</loc>
+    <lastmod>2014-04-24</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/ideas/2014/04/23/windows-msdn-oem-rtm-vol.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/ideas/2014/04/23/win7-auto-shutdown.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/23/vary-web-knowledge.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/23/uri-encode.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/database/pgsql/2014/04/23/install-pgsq-default-account.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/23/html-entity.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/23/carriage-return-line-feed.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/04/23/browser-force-window.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/ideas/2014/04/23/adobe-reader-uninstall.html</loc>
+    <lastmod>2014-04-23</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/tencent/2014/04/22/soso-map-searchService.html</loc>
+    <lastmod>2014-04-22</lastmod>
+
+  </url>
+  <url>
     <loc>/all/web/ideas/2014/04/22/jekyll-plugins-nokogiri.html</loc>
     <lastmod>2014-04-22</lastmod>
 
   </url>
   <url>
     <loc>/all/web/2014/04/22/charset-utf-ascii.html</loc>
+    <lastmod>2014-04-22</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/tencent/2014/04/22/PC-QUN-CREATE-README.html</loc>
     <lastmod>2014-04-22</lastmod>
 
   </url>
@@ -251,7 +461,7 @@
 
   </url>
   <url>
-    <loc>/all/web/2014/04/14/ruby%E5%AE%89%E8%A3%85gem%E7%9A%84%E6%97%B6%E5%80%99%E6%8A%A5%E9%94%99.html</loc>
+    <loc>/all/web/2014/04/14/ruby-install-gem-report-error.html</loc>
     <lastmod>2014-04-14</lastmod>
 
   </url>
@@ -391,17 +601,17 @@
 
   </url>
   <url>
-    <loc>/all/web/ideas/2014/04/10/%E8%80%81%E7%89%88%E6%9C%AC%E7%9A%84chrome%E4%B8%8B%E8%BD%BD.html</loc>
-    <lastmod>2014-04-10</lastmod>
-
-  </url>
-  <url>
     <loc>/all/tencent/2014/04/10/%E8%80%81%E5%A4%A7%E6%80%9D%E8%80%83%E9%97%AE%E9%A2%98%E6%96%B9%E5%BC%8F%E7%9A%84%E4%B8%8D%E5%90%8C.html</loc>
     <lastmod>2014-04-10</lastmod>
 
   </url>
   <url>
     <loc>/all/tencent/2014/04/10/qun-file-project-README.html</loc>
+    <lastmod>2014-04-10</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/ideas/2014/04/10/old-version-chrome-download.html</loc>
     <lastmod>2014-04-10</lastmod>
 
   </url>
@@ -481,6 +691,11 @@
 
   </url>
   <url>
+    <loc>/all/life/2014/03/27/personal-photos.html</loc>
+    <lastmod>2014-03-27</lastmod>
+
+  </url>
+  <url>
     <loc>/all/web/2014/03/27/new_Image%28%29%E4%B8%8A%E6%8A%A5%E5%AD%98%E5%9C%A8%E7%BC%BA%E9%99%B7.html</loc>
     <lastmod>2014-03-27</lastmod>
 
@@ -501,12 +716,17 @@
 
   </url>
   <url>
-    <loc>/all/tencent/2014/03/26/AlloyTeam%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83.html</loc>
+    <loc>/all/tencent/2014/03/26/AlloyTeam-code-guide.html</loc>
     <lastmod>2014-03-26</lastmod>
 
   </url>
   <url>
     <loc>/all/web/2014/03/26/20%E4%B8%AA%E5%AE%9E%E7%94%A8%E7%9A%84webApp%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7.html</loc>
+    <lastmod>2014-03-26</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/03/26/20-Useful-Docs-and-Guides-for-Front-End-Developers.html</loc>
     <lastmod>2014-03-26</lastmod>
 
   </url>
@@ -568,6 +788,26 @@
   <url>
     <loc>/all/life/2014/03/10/Sass%E4%B8%8ECompass%E8%AF%91%E8%80%85%E5%BA%8F.html</loc>
     <lastmod>2014-03-10</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/tencent/2014/03/04/user-habit.html</loc>
+    <lastmod>2014-03-04</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/tencent/2014/03/02/woodsrong-share.html</loc>
+    <lastmod>2014-03-02</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/ideas/2014/02/27/cmd.html</loc>
+    <lastmod>2014-02-27</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/ideas/2014/02/25/keygen.html</loc>
+    <lastmod>2014-02-25</lastmod>
 
   </url>
   <url>
