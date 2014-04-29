@@ -7,7 +7,7 @@ title: 2014-04-14-重装idea后必装插件.md
 
 因为国内网络访问这个站点效果一直不太好，经常下载不到，所以我全部趁网络好的时候check了离线包下来
 
-1. vim [2013-11-15](/attachments/2013-11-15-ideavim-0.32.zip)
+1. vim [2014-04-28](/attachments/2014-04-28-ideavim.zip)
 
 2. markdown [2013-12-01](/attachments/2013-12-01-idea-markdown.zip)
 
