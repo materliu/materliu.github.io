@@ -21,7 +21,7 @@ title: 2014-04-10-群文件项目README.md
 ## Documentation
 
 ### relational link
-[前台wiki][1] 一般以README.md文件为准，内网wiki算是个摆设了
+[前台wiki]() 一般以README.md文件为准，内网wiki算是个摆设了
 
 [CGI Wiki]()
 
