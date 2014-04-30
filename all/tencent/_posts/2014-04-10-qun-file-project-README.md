@@ -50,7 +50,9 @@ title: 2014-04-10-群文件项目README.md
 [移动web项目前端上线前检查项](https://docs.google.com/spreadsheets/d/1J7cFLKONZdkfi4ZeETwCceGfu5pryO__1bAtglqVcUg/edit#gid=0)
 
 [svn地址-trunk](https://tc-svn.tencent.com/basic/basic_imweb_rep/qun_proj/trunk/htdocs/pan.qun.qq.com)
+
 [svn地址-branches](http://tc-svn.tencent.com/basic/basic_imweb_rep/qun_proj/branches/pan.qun.qq.com)
+
 [svn地址-tags](http://tc-svn.tencent.com/basic/basic_imweb_rep/qun_proj/tags/pan.qun.qq.com)
 
 ### 快速上手
