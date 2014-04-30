@@ -177,6 +177,8 @@ clt_filetab目录根目录下的几个文件：
 
             * model    数据
 
+                * box.js 渲染盒子的下载队列信息
+
             * view       视图
 
             * app.handler.js  应用程序  事件模块
