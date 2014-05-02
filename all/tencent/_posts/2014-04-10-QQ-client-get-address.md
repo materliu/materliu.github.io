@@ -9,6 +9,8 @@ title: 2014-04-10-QQ客户端版本访问地址.md
 
 QQ客户端访问地址 \\tencent.com\tfs\跨部门项目\cip\发布基线库\01_Hummer\QQ2013UpdateProj
 
+如果希望使用带webview调试工具的客户端版本，请在 \\tencent.com\tfs\跨部门项目\cip\发布基线库\01_Hummer\QQ2013UpdateProj\10729_Release_sign_perf
+ 这里下载，这是当时专门要求客户端同学编译的一个版本
 
 各个客户端版本存在的问题：
 
