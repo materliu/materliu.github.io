@@ -13,7 +13,7 @@ QQ客户端访问地址 \\tencent.com\tfs\跨部门项目\cip\发布基线库\01
  这里下载，这是当时专门要求客户端同学编译的一个版本,安装好以后在使用过程中会不断的报错， 一定要点击忽略，不然客户端会假死。
 
  安装好了以后还需要另外一步，才能正常使用developer tools， 那就是把 [developers tools zip]
- (/attachments/)的文件替换到客户端安装目录的bin目录下
+ (/attachments/2014-05-02-DevTools.zip)的文件替换到客户端安装目录的bin目录下
 
  我在实际的使用过程中发现三个问题：
 
