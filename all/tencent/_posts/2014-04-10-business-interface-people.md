@@ -37,7 +37,7 @@ JS SDK 开平测试同学    chandlerhuo
 
 安全中心     bearcui    分配加群，加好友来源id也是找他
 
-安全中心负责登录保护的同学  jesseyan
+安全中心负责登录保护的同学  jesseyan    盲人用户需要添加白名单，登录的时候不出验证码找他
 
 电脑管家    Bostinwang
 
