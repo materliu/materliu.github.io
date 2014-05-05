@@ -5,7 +5,7 @@ title: 2014-04-14-手机web各机型适配经验.md
 
 #### 各机型适配经验
 
-1. 每人手头机器 [访问][15]
+1. 每人手头机器 [访问](https://docs.google.com/spreadsheet/ccc?key=0AnSPazf9T6tAdG5XQmhTVG5JVWt0a2VwWWxaMk5qSkE&usp=drive_web#gid=0)
 
 2. android 2.2 2.3机器不支持直接配置wifi代理， 可以考虑使用第三方代理软件 ProxyDroid
 
