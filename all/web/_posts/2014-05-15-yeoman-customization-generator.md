@@ -11,3 +11,6 @@ title: 编写属于你自己的yeoman-generator
 
 2. grunt-sass 现在并不成熟， 使用node-sass来编译scss文件， 去掉这个插件的选择，使用更为强大的grunt-contrib-compass
 
+3. 对应生成 config.rb 自动连接上一条中的grunt-contrib-compass
+
+3. package.json 改为4个空格缩进的code-styles!
