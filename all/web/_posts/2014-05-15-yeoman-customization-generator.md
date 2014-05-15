@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 编写属于你自己的yeoman-generator
+title: 编写属于你自己的yeoman generator
 ---
     
 # 编写属于你自己的yeoman-generator
