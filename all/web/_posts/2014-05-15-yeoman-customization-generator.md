@@ -14,3 +14,5 @@ title: 编写属于你自己的yeoman generator
 3. 对应生成 config.rb 自动连接上一条中的grunt-contrib-compass
 
 3. package.json 改为4个空格缩进的code-styles!
+
+4. 提供是否选用 jquery的选项， 根据是否选用了jquery来生成不同的base.js文件， 不选用requirejs组织js代码的方式， 采用最原始的拼接形式。
