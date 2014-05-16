@@ -16,3 +16,19 @@ title: 编写属于你自己的yeoman generator
 3. package.json 改为4个空格缩进的code-styles!
 
 4. 提供是否选用 jquery的选项， 根据是否选用了jquery来生成不同的base.js文件， 不选用requirejs组织js代码的方式， 采用最原始的拼接形式。
+
+8. 提供选项， 是否使用 handlerbars 模板
+
+5. base.js 中提供CONFIG配置项， 根据自动化脚本自动替换version的值
+
+6. 生成 _font-family.scss 文件， 预存各种页面的常用字体
+
+7. 默认生成的main.scss文件，加入规则, 自动import "font-family"
+
+    ```
+    html {
+        font: 12px/1.5 $china-usually;
+    }
+    ```
+
+
