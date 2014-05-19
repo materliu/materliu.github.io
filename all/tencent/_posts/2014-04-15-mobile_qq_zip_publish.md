@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-04-15-zip包发布.md
+title: 2014-04-15-手Qzip包发布.md
 ---
 
 [zip包发布](http://admin.connect.oa.com/index.html)
