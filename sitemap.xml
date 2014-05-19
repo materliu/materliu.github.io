@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/all/web/2014/05/15/yeoman-webapp-generator.html</loc>
+    <lastmod>2014-05-15</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/05/15/yeoman-customization-generator.html</loc>
+    <lastmod>2014-05-15</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/tencent/2014/05/15/monitor.html</loc>
+    <lastmod>2014-05-15</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/life/2014/05/07/osx-finder-show-hidden-file.html</loc>
+    <lastmod>2014-05-07</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/osx/2014/05/04/mac-software-management.html</loc>
+    <lastmod>2014-05-04</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/ideas/2014/05/02/idea-file-template-not-show.html</loc>
+    <lastmod>2014-05-02</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/web/2014/05/02/doctype.html</loc>
+    <lastmod>2014-05-02</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/tencent/2014/04/29/groupid-groupcode.html</loc>
+    <lastmod>2014-04-29</lastmod>
+
+  </url>
+  <url>
     <loc>/all/web/2014/04/28/webstorm-external-tools-ant.html</loc>
     <lastmod>2014-04-28</lastmod>
 
@@ -626,12 +666,12 @@
 
   </url>
   <url>
-    <loc>/all/tencent/2014/04/10/QQ%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%89%88%E6%9C%AC%E8%AE%BF%E9%97%AE%E5%9C%B0%E5%9D%80.html</loc>
+    <loc>/all/tencent/2014/04/10/QQ%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%86%85%E5%B5%8C%E9%A1%B5webview%E5%86%85%E6%A0%B8%E7%89%88%E6%9C%ACchrome%E5%86%85%E6%A0%B8%E7%89%88%E6%9C%AC%E5%8F%98%E6%9B%B4.html</loc>
     <lastmod>2014-04-10</lastmod>
 
   </url>
   <url>
-    <loc>/all/tencent/2014/04/10/QQ%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%86%85%E5%B5%8C%E9%A1%B5webview%E5%86%85%E6%A0%B8%E7%89%88%E6%9C%ACchrome%E5%86%85%E6%A0%B8%E7%89%88%E6%9C%AC%E5%8F%98%E6%9B%B4.html</loc>
+    <loc>/all/tencent/2014/04/10/QQ-client-get-address.html</loc>
     <lastmod>2014-04-10</lastmod>
 
   </url>
