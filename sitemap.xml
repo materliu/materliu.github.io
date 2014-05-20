@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/all/web/2014/05/20/forms-validation.html</loc>
+    <lastmod>2014-05-20</lastmod>
+
+  </url>
+  <url>
+    <loc>/all/tencent/2014/05/19/qun-file-preview-readme.html</loc>
+    <lastmod>2014-05-19</lastmod>
+
+  </url>
+  <url>
     <loc>/all/web/2014/05/15/yeoman-webapp-generator.html</loc>
     <lastmod>2014-05-15</lastmod>
 
@@ -726,7 +736,7 @@
 
   </url>
   <url>
-    <loc>/all/web/2014/03/30/web%E6%97%A0%E9%9A%9C%E7%A2%8D%E5%8C%96%E6%95%B4%E7%90%86%E8%B4%B4.html</loc>
+    <loc>/all/web/2014/03/30/web-accessibility.html</loc>
     <lastmod>2014-03-30</lastmod>
 
   </url>
