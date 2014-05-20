@@ -15,4 +15,6 @@ title: 使用yeoman创建webapp项目
 
 查看项目目录发现是yo webapp 没有自动生成 test 测试相关的代码， 从其他项目之前生成的代码拷贝了一个 test 目录放进来就好了
 
-4. 自动生成 grunt-localhost 配置 grunt-proxy 配置， grunt-upload-zip配置
+4. 自动生成 grunt-localhost 配置 grunt-proxy 配置， grunt-upload-zip配置 询问用户的项目url地址，cdn地址，cgi地址测试环境
+
+5. 自动加入  grunt-cdn  利用4中询问到的信息进行有效填充。
