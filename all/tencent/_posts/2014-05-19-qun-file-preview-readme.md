@@ -56,15 +56,17 @@ title: 群文件预览README.md
 
 #### 本地环境搭建
 * 本机环境配置
+node环境需要安装
 
 * sass和compass  sass和compass依赖于ruby环境，需要安装ruby运行时，windows平台下推荐： [RubyInstaller][9], 之后再命令行中 执行 gem install sass，gem install compass 安装sass和compass，  当然公司内网有时候需要加上  gem install sass --http-proxy=https://proxy.tencent.com:8080 你懂的
 * grunt 需要本地有nodejs环境， 这个不用多说了， 在命令行执行： npm install -g grunt-cli  进行安装
 
 #### 跑起来
-* 页面地址： http://qqweb.qq.com/qun/file-preview/index.html
-* 本地访问方法1： 在命令行中执行 grunt server， 本机就会起一个服务器，部署当前项目
+* 页面地址： http://pan.qun.qq.com/pc/qun/file-preview/index.html
+* 本地访问方法1： 在命令行中执行 grunt serve， 本机就会起一个服务器，部署当前项目
 
 #### 发布流程
+* 测试环境以及发布使用alloydist.oa.com 系统， 新建项目部署- 发布产品选择 [群文件][pan.qun.qq.com]  发布模块选择 [pc群文件预览][pan.qun.qq.com/pc/qun/file-preview]  测试环境选择10.12.23.163 请务必使用这个测试环境，因为只有这个测试环境是马特哥调整过的，其他的正常运行需要修改ngnix conf配置文件， svn地址，填写当前需要发布的分之或者主干的svn地址， 部署即可。
 
 ### 介入开发
 #### 代码规范
