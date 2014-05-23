@@ -12,7 +12,7 @@ title: 群文件预览README.md
 ### relational link
 [前台wiki][1]
 
-[Moniter 视图][]
+[Moniter 视图](http://monitor.server.com/link/graph/viewid:7060)
 
 [performance 视图][]
 
@@ -62,8 +62,12 @@ node环境需要安装
 * grunt 需要本地有nodejs环境， 这个不用多说了， 在命令行执行： npm install -g grunt-cli  进行安装
 
 #### 跑起来
-* 页面地址： http://pan.qun.qq.com/pc/qun/file-preview/index.html
-* 本地访问方法1： 在命令行中执行 grunt serve， 本机就会起一个服务器，部署当前项目
+* 页面地址： http://pan.qun.qq.com/pc/qun/file-preview/index.html?groupcode=261354104&filepath=/102/7b4328a8-e9bf-4f0f-9b8b-00534ca504fe&businessid=102&filetype=1
+* 拉文件list的cgi： http://sz.preview.ftn.qq.com:443/ftn_doc_abstract/rkey=93ac146b87cb313ae1d3af52a2910a20a4eec4198d04dd8f3a88cf4c7d00992afa95f40148ca42058f1b96f80776e69ba2d80b2c86c89a303a5c6e1a7e334afd&filetype=1&sp=1&pc=1
+
+* 文件预览的html: http://sz.preview.ftn.qq.com:443/ftn_doc_abstract/23f6c91a6a72f5c70fe3d7f400bab62455af1e30/23f6c91a6a72f5c70fe3d7f400bab62455af1e30_1.html
+
+* 本地访问方法1： 直接将fiddler映射到对应的目录
 
 #### 发布流程
 * 测试环境以及发布使用alloydist.oa.com 系统， 新建项目部署- 发布产品选择 [群文件][pan.qun.qq.com]  发布模块选择 [pc群文件预览][pan.qun.qq.com/pc/qun/file-preview]  测试环境选择10.12.23.163 请务必使用这个测试环境，因为只有这个测试环境是马特哥调整过的，其他的正常运行需要修改ngnix conf配置文件， svn地址，填写当前需要发布的分之或者主干的svn地址， 部署即可。
