@@ -14,11 +14,11 @@ title: 群文件预览README.md
 
 [Moniter 视图](http://monitor.server.com/link/graph/viewid:7060)
 
-[performance 视图][]
+[performance 视图](http://m.isd.com/app/endusermonitor2/config/pointView.php?PHPSESSID=109v67icijfoo9a6p1fjseou33&last_h_menu_id=7110006#date=2014-05-25&curTab=speed&productId=19377&serviceId=19377010&moduleId=27597&countryId=1&last_h_menu_id=7110006&PHPSESSID=109v67icijfoo9a6p1fjseou33&flag1=7809&flag2=46&flag3=1)
 
-[mm上报系统视图][5]  上报是5分钟实时，告警大概是5-10分钟延迟  页面展示会大概15分钟
+[mm上报系统视图 - 本项目暂不涉及][5]  上报是5分钟实时，告警大概是5-10分钟延迟  页面展示会大概15分钟
 
-[dc上报系统视图][10]
+[dc上报系统视图 - 本项目暂不涉及][10]
 
 [本地构建工具grunt学习][7]
 
@@ -26,18 +26,14 @@ title: 群文件预览README.md
 
 [移动web项目前端上线前检查项](https://docs.google.com/spreadsheets/d/1J7cFLKONZdkfi4ZeETwCceGfu5pryO__1bAtglqVcUg/edit#gid=0)
 
-[项目svn地址-trunk](http://materliu@tc-svn.tencent.com/bapp/bapp_qqweb_rep/pc_proj/trunk/qun/qun-file-preview)
+[项目svn地址-trunk](http://tc-svn.tencent.com/bapp/bapp_qqweb_rep/pc_proj/trunk/qun/qun-file-preview)
 
 ### 快速上手
 
 #### 项目说明
 
-手Q查找使用了grunt这一自动构建工具， CSS使用Sass和Compass来进行组织。目录结构如下：
-
-
 如图所示:
 
-* doc目录下存放所有的规范类文档；
 * dist目录是grunt生成的处理后的代码目录，不需要主动编辑；
 * test是自动化测试目录，现在尚未加入，预留功能；
 * node_modules目录是grunt等相关编译工具存放目录；所有的逻辑代码存放于app目录。
@@ -45,14 +41,13 @@ title: 群文件预览README.md
 根目录下的几个文件：
 
 * .jshintrc  jshint 代码检测的配置文件
-* bower.json bower 的配置文件， 暂时未用到(2014/02/26)
+* bower.json bower 的配置文件
 * config.json 我们自己的发布系统的配置文件， 在其中规定哪个文件发布到哪里
 * config.rb  compass 的配置文件
 * Gruntfile.js grunt 的配置文件
-* p          我们在测试环境上部署代码需要的脚本文件
 * package.json 整个项目其实相当于一个大的nodejs项目，package.json规定了这个nodjs项目用到的所有node_modules
 * README.md  项目的说明文件， 就是你当前正在读的这个文件
-* app/robots.txt 通过其中的内容，我们限制搜索引擎索引我们的页面
+* app/robots.txt 通过其中的内容，我们限制搜索引擎索引我们的页面,主意按照规范，这个文件应该是ascii编码的
 
 #### 本地环境搭建
 * 本机环境配置
@@ -62,7 +57,7 @@ node环境需要安装
 * grunt 需要本地有nodejs环境， 这个不用多说了， 在命令行执行： npm install -g grunt-cli  进行安装
 
 #### 跑起来
-* 页面地址： http://pan.qun.qq.com/pc/qun/file-preview/index.html?groupcode=261354104&filepath=/102/7b4328a8-e9bf-4f0f-9b8b-00534ca504fe&businessid=102&filetype=1
+* 页面地址： http://sz.preview.ftn.qq.com:443/pc/qun/file-preview/index.html
 * 拉文件list的cgi： http://sz.preview.ftn.qq.com:443/ftn_doc_abstract/rkey=93ac146b87cb313ae1d3af52a2910a20a4eec4198d04dd8f3a88cf4c7d00992afa95f40148ca42058f1b96f80776e69ba2d80b2c86c89a303a5c6e1a7e334afd&filetype=1&sp=1&pc=1
 
 * 文件预览的html: http://sz.preview.ftn.qq.com:443/ftn_doc_abstract/23f6c91a6a72f5c70fe3d7f400bab62455af1e30/23f6c91a6a72f5c70fe3d7f400bab62455af1e30_1.html
@@ -75,58 +70,9 @@ node环境需要安装
 ### 介入开发
 #### 代码规范
 1. 首先参考 [alloyteam代码规范](http://materliu.github.io/code-guide/)
-2. 上报代码 任何一个页面，对于点击上报数据只监听 [data-report-id] 属性选择器， 有此属性选择器，则取其值进行monitor或者伯努利上报， 伯努利上报可能同时有 [data-report-obj] 属性，用来指定伯努利系统的obj,具体代码参考如下：
-
-<pre class="brush: js">
-
-   // 这里为什么不能简单用click， 因为click事件在iphone上没有冒泡 参见注意点事项
-   // 需要在希望冒泡的元素上，如果非a标签，需要添加响应的css属性
-   // cursor: pointer;     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-   document.addEventListener("click", function (event) {
-
-       var target = event.target,
-           reportTarget = utils.closest(target, "[data-report-id]"),
-           dataset,
-           reportID,
-           reportMonitorID,
-           reportBernoulliID,
-           reportBernoulliObj;
-
-       if (reportTarget === null) {
-           // 没有绑定上报行为 会是大多数点击事件的结果， 优先判断
-           return;
-       } else {
-           dataset = reportTarget.dataset;
-           reportID = dataset.reportId;
-           reportID = reportID.split(",");
-           reportMonitorID = reportID[1];
-           reportBernoulliID = reportID[0];
-
-           // 当不存在的时候， 返回为 undefined
-           reportBernoulliObj = dataset.reportObj || "";
-       }
-
-       if (reportMonitorID) {
-           // 存在monitor上报
-           monitorAndBer(reportMonitorID /* monitor id */, reportBernoulliID
-               /* bernoulli id */, reportBernoulliObj);
-       } else {
-           // 只上报伯努利系统
-           bernoulli(reportBernoulliID, reportBernoulliObj);
-       }
-
-   }, false);
-</pre>
-
-
 
 #### 学习资料
 * 微云也有文件预览的需求， 访问地址： http://www.weiyun.com/preview.html?mf=1020817152&vt=1&sai=30012&fn=%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8%E5%BE%AE%E4%BA%91.pdf&fi=070a6100-93bc-4b90-b2b9-8821256feb27&pdk=006fd83cf0a739ae12b58dcd423dce4a&bv=11058&fsize=818710
-
-* 首先需要学习了解handlebars模板的写法， 页面中所有的模板使用handlebars构建，参见目录 scripts/template/handlebars
-    关于handlebars 和 jade 模板如何在客户端预编译使用，可以参见另外两篇博文
-    [jade模板预编译][16]
-    [handlebars模板预编译][17]
 
 * 何俊关于移动专门输出的学习资料，请新加入同学务必查看 http://www.ipresst.com/play/5334769224c6b1097d002c4a
 
@@ -186,7 +132,3 @@ nginx的话直接升级为下面已经编译了门神模块的nginx，qzhttp的�
 [11]:http://rdm.wsd.com/DailyBuild.html?v=ci.myview&t=&f=developTools#ci.jobdynamic@rdmProjectId:74ff62b6-c6bd-46ef-b268-a39ceb4f1f16;jobId:2821@ci.joblist@1394591648687
 [12]:http://rdm.wsd.com/DailyBuild.html?v=ci.myview&t=&f=developTools#ci.planview@rdmProjectId:6ada9bb1-f73c-405a-b528-fa5a59df2a2f@@1394597145623
 [13]:http://mqq.oa.com/
-[14]:https://docs.google.com/document/d/1cCKbqxZ0TMV31aC6uT-icY2Kn43VGTzAW5WBBFgwXpc/edit?pli=1#heading=h.xhntumzigujf
-[15]:https://docs.google.com/spreadsheet/ccc?key=0AnSPazf9T6tAdG5XQmhTVG5JVWt0a2VwWWxaMk5qSkE&usp=drive_web#gid=0 "每人手头机器"
-[16]:/all/web/2014/03/17/在项目中使用预编译jade模板.html
-[17]:/all/web/2014/03/17/在项目中使用预编译handlebars模板.html
