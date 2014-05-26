@@ -58,6 +58,7 @@ node环境需要安装
 
 #### 跑起来
 * 页面地址： http://sz.preview.ftn.qq.com:443/pc/qun/file-preview/index.html
+* 真实环境中带参数的页面地址： http://sz.preview.ftn.qq.com:443/pc/qun/file-preview/index.html?url=http%3A%2F%2Fsz.preview.ftn.qq.com%3A443%2Fftn_doc_abstract%2Frkey%3DFC3E5EFB4E1A43D7A844B8DE3D5815C5BDB9C5E87D4221C806D36E2A3F6AA9CB7E0542296F19D1FFA6335F489B234B4BB7E5ED9DE9A296497B18D290290FCF9C%26filetype%3D1&filetype=1
 * 拉文件list的cgi： http://sz.preview.ftn.qq.com:443/ftn_doc_abstract/rkey=93ac146b87cb313ae1d3af52a2910a20a4eec4198d04dd8f3a88cf4c7d00992afa95f40148ca42058f1b96f80776e69ba2d80b2c86c89a303a5c6e1a7e334afd&filetype=1&sp=1&pc=1
 
 * 文件预览的html: http://sz.preview.ftn.qq.com:443/ftn_doc_abstract/23f6c91a6a72f5c70fe3d7f400bab62455af1e30/23f6c91a6a72f5c70fe3d7f400bab62455af1e30_1.html
@@ -103,7 +104,7 @@ tomcat 存放查找首页的目录
 
 将当前目录的index.html 拷贝至159机器上 tomcat的查找首页目录下
 scp index.html 10.12.23.159:/usr/local/java/webapps/q qfind_index/ROOT/WEB-INF/classes/index-pages/index.html
-密码: pass4devnet
+密码: 找materliu问
 
 ## nginx使用 前端服务器相关知识，可不了解
 现在的nginx服务起在 /usr/local/services/目录下， 其实是软连接到了 /usr/local/tnginx, 配置啥的都到这个文件目录下修改， 修改完了如果需要重启nginx， /usr/local/services/tnginx_1_0_0-1.0/admin 下有一个 restart.sh
