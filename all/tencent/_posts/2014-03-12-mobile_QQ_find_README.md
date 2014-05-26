@@ -80,7 +80,7 @@ title: 手Q查找README.md
     10.12.23.158
     10.12.23.159
     10.12.23.163
-端口号使用 36000 账号是***  密码是： pass4devne***
+端口号使用 36000 账号是***  密码是： 找materliu问
 登陆上去以后，进入 /data/frontend/qqfind_mobile ,将当前项目checkout下来， 进入项目目录， 在项目目录下执行编译部署脚本p
     chmod 777 p
     ./p 0|1|2|3|4   后边的参数分别对应机器 156,157,158,159,163，比如像部署到 156机器，执行./p 0
@@ -276,7 +276,7 @@ tomcat 存放查找首页的目录
 
 将当前目录的index.html 拷贝至159机器上 tomcat的查找首页目录下
 scp index.html 10.12.23.159:/usr/local/java/webapps/q qfind_index/ROOT/WEB-INF/classes/index-pages/index.html
-密码: pass4devnet
+密码: 找materliu问
 
 ## nginx使用 前端服务器相关知识，可不了解
 现在的nginx服务起在 /usr/local/services/目录下， 其实是软连接到了 /usr/local/tnginx, 配置啥的都到这个文件目录下修改， 修改完了如果需要重启nginx， /usr/local/services/tnginx_1_0_0-1.0/admin 下有一个 restart.sh
