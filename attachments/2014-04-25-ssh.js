@@ -6,8 +6,8 @@
 	// Configuration start
 	var SERVER_INFO = {
 		'PASSWORD' : { // fill by yourself
-			'vm'   : 'pass4appstore',
-			'team' : 'dev@web'
+			'vm'   : '找materliu问',
+			'team' : '找materliu问'
 		},
 		'DEFAULT_DIR' : {
 			'vm'   : '/data/vm_pre_deploy/',
