@@ -41,7 +41,7 @@ JS SDK 开平测试同学    chandlerhuo
 
 电脑管家    Bostinwang
 
-联系第三方安全软件   gangluo
+联系第三方安全软件   gangluo, 自己的程序被杀软误报，找这个人  或者找backup  kylesong
 
 soso地图js api zhengxu
 
