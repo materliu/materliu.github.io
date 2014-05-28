@@ -14,6 +14,8 @@ title: 群文件预览README.md
 
 [Moniter 视图](http://monitor.server.com/link/graph/viewid:7060)
 
+所有属性都是建在 管理属性类型-群文件-群文件预览下， 可以直接搜索群文件预览快速定位
+
 [performance 视图](http://m.isd.com/app/endusermonitor2/config/pointView.php?PHPSESSID=109v67icijfoo9a6p1fjseou33&last_h_menu_id=7110006#date=2014-05-25&curTab=speed&productId=19377&serviceId=19377010&moduleId=27597&countryId=1&last_h_menu_id=7110006&PHPSESSID=109v67icijfoo9a6p1fjseou33&flag1=7809&flag2=46&flag3=1)
 
 [mm上报系统视图 - 本项目暂不涉及][5]  上报是5分钟实时，告警大概是5-10分钟延迟  页面展示会大概15分钟
@@ -57,8 +59,10 @@ node环境需要安装
 * grunt 需要本地有nodejs环境， 这个不用多说了， 在命令行执行： npm install -g grunt-cli  进行安装
 
 #### 跑起来
-* 页面地址： http://sz.preview.ftn.qq.com:443/pc/qun/file-preview/index.html
-* 真实环境中带参数的页面地址： http://sz.preview.ftn.qq.com:443/pc/qun/file-preview/index.html?url=http%3A%2F%2Fsz.preview.ftn.qq.com%3A443%2Fftn_doc_abstract%2Frkey%3DFC3E5EFB4E1A43D7A844B8DE3D5815C5BDB9C5E87D4221C806D36E2A3F6AA9CB7E0542296F19D1FFA6335F489B234B4BB7E5ED9DE9A296497B18D290290FCF9C%26filetype%3D1&filetype=1
+* 页面地址： http://sz.preview.ftn.qq.com:443/ftn_doc_previewer/qun-file-preview.html
+* 真实环境中带参数的页面地址：
+    * doc   http://sz.preview.ftn.qq.com:443/ftn_doc_previewer/qun-file-preview.html?url=http%3A%2F%2Fsz.preview.ftn.qq.com%3A443%2Fftn_doc_abstract%2Frkey%3DFC3E5EFB4E1A43D7A844B8DE3D5815C5BDB9C5E87D4221C806D36E2A3F6AA9CB7E0542296F19D1FFA6335F489B234B4BB7E5ED9DE9A296497B18D290290FCF9C%26filetype%3D1&filetype=1
+    * txt
 * 拉文件list的cgi： http://sz.preview.ftn.qq.com:443/ftn_doc_abstract/rkey=93ac146b87cb313ae1d3af52a2910a20a4eec4198d04dd8f3a88cf4c7d00992afa95f40148ca42058f1b96f80776e69ba2d80b2c86c89a303a5c6e1a7e334afd&filetype=1&sp=1&pc=1
 
 * 文件预览的html: http://sz.preview.ftn.qq.com:443/ftn_doc_abstract/23f6c91a6a72f5c70fe3d7f400bab62455af1e30/23f6c91a6a72f5c70fe3d7f400bab62455af1e30_1.html
