@@ -291,7 +291,11 @@ http://ars.isd.com/
 
     18002571678
 
-* 用户反馈自己的查找打开有问题， 看了用户的截屏初步断定是js没有执行， 所以拿到了用户的[缓存](/attachments/2014-05-28-qqfind-webkit-cache.rar)分析， 其中访问js的时候的资源属性如下: ![find.js访问](/attachments/2014-05-28-findjs-error.png) 很明显看到是HTTP Error 404了， 但是是什么原因导致的呢？ 感觉不像是运营商，因为这里的服务器是： IIS， 初步断定，很可能是一个本地的返回， 所以询问用户最近有咩有啥操作， 用户想起来，杀软报过查找拉取zip包的时候存在风险，要求禁用 pub.idqqimg.com 域名， 用户就禁用了pub.idqqimg.com 呜呼哀哉！
+* 用户反馈自己的查找打开有问题， 看了用户的截屏初步断定是js没有执行， 所以拿到了用户的[缓存](/attachments/2014-05-28-qqfind-webkit-cache.rar)分析， 其中访问js的时候的资源属性如下:
+
+![find.js访问](/attachments/2014-05-28-findjs-error.png)
+
+很明显看到是HTTP Error 404了， 但是是什么原因导致的呢？ 感觉不像是运营商，因为这里的服务器是： IIS， 初步断定，很可能是一个本地的返回， 所以询问用户最近有咩有啥操作， 用户想起来，杀软报过查找拉取zip包的时候存在风险，要求禁用 pub.idqqimg.com 域名， 用户就禁用了pub.idqqimg.com 呜呼哀哉！
 
 * 2013年10月10日
 
