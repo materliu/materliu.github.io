@@ -17,6 +17,8 @@ title: 编写属于你自己的yeoman generator
 
 3. 提供我们业务方自定义的404页面
 
+4. 提问用户使用哪种服务器部署， 如果是apache， 生成.htaccess文件， 如果是ngnix， 生成其他对应的文件。
+
 3. 对应生成 config.rb 自动连接上一条中的grunt-contrib-compass
 
 3. package.json 改为4个空格缩进的code-styles!
