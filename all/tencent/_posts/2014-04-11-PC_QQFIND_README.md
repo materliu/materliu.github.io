@@ -4,7 +4,7 @@ title: 2014-04-11-PC查找README.md
 ---
 
 
-# PC查找README
+# PCQQ查找README
 
 接口人： rehornchen
 
