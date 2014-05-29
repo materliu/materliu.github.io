@@ -158,6 +158,22 @@ http://ars.isd.com/
    }, false);
 </pre>
 
+3. 搜索结果页对查询参数的响应
+
+    打开搜索结果页的URL： http://find.qq.com/m/search.html?searchText={{searchText}}&_bid=140&searchType=2[&cityinfo={{cityinfo}}]
+
+    {{}}： 表示每次需要填充的字段
+
+    []: 表示可选字段
+
+    searchType = 2 表示按照文本搜索
+
+    searchText 文本搜索需要带给后台的文本
+
+    cityinfo 当前用户的城市信息  string 比如说深圳的cityinfo是： 1|44|3 全国的cityinfo是 1
+
+    _bid 是走手Q离线所需的必须参数，调用方只需要携带这个参数即可
+
 
 
 #### 学习资料
