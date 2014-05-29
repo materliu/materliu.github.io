@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-03-19-手Q群查找README.md
+title: 2014-03-19-手Q群查找群推荐README.md
 ---
 
 ### 打开readme文件的同学，如果本机没有安装markdown相关的查看编辑器可以选用在线版： https://stackedit.io/
