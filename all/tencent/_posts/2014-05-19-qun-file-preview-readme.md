@@ -61,8 +61,24 @@ node环境需要安装
 #### 跑起来
 * 页面地址： http://sz.preview.ftn.qq.com:443/ftn_doc_previewer/qun-file-preview.html
 * 真实环境中带参数的页面地址：
-    * doc   http://sz.preview.ftn.qq.com:443/ftn_doc_previewer/qun-file-preview.html?url=http%3A%2F%2Fsz.preview.ftn.qq.com%3A443%2Fftn_doc_abstract%2Frkey%3DFC3E5EFB4E1A43D7A844B8DE3D5815C5BDB9C5E87D4221C806D36E2A3F6AA9CB7E0542296F19D1FFA6335F489B234B4BB7E5ED9DE9A296497B18D290290FCF9C%26filetype%3D1&filetype=1
+    * doc
+
+        http://sz.preview.ftn.qq.com:443/ftn_doc_previewer/qun-file-preview.html?url=http%3A%2F%2Fsz.preview.ftn.qq.com%3A443%2Fftn_doc_abstract%2Frkey%3DFC3E5EFB4E1A43D7A844B8DE3D5815C5BDB9C5E87D4221C806D36E2A3F6AA9CB7E0542296F19D1FFA6335F489B234B4BB7E5ED9DE9A296497B18D290290FCF9C%26filetype%3D1&filetype=1
+
     * txt
+
+        http://sz.preview.ftn.qq.com:443/ftn_doc_previewer/qun-file-preview.html?url=http%3A%2F%2Fsz.preview.ftn.qq.com%3A443%2Fftn_txt_abstract%2Frkey%3Da76be35334207a21c83182cd1c61b8cc5f0e7be46a832c6664fb70b83edd91939cdf2%0D%0D %0A1d7ce5e56377008eb36ea403d16da67f4257baed3c14f3a38343a1c398c%26filetype%3D16%26sp%3D1%26&filetype=16&source=objmsg
+
+    * rar
+
+        http://sz.preview.ftn.qq.com:443/ftn_doc_previewer/qun-file-preview.html?url=http%3A%2F%2Fsz.preview.ftn.qq.com%3A443%2Fftn_compress_list%2Frkey%3Ddc5adcb1bbf12652c0e5b22134020c8028b8c8137f7121aae6d544c1f6e36b7e4bab9df3993dd74d33c5b61b954d1cbeef731c6cc0e1d2a811a210e980871a7dfuye%26filetype%3D14%26path%3D%2F%26&filetype=14&source=objmsg
+
+    * zip
+
+        http://sz.preview.ftn.qq.com:443/ftn_doc_previewer/qun-file-preview.html?url=http%3A%2F%2Fsz.preview.ftn.qq.com%3A443%2Fftn_compress_list%2Frkey%3D2472d25ecd238bcbed9e2c9f56f2320824fbafeeb2a70555894a9590635873b130a684ea09a0ea1ca8037253271cbd9fe35fd5dcede12fa5c4ce8aa10f89d858%26filetype%3D13%26path%3D%2F%26&filetype=13&source=objmsg
+
+        http://sz.preview.ftn.qq.com:443/ftn_doc_previewer/qun-file-preview.html?url=http%3A%2F%2Fsz.preview.ftn.qq.com%3A443%2Fftn_compress_list%2Frkey%3D5cd7de85558320bb14dd9e93634b13552d0cc7456b141a3622a83c3d06c0bc9d75ca83a19c3b9da5ce7bc1830d13796f1957434a89b3b52c3d37d11d4263546e%26filetype%3D13%26path%3D%2F%26&filetype=13&source=objmsg
+
 * 拉文件list的cgi： http://sz.preview.ftn.qq.com:443/ftn_doc_abstract/rkey=93ac146b87cb313ae1d3af52a2910a20a4eec4198d04dd8f3a88cf4c7d00992afa95f40148ca42058f1b96f80776e69ba2d80b2c86c89a303a5c6e1a7e334afd&filetype=1&sp=1&pc=1
 
 * 文件预览的html: http://sz.preview.ftn.qq.com:443/ftn_doc_abstract/23f6c91a6a72f5c70fe3d7f400bab62455af1e30/23f6c91a6a72f5c70fe3d7f400bab62455af1e30_1.html
