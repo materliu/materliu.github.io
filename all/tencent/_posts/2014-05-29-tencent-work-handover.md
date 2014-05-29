@@ -19,4 +19,6 @@ title: materliu工作交接
 
 7. [PC创建群](http://materliu.github.io/all/tencent/2014/04/22/PC-QUN-CREATE-README.html) --- 交接人: johnnyguo
 
+7. [PC群分享](http://materliu.github.io/all/tencent/2014/04/22/PC-QUN-CREATE-README.html) --- 交接人: hiumanlu
+
 8. [PC群投票](http://cd.cm.com/task_deal.php?taskid=14051711222982751166&nav=not_done) 现网问题跟进 --- 交接人： rehornchen
