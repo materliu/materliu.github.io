@@ -73,7 +73,7 @@ dev.xiaomi.com使用了grunt这一自动构建工具， CSS使用Sass和Compass�
 
 
 #### 跑起来
-1. 了解 [github flow](https://guides.github.com/introduction/flow/） 和 [git flow](http://nvie.com/posts/a-successful-git-branching-model/), 我们项目中推荐使用github flow
+1. 了解 [github flow](https://guides.github.com/introduction/flow/) 和 [git flow](http://nvie.com/posts/a-successful-git-branching-model/), 我们项目中推荐使用github flow
 1. 在[gitlab](http://git.n.xiaomi.com/)上找到我们的项目 http://git.n.xiaomi.com/wangweiwei/matrix-admin  项目最早是王伟伟开发的
 2. 跟我们开放平台相关的代码在这个项目的 dev_platform 分支上
 2. 找到本地的工作目录， clone 此项目: git clone http://git.n.xiaomi.com/wangweiwei/matrix-admin
