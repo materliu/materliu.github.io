@@ -6,11 +6,10 @@ title: 2014-07-01-dev.xiaomi.com-README文件.md
 ### 打开readme文件的同学，如果本机没有安装markdown相关的查看编辑器可以选用在线版： https://stackedit.io/
 # dev.xiaomi.com-README文件
 
-接口人：[联系方式](/all/tencent/xiaomi/2014/07/01/xiaomi-relative-people-contact.html)
 
-web前端 : 刘炬光, 韩婷婷
-
-web后台 : 李海磊
+### 相关接口人 [联系方式](/all/tencent/xiaomi/2014/07/01/xiaomi-relative-people-contact.html)
+* web前端 : 刘炬光, 韩婷婷
+* web后台 : 李海磊
 
 ## Documentation
 
@@ -74,11 +73,21 @@ dev.xiaomi.com使用了grunt这一自动构建工具， CSS使用Sass和Compass�
 
 
 #### 跑起来
-1. 了解 github flow
-1. 在[gitlab](http://git.n.xiaomi.com/)上fork项目 http://git.n.xiaomi.com/wangweiwei/matrix-admin
-1. 将gitlab的代码checkout到本地
+1. 了解 [github flow](https://guides.github.com/introduction/flow/） 和 [git flow](http://nvie.com/posts/a-successful-git-branching-model/), 我们项目中推荐使用github flow
+1. 在[gitlab](http://git.n.xiaomi.com/)上找到我们的项目 http://git.n.xiaomi.com/wangweiwei/matrix-admin  项目最早是王伟伟开发的
+2. 跟我们开放平台相关的代码在这个项目的 dev_platform 分支上
+2. 找到本地的工作目录， clone 此项目: git clone http://git.n.xiaomi.com/wangweiwei/matrix-admin
+1. checkout dev_platform 分支
 
-2. 从trunk拉开发分支，或者直接在trunk上开发（如果有必要），这里注意把此工作分支文件目录跟上边的nodejs包分支放于同一级目录内  比如说： workspace /  qqfind_mobile_node_modules  trunk
+   git branch --no-track dev_platform refs/remotes/origin/dev_platform
+
+   git branch --set-upstream-to=origin/dev_platform dev_platform
+
+   git checkout --quiet dev_platform
+
+2. 点击 index.html 项目即可看到实现的程度及效果
+
+
 
 * 本地访问方法： 这是最简单的开发调试方法，直接在本地的项目目录中运行 grunt serve, 便会在本地起一个web serve服务器，同时修改你本地的host和代理转发，直接访问 qun.qq.com/search/mobileqq/index.html
 前台资源访问的是本地webserver中的， cgi资源访问的时156测试机上的，如果需要修改cgi的测试环境，到gruntfile
@@ -369,16 +378,6 @@ scripts
     搜索请求带上经纬度
 
 
-### 相关接口人
-* 负责产品 jaytao, yugiwang, nicholeliu
-* 群查找，接口人 amadeusguo
-* 营销QQ数据 上海技术接口人 wallyzhang
-* ios 客户端开发接口人 xiangruli
-* android 客户端开发接口人 ippan yellowye
-* cgi 接口人  wiliamwang  patternhe(何勇)
-* 后台接口人 tangfutang
-* 管理后台接口人 mabelzhang(张红梅)   管理后台前台开发：rehornchen
-* 群，人 头像图片业务组员工  edzhong
 
 
 ### tomcat使用 cgi相关知识，可不了解
