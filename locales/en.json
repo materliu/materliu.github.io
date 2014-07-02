@@ -59,7 +59,7 @@
             ]
         },
         {
-            "date": "2012-today",
+            "date": "2012-2014",
             "multipleEvents": true,
             "summary": "前端工程师 - 腾讯",
             "events": [
@@ -126,7 +126,7 @@
             ]
         },
         {
-            "date": "2012-today",
+            "date": "2012-2014",
             "multipleEvents": true,
             "summary": "前端工程师 - 腾讯 - 司外",
             "events": [
@@ -178,6 +178,30 @@
                         {
                             "field": "收获：",
                             "content": "1. 知识输出是一种乐趣<br />2. 认识多位业界牛人<br />3. 青年人才是祖国未来的希望"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2014-至今",
+            "multipleEvents": true,
+            "summary": "前端工程师 - 小米 - MiCloud",
+            "events": [
+                {
+                    "content": "翻译《Programming 3D Applications With HTML5 and WebGL》一书",
+                    "details": [
+                        {
+                            "field": "简介：",
+                            "content": "使用WebGL进行3D编程, 翻译版本访问地址： http://materliu.github.io/Programming-3D-Applications-With-HTML5-and-WebGL/Chapter1-Introduction/3D-Coordinate-Systems.html"
+                        },
+                        {
+                            "field": "职责：",
+                            "content": "负责此书翻译工作"
+                        },
+                        {
+                            "field": "收获：",
+                            "content": "1. 体会到了翻译是一项非常严谨的技术活和体力活<br />2. 翻译过程中强迫自己对每个细节都去深入了解<br />3. GitHub Books这个工具很不错"
                         }
                     ]
                 }
