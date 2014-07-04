@@ -235,11 +235,6 @@ http://ars.isd.com/
    }, false);
 ```
 
-+ 管理后台
-    如果需要修改管理后台的数据配合测试， 需要配置host进行
-    + 测试环境管理后台 10.136.149.161 test.connadmin.oa.com
-    + 正式环境管理后台 10.133.2.209 connadmin.oa.com
-    管理后台的权限申请找 cannonfang
 
 
 
@@ -257,8 +252,18 @@ http://ars.isd.com/
 
 * 客户端统计的zip包的下载成功率等[数据](http://compass.oa.com/auto_plain?reportId=503148&productId=-300005&auth_cm_com_ticket=4156de62-a42d-426c-b3d6-aebdcbf414da)
 
-#### 业务资料
-* 群分类，一共分为三级， 第一级比如热门游戏， 第二级比如腾讯游戏， 第三级比如英雄联盟 格式如： [app/data_models/categories.js](/attachments/2014-03-19-categories.js)
+#### 项目规划
+* 1. 数据管理
+  Bucket: 创建bucket, 删除bucket, list所有bucket
+  Object: 上传object, 下载object, 列所有object(支持分页), 重命名object, 删除object, 新建文件夹, 获取object访问地址(pre-signed url)
+  2. 属性管理
+  Bucket: 基本信息展示，ACL管理
+  Object: 基本信息展示，metadata管理，ACL管理
+  3. 统计报表
+  Bucket级别统计
+  Object级别统计
+  空间使用量/QPS统计等
+
 
 #### 各机型适配经验，[参见](/all/tencent/2014/04/14/mobile_web_adapter_experience.html)
 
