@@ -21,7 +21,7 @@ https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll
 
 但是在公司64位windows上安装的时候还是遇到了一些问题
 
-1. 代理问题   在命令行窗中   `set http_proxy=http://proxy.tencent.com:8080`
+1. 代理问题   在命令行窗中   `set http_proxy=*****:8080`
 
 2. 直接bundle install 报错 `Make sure that `gem install RedCloth -v '4.2.9'` succeeds before bundling.`
 
