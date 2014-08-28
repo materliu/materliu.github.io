@@ -13,9 +13,12 @@ windows下的访问方式非常简单， 直接在资源管理器地址栏输入
 
 mac上相对复杂一点， 在Finder菜单栏上点击go - Connect to Server 在Server Address输入： smb://**** 即可
 
+<pre>
 yum install samba
 vim /etc/smb.cnf
+</pre>
 
+<pre>
 [all]
 comment = shared file of /
 path = /
@@ -25,11 +28,14 @@ writable = yes
 available = yes
 valid users = root, xiaomi
 admin users = root, xiaomi
+</pre>
 
 // 配置完配置文件之后， 需要添加一下用户
+
 smbpasswd -a username
 
 service samba restart
+
 // 或者 service smb restart 看linux起的是哪个服务
 
 
@@ -38,5 +44,3 @@ CENTOS additional ops:
 -A RH-Firewall-1-INPUT -s 192.168.10.0/24 -m state --state NEW -m udp -p udp --dport 137 -j ACCEPT
 -A RH-Firewall-1-INPUT -s 192.168.10.0/24 -m state --state NEW -m udp -p udp --dport 138 -j ACCEPT
 -A RH-Firewall-1-INPUT -s 192.168.10.0/24 -m state --state NEW -m tcp -p tcp --dport 139 -j ACCEPT
-
-
