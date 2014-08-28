@@ -7,7 +7,7 @@ title: Software posts in materliu's Tech Blog
   <h2 class="green">software{tencent&xiaomi}</h2>
   <ul class="posts">
     {% for post in site.categories.tencent %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title | split: '-' | last | split: '.md' | first }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
   
