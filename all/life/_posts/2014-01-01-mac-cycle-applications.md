@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mac使用快捷键command-tab切换程序
+title: mac使用快捷键command tab切换程序
 ---
     
 # mac使用快捷键command-tab切换程序
