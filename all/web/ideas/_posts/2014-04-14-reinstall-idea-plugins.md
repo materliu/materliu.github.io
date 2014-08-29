@@ -34,3 +34,13 @@ title: 重装intellij idea后必装插件
 ### 需要做的调整
 1. 添加jekyll-md file template
 
+File and Code Template - Template - 名字可以叫做"jekyll-md" , 文件内容如下：
+
+<pre>
+---
+layout: post
+title: ${Title}
+---
+</pre>
+
+这时候到File-new 如果找不到可以参考 [创建的file template 在新建文件的列表中没有](/all/web/ideas/2014/05/02/idea-file-template-not-show.html)
