@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-04-03-grunt_connect指定path.md
+title: grunt_connect指定path
 ---
 
 需求是这样的： 我们的页面是部署在域名 qun.qq.com/search/mobileqq/ 路径下的

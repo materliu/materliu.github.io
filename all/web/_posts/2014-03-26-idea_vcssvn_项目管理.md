@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-03-26-idea_vcssvn_项目管理.md
+title: idea_vcssvn_项目管理
 ---
 
 ## [How to manage projects under Version Control Systems](https://intellij-support.jetbrains.com/entries/23393067)

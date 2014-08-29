@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-03-26-20个实用的webApp前端开发技巧.md
+title: 20个实用的webApp前端开发技巧
 ---
 
 ## 20个实用的前端开发文档和指引

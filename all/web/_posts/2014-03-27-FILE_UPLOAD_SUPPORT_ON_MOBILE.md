@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-03-27-FILE_UPLOAD_SUPPORT_ON_MOBILE.md
+title: FILE_UPLOAD_SUPPORT_ON_MOBILE
 ---
 
 ```ruby

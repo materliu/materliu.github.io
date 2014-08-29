@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-04-14-ruby安装gem的时候报错.md
+title: ruby安装gem的时候报错
 ---
 
 ### ruby安装gem的时候报错 报错信息：

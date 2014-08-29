@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-03-30-web无障碍化整理贴.md
+title: web无障碍化整理贴
 ---
 
 国内读屏软件[争渡](/attachments/2014-03-30-zdsr_pw_setup_1.4.7.6.exe)

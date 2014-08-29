@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-04-09-chrome插件开发.md
+title: chrome插件开发
 ---
 
 ### chrome 插件开发

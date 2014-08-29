@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-03-16-推荐五款流行的JavaScript模板引擎.md
+title: 推荐五款流行的JavaScript模板引擎
 ---
 
 ## 推荐五款流行的JavaScript模板引擎
