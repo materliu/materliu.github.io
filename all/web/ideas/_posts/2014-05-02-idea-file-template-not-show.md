@@ -3,7 +3,7 @@ layout: post
 title: 创建的file template 在新建文件的列表中没有
 ---
     
-# 创建的file template 在新建文件的列表中没有
+## 创建的file template 在新建文件的列表中没有
 
 已经创建好的file template，在新建文件的列表中却没有，原因有三个：
 
