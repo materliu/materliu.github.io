@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-04-10-老版本的chrome下载.md
+title: 老版本的chrome下载
 ---
 
 ### 老版本的chrome下载,chrome cache viewer下载

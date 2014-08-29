@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-04-13-intellij_idea_svn哪些文件应该同步.md
+title: intellij_idea_svn哪些文件应该同步
 ---
 
 ## intellij_idea_svn哪些文件应该同步

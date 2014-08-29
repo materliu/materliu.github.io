@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-04-14-重装idea后必装插件.md
+title: 重装intellij idea后必装插件
 ---
 
 ## [重装idea后必装插件](http://plugins.jetbrains.com/?idea)
@@ -30,4 +30,7 @@ title: 2014-04-14-重装idea后必装插件.md
     This plugin allows you to browse and search characters and parts of the Unicode" character set. Insert characters into an editor in one of 10 forms. Decodes coded characters at the cursor position.
 
     同样是webstorm装了找不到在哪
+
+### 需要做的调整
+1. 添加jekyll-md file template
 

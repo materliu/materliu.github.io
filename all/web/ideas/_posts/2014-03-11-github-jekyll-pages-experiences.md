@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-03-11-使用github_jekyll_pages经验谈.md
+title: 使用github_jekyll_pages经验谈
 ---
 
 ## 使用github_jekyll_pages经验谈

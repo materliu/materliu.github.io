@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-04-14-本地系统级代理软件haproxifier.md
+title: 本地系统级代理软件haproxifier
 ---
 
 ## 本地系统级代理软件haproxifier
