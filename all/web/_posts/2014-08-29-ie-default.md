@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: windows各版本自带IE版本
 ---
 
