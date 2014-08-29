@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2014-04-14-手机web各机型适配经验.md
+title: 手机web各机型适配经验
 ---
 
 #### 各机型适配经验
