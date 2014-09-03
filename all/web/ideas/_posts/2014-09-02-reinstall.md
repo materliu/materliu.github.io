@@ -12,3 +12,5 @@ title: 重装软件后需要做的配置项
     1. [Sublime Text Twitter Bootstrap Snippets](https://github.com/devtellect/sublime-twitter-bootstrap-snippets)
 
     2. [开启vim模式](https://www.sublimetext.com/docs/2/vintage.html)
+
+3. 重装bcompare
