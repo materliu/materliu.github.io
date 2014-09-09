@@ -9,6 +9,8 @@ title: 重装intellij idea后必装插件
 
 1. vim [2014-04-28](/attachments/2014-04-28-ideavim.zip)
 
+2. gitignore support
+
 2. markdown [2013-12-01](/attachments/2013-12-01-idea-markdown.zip)
 
 3. key promoter [2012-05-22](/attachments/2012-05-22-Key_promoter_11324.jar)
