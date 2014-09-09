@@ -5,6 +5,8 @@ title: 使用github_jekyll_pages经验谈
 
 ## 使用github_jekyll_pages经验谈
 
+## 有一篇非官方介绍如何在window平台上安装jekyll的文章写得非常好： [go](http://jekyll-windows.juthilo.com/1-ruby-and-devkit/)
+
 初次使用我们会发现很多时候，本地成功编译的项目，到了github上就会报错，这是因为：
 
 Jekyll中默认的markdown渲染器是maruku，但是它对Latex公式和中文支持都不太好, 通常是根据不同的需要选择其它几种渲染器（rdiscount，kramdown，redcarpet等），它们各有利弊。
@@ -122,6 +124,7 @@ https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll
     <pre class="brush: js"> 格式化js代码
         // js code here
     </pre>
+
 
 
 [1]: https://github.com/Shopify/liquid liquid github线上地址
