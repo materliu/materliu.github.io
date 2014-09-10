@@ -33,6 +33,8 @@ title: 重装intellij idea后必装插件
 
     同样是webstorm装了找不到在哪
 
+7. handlebars [github](https://github.com/JetBrains/intellij-plugins/tree/master/handlebars)
+
 ### 需要做的调整
 1. 添加jekyll-md file template
 
@@ -46,3 +48,7 @@ title: ${Title}
 </pre>
 
 这时候到File-new 如果找不到可以参考 [创建的file template 在新建文件的列表中没有](/all/web/ideas/2014/05/02/idea-file-template-not-show.html)
+
+2. import 我存储的settings
+
+3. 安装intellij-colors-solarized 配色方案， 有些文件使用这个配色方案更好看 [github](https://github.com/jkaving/intellij-colors-solarized)
