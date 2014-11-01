@@ -22,7 +22,7 @@ Browse up a folder and then into the Installed Packages/ folder
 
 Download Package [Control.sublime-package](/attachments/2014-11-01-Package-Control.sublime-package) and copy it into the Installed Packages/ directory
 
-Restart Sublime Text
+Restart Sublime Texwt
 
 
 然后安装PackageResourceViewer
