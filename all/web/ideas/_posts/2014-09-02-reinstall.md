@@ -9,9 +9,20 @@ title: 重装软件后需要做的配置项
 
 2. 重装sublime
 
-    1. [Sublime Text Twitter Bootstrap Snippets](https://github.com/devtellect/sublime-twitter-bootstrap-snippets)
-
-    2. [开启vim模式](https://www.sublimetext.com/docs/2/vintage.html)
+    1. [开启vim模式](https://www.sublimetext.com/docs/2/vintage.html)
+    2. 安装[package control](/all/web/osx/2014/10/29/mac-sublime3-sidebar-font.html)
+    3. Sublime Text Twitter Bootstrap Snippets
+    4. emmet
+    5. jQuery
+    6. JS Format
+    7. SublimeLinter
+    8. Sublime CodeIntel
+    9. Bracket Highlighter
+    10. SideBar Enhancements　
+    11. 代码字体修改：
+        点击preferences - Setting User - 在配置文件中添加：
+        “font_face”: “Consolas”,
+        “font_size”: 14,
 
 3. 重装bcompare
 
