@@ -4,11 +4,11 @@ title: 重装软件后需要做的配置项
 ---
 
 ## 重装软件后需要做的配置项
-1. 重装mac或者windows， 亟待重装的软件： sigil, wget
+1. 重装mac或者windows， 亟待重装的软件： sigil, wget, camtasia, 
 
 2. 重装mac后，亟待重装的软件：
 
-3. 重装windows后， 亟待重装的软件： breevy 
+3. 重装windows后， 亟待重装的软件： breevy
 
 1. 重装idea: [重装idea后必装插件](/all/web/ideas/2014/04/14/reinstall-idea-plugins.html)
 
