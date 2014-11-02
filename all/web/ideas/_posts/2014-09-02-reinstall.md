@@ -8,7 +8,7 @@ title: 重装软件后需要做的配置项
 
 2. 重装mac后，亟待重装的软件：
 
-3. 重装windows后， 亟待重装的软件： breevy, WinAVI ALL In one converter
+3. 重装windows后， 亟待重装的软件： breevy, WinAVI ALL In one converter, movie lab
 
 1. 重装idea: [重装idea后必装插件](/all/web/ideas/2014/04/14/reinstall-idea-plugins.html)
 
