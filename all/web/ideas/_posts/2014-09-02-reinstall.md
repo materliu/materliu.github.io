@@ -4,7 +4,7 @@ title: 重装软件后需要做的配置项
 ---
 
 ## 重装软件后需要做的配置项
-1. 重装mac或者windows， 亟待重装的软件： sogou拼音， chrome, sigil, wget, camtasia, 硕鼠, Beyond Compare, navicat 数据库连接软件
+1. 重装mac或者windows， 亟待重装的软件： qq, sogou拼音， chrome, sigil, wget, camtasia, 硕鼠, Beyond Compare, navicat 数据库连接软件
 
 2. 重装mac后，亟待重装的软件：MAMP
 
