@@ -4,7 +4,7 @@ title: 重装软件后需要做的配置项
 ---
 
 ## 重装软件后需要做的配置项
-1. 重装mac或者windows， 亟待重装的软件： sigil, wget, camtasia,
+1. 重装mac或者windows， 亟待重装的软件： sigil, wget, camtasia, 硕鼠
 
 2. 重装mac后，亟待重装的软件：
 
