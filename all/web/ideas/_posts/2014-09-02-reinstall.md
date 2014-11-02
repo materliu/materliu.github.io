@@ -6,7 +6,7 @@ title: 重装软件后需要做的配置项
 ## 重装软件后需要做的配置项
 1. 重装mac或者windows， 亟待重装的软件： sigil, wget, camtasia, 硕鼠, Beyond Compare, navicat 数据库连接软件
 
-2. 重装mac后，亟待重装的软件：
+2. 重装mac后，亟待重装的软件：MAMP
 
 3. 重装windows后， 亟待重装的软件： breevy, WinAVI ALL In one converter, movie lab, win md5, putty
 
