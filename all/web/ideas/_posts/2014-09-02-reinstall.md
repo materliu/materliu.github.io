@@ -29,8 +29,6 @@ title: 重装软件后需要做的配置项
         “font_face”: “Consolas”,
         “font_size”: 14,
 
-3. 重装bcompare
-
 4. java 环境
 
 5. ruby 环境
