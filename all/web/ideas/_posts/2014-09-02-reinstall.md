@@ -4,7 +4,7 @@ title: 重装软件后需要做的配置项
 ---
 
 ## 重装软件后需要做的配置项
-1. 重装mac或者windows， 亟待重装的软件： sigil
+1. 重装mac或者windows， 亟待重装的软件： sigil, wget
 
 1. 重装idea: [重装idea后必装插件](/all/web/ideas/2014/04/14/reinstall-idea-plugins.html)
 
