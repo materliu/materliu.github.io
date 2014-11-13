@@ -30,9 +30,9 @@ title: mac下使用crontab定时执行某一任务
 		Press Esc to exit vim's insert mode
 
 		下边是我自己的任务：
-		0 9,15,21 * * * cd /Users/mater/Documents/workspaces/third-party-official-websites/code-guide/;/usr/bin/git pull;/usr/bin/jekyll build;echo "codeguide done `date`" >> /Users/mater/Documents/kuaipan/快盘/some_datas/mac/autorun.log
-        0 9,15,21 * * * cd /Users/mater/Documents/workspaces/third-party-official-websites/bower/;/usr/bin/git pull;/usr/bin/jekyll build;echo "bower done `date`" >> /Users/mater/Documents/kuaipan/快盘/some_datas/mac/autorun.log
-        0 9,15,21 * * * cd /Users/mater/Documents/workspaces/third-party-official-websites/yeoman/;/usr/bin/git pull;/usr/local/bin/grunt build;echo "yeoman done `date`" >> /Users/mater/Documents/kuaipan/快盘/some_datas/mac/autorun.log
-        0 9,15,21 * * * cd /Users/mater/Documents/workspaces/third-party-official-websites/grunt/;/usr/sbin/lsof -Pnl +M -i4|grep 5678|awk '{print $2}'|xargs kill -9;/usr/bin/git pull;/usr/local/bin/grunt build;echo "grunt done `date`" >> /Users/mater/Documents/kuaipan/快盘/some_datas/mac/autorun.log;/usr/bin/nohup /usr/local/bin/npm start &
+		0 9,16,23 * * * cd /Users/mater/Documents/workspaces/third-party-official-websites/code-guide/;/usr/bin/git pull;/usr/bin/jekyll build;echo "codeguide done `date`" >> /Users/mater/Documents/kuaipan/快    盘/some_datas/mac/autorun.log
+        29 0,9,16,23 * * * export LC_ALL="en_US.UTF-8";cd /Users/mater/Documents/workspaces/third-party-official-websites/bower/;/usr/bin/git pull;/usr/bin/jekyll build;echo "bower done `date`" >> /Users/mate    r/Documents/kuaipan/快盘/some_datas/mac/autorun.log
+         29 0,9,16,23 * * * export LC_ALL="en_US.UTF-8";cd /Users/mater/Documents/workspaces/third-party-official-websites/yeoman/;/usr/bin/git pull;echo "yeoman done `date`" >> /Users/mater/Documents/kuaipan/    快盘/some_datas/mac/autorun.log;/usr/local/bin/grunt build
+         29 0,9,16,23 * * * export LC_ALL="en_US.UTF-8";cd /Users/mater/Documents/workspaces/third-party-official-websites/grunt/;/usr/sbin/lsof -Pnl +M -i4|grep 5678|awk '{print $2}'|xargs kill -9;/usr/bin/gi    t pull;/usr/local/bin/grunt build;echo "grunt done `date`" >> /Users/mater/Documents/kuaipan/快盘/some_datas/mac/autorun.log;/usr/bin/nohup /usr/local/bin/npm start &
 
 3. Verify by using crontab -l
