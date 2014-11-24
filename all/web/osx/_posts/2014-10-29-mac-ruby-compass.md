@@ -99,6 +99,7 @@ curl -L https://get.rvm.io | bash -s stable
 注意rvm安装完以后的提示语： To start using RVM you need to run 'source /../rvm' in all your open shell windows, in rare cases you need to reopen all shell windows.
 
 然后依次执行一下命令：
+
 sudo gem uninstall sass
 
 sudo gem uninstall compass
