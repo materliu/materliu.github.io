@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 如何彻底卸载mysql
+title: windows如何彻底卸载mysql
 ---
 
-## 如何彻底卸载mysql
+## windows如何彻底卸载mysql
 
 如何彻底删除mysql
 
