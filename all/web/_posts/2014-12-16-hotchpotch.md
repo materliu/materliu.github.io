@@ -13,3 +13,5 @@ title: 大杂烩
 6. 阿里的代理抓包工具： https://github.com/alibaba/anyproxy
 7. React: http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react
 8. 佛祖保佑，字符画： https://gist.github.com/materliu/58238ced06977eb0aeca
+9. 微软IE各个版本虚拟机： https://www.modern.ie/zh-cn/virtualization-tools
+11. 1k大小的js 都能实现什么任务： http://js1k.com/
