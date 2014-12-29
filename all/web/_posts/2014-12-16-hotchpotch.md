@@ -15,3 +15,5 @@ title: 大杂烩
 8. 佛祖保佑，字符画： https://gist.github.com/materliu/58238ced06977eb0aeca
 9. 微软IE各个版本虚拟机： https://www.modern.ie/zh-cn/virtualization-tools
 11. 1k大小的js 都能实现什么任务： http://js1k.com/
+12. 利用npm进行自动化构建，前端自动化解决方案 npm: http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
+13. 国外电影高清： https://kickass.unblocked.pw/
