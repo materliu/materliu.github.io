@@ -19,3 +19,4 @@ title: 大杂烩
 14. CSS动画效果： http://codepen.io/collection/HtAne/4/
 15. 算法演示网站： http://www.algorithmdemos.com/sorting/insertionSort.html
 16. jshint: 初识JSLint及由此想到的建议JS编码风格  http://web.jobbole.com/81877/
+17. 45条有用的JavaScript技巧： 45 Useful JavaScript Tips, Tricks and Best Practices
