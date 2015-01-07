@@ -20,3 +20,7 @@ title: 大杂烩
 15. 算法演示网站： http://www.algorithmdemos.com/sorting/insertionSort.html
 16. jshint: 初识JSLint及由此想到的建议JS编码风格  http://web.jobbole.com/81877/
 17. 45条有用的JavaScript技巧： 45 Useful JavaScript Tips, Tricks and Best Practices
+18. 2014百大Codepen http://codepen.io/2014/popular/
+19. 跨平台抓包工具：https://hyperfox.org/
+20. 2014年绝不能错的高分电影】1.《达拉斯买家俱乐部》http://t.cn/8Fd4CRc 2.《醉乡民谣》http://t.cn/8Fg5l9Y 3.《少年斯派维的奇异旅行》http://t.cn/8sd34Rp 4.《少年时代》http://t.cn/RP0rrZK 5. 《突袭2：暴徒 》http://t.cn/RvjCiW4 6.《星运里的错》http://t.cn/RPElpVs 扒姐诚意推荐
+21. 移动端前端开发调试 http://yujiangshui.com/multidevice-frontend-debug/
