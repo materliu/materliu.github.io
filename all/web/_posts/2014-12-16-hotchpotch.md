@@ -24,3 +24,7 @@ title: 大杂烩
 19. 跨平台抓包工具：https://hyperfox.org/
 20. 2014年绝不能错的高分电影】1.《达拉斯买家俱乐部》http://t.cn/8Fd4CRc 2.《醉乡民谣》http://t.cn/8Fg5l9Y 3.《少年斯派维的奇异旅行》http://t.cn/8sd34Rp 4.《少年时代》http://t.cn/RP0rrZK 5. 《突袭2：暴徒 》http://t.cn/RvjCiW4 6.《星运里的错》http://t.cn/RPElpVs 扒姐诚意推荐
 21. 移动端前端开发调试 http://yujiangshui.com/multidevice-frontend-debug/
+22. 从输入 URL 到页面加载完的过程中都发生了什么事情  http://www.kuqin.com/shuoit/20150104/344230.html
+23. 按钮hover上来的各种样式修饰：   http://ianlunn.github.io/Hover/
+24. 背景折线，动画效果站点: http://lambda-structure-design.jp/   https://cn.avoscloud.com/    http://fabriq.co.jp/
+25. 用ES6的语法写ES5. https://6to5.org/
