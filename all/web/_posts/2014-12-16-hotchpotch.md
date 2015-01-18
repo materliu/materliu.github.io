@@ -28,3 +28,4 @@ title: 大杂烩
 23. 按钮hover上来的各种样式修饰：   http://ianlunn.github.io/Hover/
 24. 背景折线，动画效果站点: http://lambda-structure-design.jp/   https://cn.avoscloud.com/    http://fabriq.co.jp/
 25. 用ES6的语法写ES5. https://6to5.org/
+26. 15个提高编程技巧的JavaScript工具： http://www.imooc.com/wenda/detail/243523
