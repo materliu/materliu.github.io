@@ -29,3 +29,15 @@ title: 大杂烩
 24. 背景折线，动画效果站点: http://lambda-structure-design.jp/   https://cn.avoscloud.com/    http://fabriq.co.jp/
 25. 用ES6的语法写ES5. https://6to5.org/
 26. 15个提高编程技巧的JavaScript工具： http://www.imooc.com/wenda/detail/243523
+27. David 是一款可以总览你的Node依赖的工具，它依据每一个依赖的当前状态来生成一个徽章标记，如果你愿意，你可以把这个徽章标记嵌入到你的网站。  https://david-dm.org/
+28. bookmarklet创建工具： http://bookmarkify.it/
+29. 随机字符串，随机数生成js: http://chancejs.com/
+30. JS代码复杂度分析： http://jscomplexity.org/
+31. echo.js 延迟加载图片： http://toddmotto.com/echo-js-simple-javascript-image-lazy-loading/
+32. 文件操作相关的库： http://mailru.github.io/FileAPI/   图像裁剪，大小调整， 文件拖拽上传等等
+33. 随着用户滚动， 收起， 放出header的js库： http://wicky.nillia.ms/headroom.js/
+34. 基于语法书对JavaScript进行搜索，替换，重构： http://www.graspjs.com/
+35. 数值变换动画的库： http://inorganik.github.io/countUp.js/
+36. Simple State Manager是一个针对响应式站点的轻量易用的JavaScript状态管理器。它不依赖于任何的JavaScript框架同时能够完美地以一种非常整洁的方式来处理针对不同布局的代码。你可以定义临界点，然后把所有在这个临界点上要执行的JavaScript打包到一起。   http://www.simplestatemanager.com/
+37. 关于请求被挂起页面加载缓慢问题的追查:  http://fex.baidu.com/blog/2015/01/chrome-stalled-problem-resolving-process/
+38. 整个页面切换的酷炫动画： https://github.com/codrops/PageTransitions
