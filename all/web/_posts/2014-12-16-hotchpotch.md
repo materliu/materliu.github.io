@@ -41,3 +41,5 @@ title: 大杂烩
 36. Simple State Manager是一个针对响应式站点的轻量易用的JavaScript状态管理器。它不依赖于任何的JavaScript框架同时能够完美地以一种非常整洁的方式来处理针对不同布局的代码。你可以定义临界点，然后把所有在这个临界点上要执行的JavaScript打包到一起。   http://www.simplestatemanager.com/
 37. 关于请求被挂起页面加载缓慢问题的追查:  http://fex.baidu.com/blog/2015/01/chrome-stalled-problem-resolving-process/
 38. 整个页面切换的酷炫动画： https://github.com/codrops/PageTransitions
+39. CSS的发展  CSS, Sass, SCSS, Compass, Less,BEM, SMACSS, OOCSS, ACSS, CCSS, WTFSS  http://www.w3cplus.com/css/css-sass-scss-compass-less-bem-smacss-oocss-acss-ccss-wtfss.html
+40. Html5写native app ionic: http://ionicframework.com/
