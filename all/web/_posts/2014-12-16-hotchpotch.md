@@ -43,3 +43,4 @@ title: 大杂烩
 38. 整个页面切换的酷炫动画： https://github.com/codrops/PageTransitions
 39. CSS的发展  CSS, Sass, SCSS, Compass, Less,BEM, SMACSS, OOCSS, ACSS, CCSS, WTFSS  http://www.w3cplus.com/css/css-sass-scss-compass-less-bem-smacss-oocss-acss-ccss-wtfss.html
 40. Html5写native app ionic: http://ionicframework.com/
+41. Html5小游戏： http://game.ledandan.com/stickgame/
