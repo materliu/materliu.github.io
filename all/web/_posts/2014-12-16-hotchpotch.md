@@ -44,3 +44,5 @@ title: 大杂烩
 39. CSS的发展  CSS, Sass, SCSS, Compass, Less,BEM, SMACSS, OOCSS, ACSS, CCSS, WTFSS  http://www.w3cplus.com/css/css-sass-scss-compass-less-bem-smacss-oocss-acss-ccss-wtfss.html
 40. Html5写native app ionic: http://ionicframework.com/
 41. Html5小游戏： http://game.ledandan.com/stickgame/
+42. Github 趋势统计： https://github.com/trending
+43. flat surface shader: 动来动去的波浪效果， 各种参数可调  http://matthew.wagerfield.com/flat-surface-shader/
