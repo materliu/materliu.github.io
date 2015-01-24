@@ -57,4 +57,10 @@ title: 大杂烩
 52. Google 前端工程师 Addy Osmani 的那些精彩技术演讲: http://top.jobbole.com/5220/
 53. 给页面内嵌一个调试器： http://gh.amio.us/console.js/
 54. 一张图让你看懂各种开源协议： http://blogread.cn/it/article/6751?f=wb2
+55. awesome-svg:  https://github.com/willianjusten/awesome-svg
+56. 进谷歌之程序员必修课（内部推荐）:  http://www.kuqin.com/shuoit/20141114/343220.html
+57. 100天canvas训练营： http://codepen.io/kenjiSpecial/      https://github.com/kenjiSpecial/100day-canvas-bootcamp-training
+58. 谷歌新推Web开发最佳实践手册:  https://developers.google.com/web/fundamentals/
+59. Understanding ECMAScript 6 by Nicholas C.Zakas: https://leanpub.com/understandinges6/read/
+60. Clean code linters: https://github.com/showcases/clean-code-linters
 
