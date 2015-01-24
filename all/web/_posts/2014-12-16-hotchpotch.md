@@ -48,4 +48,13 @@ title: 大杂烩
 43. flat surface shader: 动来动去的波浪效果， 各种参数可调  http://matthew.wagerfield.com/flat-surface-shader/
 44. goAgent 使用教程： http://www.leiphone.com/news/201406/1101-ce6093-fivestep.html
 45. 给chrome developer 换个皮肤： http://devthemez.com/?sort=popular
+46. 17款提高css编码效率的工具： http://codegeekz.com/best-css-tools-to-speed-up-your-coding/
+47. 将photoshop特效转为css3代码的插件：http://css3ps.com/
+48. stackoverflow 上整理出来的JavaScript学习资料： http://stackoverflow.com/tags/javascript/info
+49. 中国独立纪录片： 1.徐童《算命》 2.李军虎《父亲》：3.范立欣《归途列车》 4.张赞波《天降》5.赵亮《在一起》6.陈宇舟《边城》：
+50. 最全的ip地址库： http://www.ipip.net/download.html
+51. 前端工具集： http://tooling.github.io/book-of-modern-frontend-tooling/dependency-management/webpack/getting-started.html
+52. Google 前端工程师 Addy Osmani 的那些精彩技术演讲: http://top.jobbole.com/5220/
+53. 给页面内嵌一个调试器： http://gh.amio.us/console.js/
+54. 一张图让你看懂各种开源协议： http://blogread.cn/it/article/6751?f=wb2
 
