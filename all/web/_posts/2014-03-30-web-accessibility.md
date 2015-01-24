@@ -23,6 +23,10 @@ title: web无障碍化整理贴
 
 [QQ空间、腾讯网无障碍化的一些规范3](http://km.oa.com/group/18188/articles/show/127512?kmref=search)
 
+[无障碍访问组件](http://www.zhouwenbin.com/%E6%97%A0%E9%9A%9C%E7%A2%8D%E8%AE%BF%E9%97%AE%E7%BB%84%E4%BB%B6/)
+
+[Web Accessibility Checklist](http://a11yproject.com/checklist.html)
+
 无障碍化的坑
 
     * 在chrome32中，设置title属性的按钮读屏软件会读出，但到了客户端里面就不行！此时必须设置dom节点的文本，没法设置的话考虑用aria-label属性（争渡读屏）
