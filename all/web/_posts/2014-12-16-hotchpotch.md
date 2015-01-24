@@ -47,4 +47,5 @@ title: 大杂烩
 42. Github 趋势统计： https://github.com/trending
 43. flat surface shader: 动来动去的波浪效果， 各种参数可调  http://matthew.wagerfield.com/flat-surface-shader/
 44. goAgent 使用教程： http://www.leiphone.com/news/201406/1101-ce6093-fivestep.html
+45. 给chrome developer 换个皮肤： http://devthemez.com/?sort=popular
 
