@@ -63,4 +63,7 @@ title: 大杂烩
 58. 谷歌新推Web开发最佳实践手册:  https://developers.google.com/web/fundamentals/
 59. Understanding ECMAScript 6 by Nicholas C.Zakas: https://leanpub.com/understandinges6/read/
 60. Clean code linters: https://github.com/showcases/clean-code-linters
+61. static, fluid, responsive 以及 adaptive layouts 的演示页面: http://t.cn/8Fa4n1k?u=1217219475&m=3692743286968484&cu=1217219475
+62. i18n with tagged template strings in ECMAScript 6: http://jaysoo.ca/2014/03/20/i18n-with-es6-template-strings/
+63. 公共cdn服务： https://hacks.mozilla.org/2014/03/jsdelivr-the-advanced-open-source-public-cdn/
 
