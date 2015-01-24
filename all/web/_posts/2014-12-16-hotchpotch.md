@@ -67,4 +67,7 @@ title: 大杂烩
 62. i18n with tagged template strings in ECMAScript 6: http://jaysoo.ca/2014/03/20/i18n-with-es6-template-strings/
 63. 公共cdn服务： https://hacks.mozilla.org/2014/03/jsdelivr-the-advanced-open-source-public-cdn/
 64. 随机数是骗人的，.Net、Java、C为我作证: http://www.kuqin.com/shuoit/20140529/340236.html
-
+65. GitHub前端工具整理汇总: http://blog.jobbole.com/34860/
+66. 使用JavaScript编写的可定制性最强的XSS过滤模块，根据白名单过滤HTML代码，可精确控制过滤指定标签指定属性，可支持在任何“正常”的JavaScript引擎上运行:  http://jsxss.com/en/index.html
+67. CSS Shrink | CSS Shrink 是由来自 Facebook 的工程师 Stoyan Stefanov 开发的一个 CSS 压缩工具，与像 yuicompressor 之类的基于正则匹配的 css 压缩工具不同在于该工具是通过 AST（抽象语法树）对 css 做代码分析进行更智能的压缩，同时提供了基于 grunt 和 gulp 的插件。: http://cssshrink.com/?utm_source=CSS-Weekly&utm_campaign=Issue-117&utm_medium=RSS
+68. JavaScript 生成二维码： http://www.cnblogs.com/JerryWeng/p/3740744.html
