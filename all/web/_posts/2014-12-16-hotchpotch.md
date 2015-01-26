@@ -71,3 +71,5 @@ title: 大杂烩
 66. 使用JavaScript编写的可定制性最强的XSS过滤模块，根据白名单过滤HTML代码，可精确控制过滤指定标签指定属性，可支持在任何“正常”的JavaScript引擎上运行:  http://jsxss.com/en/index.html
 67. CSS Shrink | CSS Shrink 是由来自 Facebook 的工程师 Stoyan Stefanov 开发的一个 CSS 压缩工具，与像 yuicompressor 之类的基于正则匹配的 css 压缩工具不同在于该工具是通过 AST（抽象语法树）对 css 做代码分析进行更智能的压缩，同时提供了基于 grunt 和 gulp 的插件。: http://cssshrink.com/?utm_source=CSS-Weekly&utm_campaign=Issue-117&utm_medium=RSS
 68. JavaScript 生成二维码： http://www.cnblogs.com/JerryWeng/p/3740744.html
+69. 移动H5前端性能<优化指南>:  http://isux.tencent.com/h5-performance.html
+70. 纯css实现的icon效果： http://saeedalipoor.github.io/icono/
