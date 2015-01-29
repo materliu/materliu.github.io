@@ -73,3 +73,5 @@ title: 大杂烩
 68. JavaScript 生成二维码： http://www.cnblogs.com/JerryWeng/p/3740744.html
 69. 移动H5前端性能<优化指南>:  http://isux.tencent.com/h5-performance.html
 70. 纯css实现的icon效果： http://saeedalipoor.github.io/icono/
+71. 给程序员新人的15点建议： http://lifehacker.com/what-i-wish-i-knew-when-i-started-my-career-as-a-softwa-1681002791
+72. 十个最新的前端框架工具： http://www.php100.com/html/dujia/2015/0127/8490.html
