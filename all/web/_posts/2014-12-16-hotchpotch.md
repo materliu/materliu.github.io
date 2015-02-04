@@ -75,3 +75,4 @@ title: 大杂烩
 70. 纯css实现的icon效果： http://saeedalipoor.github.io/icono/
 71. 给程序员新人的15点建议： http://lifehacker.com/what-i-wish-i-knew-when-i-started-my-career-as-a-softwa-1681002791
 72. 十个最新的前端框架工具： http://www.php100.com/html/dujia/2015/0127/8490.html
+73. 生成cgi api接口文档的工具： http://editor.swagger.io/#/
