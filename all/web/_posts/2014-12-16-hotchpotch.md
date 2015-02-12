@@ -76,3 +76,4 @@ title: 大杂烩
 71. 给程序员新人的15点建议： http://lifehacker.com/what-i-wish-i-knew-when-i-started-my-career-as-a-softwa-1681002791
 72. 十个最新的前端框架工具： http://www.php100.com/html/dujia/2015/0127/8490.html
 73. 生成cgi api接口文档的工具： http://editor.swagger.io/#/
+74. JavaScript中的数字： http://blog.jobbole.com/74199/  讲的真尼玛好，原码，反码，补码
