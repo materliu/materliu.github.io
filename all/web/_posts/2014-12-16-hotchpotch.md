@@ -78,3 +78,7 @@ title: 大杂烩
 73. 生成cgi api接口文档的工具： http://editor.swagger.io/#/
 74. JavaScript中的数字： http://blog.jobbole.com/74199/  讲的真尼玛好，原码，反码，补码
 75. 可以在自己host的内部沟通工具： https://github.com/sdelements/lets-chat
+76. 超炫酷的Creative Goeey Effects: http://tympanus.net/Development/CreativeGooeyEffects/index.html
+77. jQuery Plugin, Range 控件： http://www.jqueryrain.com/demo/jquery-range-slider/
+78. 超炫的CSS3实现各种小动物： http://www.species-in-pieces.com/#
+79. loading效果，css实现： http://connoratherton.com/loaders
