@@ -82,3 +82,4 @@ title: 大杂烩
 77. jQuery Plugin, Range 控件： http://www.jqueryrain.com/demo/jquery-range-slider/
 78. 超炫的CSS3实现各种小动物： http://www.species-in-pieces.com/#
 79. loading效果，css实现： http://connoratherton.com/loaders
+80. css实现菜单栏点击变形效果： http://callmenick.com/_development/css-hamburger-menu-icons/
