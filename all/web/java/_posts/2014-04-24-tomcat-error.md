@@ -86,3 +86,11 @@ title: tomcat报错的各种情况
     System.out.println(e.getMessage());
     e.printStackTrace();
     }%>
+
+3. mac 下启动tomcat， 启动信息一闪而过
+
+    可以利用catalina 调试， 让运行信息保留在iterm
+
+    ./catalina.sh debug
+    
+    然后输入 run  这时候启动tomcat
