@@ -83,4 +83,4 @@ title: 大杂烩
 78. 超炫的CSS3实现各种小动物： http://www.species-in-pieces.com/#
 79. loading效果，css实现： http://connoratherton.com/loaders
 80. css实现菜单栏点击变形效果： http://callmenick.com/_development/css-hamburger-menu-icons/
-81. 一些不错的CSS3效果预览： http://wow.techbrood.com/fiddle/8623
+81. 一些不错的CSS3动画效果预览： http://wow.techbrood.com/fiddle/8623
