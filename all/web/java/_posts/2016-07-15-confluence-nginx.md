@@ -1,9 +1,9 @@
 ---
 layout: pdf-post
-title: 如何在mac上破解安装confluence
-pdf: /attachments/如何在mac上破解安装confluence.pdf
+title: nginx如何反向代理confluence
+pdf: /attachments/nginx如何反向代理confluence.pdf
 ---
 
-## 如何在mac上破解安装confluence
+## nginx如何反向代理confluence
 
 <div id="example1"></div>
